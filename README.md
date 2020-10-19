@@ -581,6 +581,14 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [OpenNRE](https://github.com/thunlp/OpenNRE)： relation extraction models.
 - [MRC4ERE_plus](https://github.com/TanyaZhao/MRC4ERE_plus)：Implementation for Paper "Asking Effective and Diverse Questions: A Machine Reading Comprehension based Framework for Joint Entity-Relation Extraction"
 - [AlpacaTag](https://github.com/INK-USC/AlpacaTag)：AlpacaTag: An **Active Learning**-based Crowd Annotation Framework for Sequence Tagging (ACL 2019 Demo)
+- [Distant-Supervised-Chinese-Relation-Extraction](https://github.com/xiaolalala/Distant-Supervised-Chinese-Relation-Extraction)：基于远监督的中文关系抽取
+- [Entity-Relation-Extraction](https://github.com/yuanxiaosc/Entity-Relation-Extraction)：Entity and Relation Extraction Based on TensorFlow and BERT.
+- [Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese)：Chinese Named Entity Recognition with IDCNN/biLSTM+CRF, and Relation Extraction with biGRU+2ATT
+- [pytorch-relation-extraction](https://github.com/ShomyLiu/pytorch-relation-extraction)：distant supervised relation extraction models: PCNN MIL (Zeng 2015), PCNN+ATT(Lin 2016).
+- [USC-DS-RelationExtraction](https://github.com/INK-USC/USC-DS-RelationExtraction)：Distantly Supervised Relation Extraction
+- [open-entity-relation-extraction](https://github.com/lemonhu/open-entity-relation-extraction)：Knowledge triples extraction and knowledge base construction based on dependency syntax for open domain text.
+- [BERT-Relation-Extraction](https://github.com/plkmo/BERT-Relation-Extraction)：PyTorch implementation for "Matching the Blanks: Distributional Similarity for Relation Learning" paper
+- [PersonRelationKnowledgeGraph](https://github.com/liuhuanyong/PersonRelationKnowledgeGraph)：bootstrapping方法的人物关系抽取,基于知识图谱的知识问答等应用
 
 ##### 14 蒸馏
 
@@ -698,6 +706,16 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 4. [deepdetect](https://github.com/jolibrain/deepdetect)：Deep Learning API and Server in C++11 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE
 5. [ mmdetection](https://github.com/open-mmlab/mmdetection)：OpenMMLab Detection Toolbox and Benchmark
 6. [FaceBoxes.PyTorch](https://github.com/zisianw/FaceBoxes.PyTorch)：A PyTorch Implementation of FaceBoxes
+
+
+
+##### 医疗
+
+1. [InnerEye-DeepLearning](https://github.com/microsoft/InnerEye-DeepLearning): Medical Imaging Deep Learning library to train and deploy models on Azure Machine Learning and Azure Stack. [intro](https://mp.weixin.qq.com/s/F8BPVfLAknAJI6vAcEtNNw)
+
+##### 多模态
+
+1. [microsoft](https://github.com/microsoft)/[psi](https://github.com/microsoft/psi)：an open, extensible framework for development and research of multimodal, integrative-AI systems.  【C#】
 
 
 
@@ -997,6 +1015,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 12. [Awesome-Chatbot](https://github.com/fendouai/Awesome-Chatbot)：Awesome Chatbot Projects,Corpus,Papers,Tutorials.Chinese Chatbot =>:
 13. [awesome-mlops](https://github.com/visenger/awesome-mlops): A curated list of references for MLOps, 机器学习开发周期教程、视频、博客
 14. [google-research / language](https://github.com/google-research/language)：Shared repository for open-sourced projects from the Google AI Language team.
+15. [awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)：A curated list of awesome resources dedicated to Relation Extraction
 
 
 
@@ -1151,6 +1170,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [cypress-io / cypress](https://github.com/cypress-io/cypress)：Fast, easy and reliable testing for anything that runs in a browser.
 
+
+
 ---
 
 ## 5 数据集
@@ -1198,5 +1219,5 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [frankmcsherry / blog](https://github.com/frankmcsherry/blog)
 2. [Bert-for-Chinese-NLP](https://github.com/xueyouluo/Bert-for-Chinese-NLP)
-3. 
+3. [公众号文章小集](https://github.com/shenweichen/AlgoNotes)
 
