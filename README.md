@@ -359,6 +359,7 @@
 1. [delight](https://github.com/sacmehta/delight)：DeLighT: Very Deep and Light-Weight Transformers. [DeFINE (ICLR'20)](https://openreview.net/pdf?id=rJeXS04FPH) and [DeLighT (preprint)](https://arxiv.org/pdf/2008.00623.pdf).
 2. [Transformer-Clinic](https://github.com/LiyuanLucasLiu/Transformer-Clinic)：Understanding the Difficulty of Training Transformers
 3. [rezero](https://github.com/majumderb/rezero)：This repository contains the ReZero-Transformer implementation from the paper. It matches Pytorch's Transformer and can be easily used as a drop-in replacement. [**ReZero is All You Need: Fast Convergence at Large Depth**](https://arxiv.org/abs/2003.04887); *ArXiv, March 2020*. 
+4. [collaborative-attention](https://github.com/epfml/collaborative-attention)：Code for Multi-Head Attention: Collaborate Instead of Concatenate
 
 ##### 2 预训练模型  
 
@@ -412,6 +413,7 @@
 - [albert](https://github.com/google-research/albert)：ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
 - [GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese)
 - [gpt2-ml](https://github.com/imcaspar/gpt2-ml)：GPT2 for Multiple Languages, including pretrained models. GPT2 多语言支持, 15亿参数中文预训练模型
+- [Decoders-Chinese-TF2.0](https://github.com/Morizeyao/Decoders-Chinese-TF2.0)：GPT2 training script for Chinese in Tensorflow 2.0
 
 ##### 3 CRF、LAN
 
@@ -445,6 +447,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [labse](https://github.com/bojone/labse)：Language-agnostic BERT Sentence Embedding (LaBSE)
 - [BERTopic](https://github.com/MaartenGr/BERTopic)：BERTopic is a topic modeling technique that leverages BERT embeddings and c-TF-IDF to create dense clusters allowing for easily interpretable topics whilst keeping important words in the topic descriptions.
 - [Top2Vec](https://github.com/ddangelov/Top2Vec)：Top2Vec is an algorithm for **topic modeling** and **semantic search**. It automatically detects topics present in text and generates jointly embedded topic, document and word vectors.
+- [EssayKiller_V2](https://github.com/EssayKillerBrain/EssayKiller_V2)：基于开源GPT2.0的初代创作型人工智能 | 可扩展、可进化
+- [Guyu](https://github.com/lipiji/Guyu)：pre-training and fine-tuning framework for text generation
 
 ##### * NER
 
@@ -513,6 +517,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [OpenSeq2Seq](https://github.com/NVIDIA/OpenSeq2Seq)：Toolkit for efficient experimentation with Speech Recognition, Text2Speech and NLP
 - [Magenta: Music and Art Generation with Machine Intelligence](https://github.com/tensorflow/magenta)：involves developing new deep learning and reinforcement learning algorithms for generating songs, images, drawings, and other materials.
 - [exdeep-nmt](https://github.com/namisan/exdeep-nmt)：代码审核中
+- [EmbeddinglessNMT](https://github.com/UriSha/EmbeddinglessNMT)：The implementation of "Neural Machine Translation without Embeddings"
+- [TransCoder](https://github.com/facebookresearch/TransCoder)：Pytorch original implementation of TransCoder in [Unsupervised Translation of Programming Languages](https://arxiv.org/pdf/2006.03511.pdf)
 
 ##### * QA
 
@@ -627,6 +633,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 1. **[faiss](https://github.com/facebookresearch/faiss)**：A library for efficient similarity search and clustering of dense vectors.  -- Linux
 2. [StarSpace](https://github.com/facebookresearch/StarSpace)：Learning embeddings for classification, retrieval and ranking.
 3. [pytorch-fm](https://github.com/rixwew/pytorch-fm)：Factorization Machine models in PyTorch
+4. [tensorflow](https://github.com/tensorflow)/**[recommenders](https://github.com/tensorflow/recommenders)**: TensorFlow Recommenders is a library for building recommender system models using TensorFlow.
 
 ---
 
@@ -693,6 +700,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 16. [DeepFaceLab_Colab](https://github.com/dream80/DeepFaceLab_Colab)：[https://www.deepfaker.xyz](https://www.deepfaker.xyz/) -- NOTE：With colab you can use tesla P100 for free. Of course there are some restrictions
 17. [ALAE](https://github.com/podgorskiy/ALAE):  Adversarial Latent Autoencoders
 18. [CV-pretrained-model](https://github.com/balavenkatesh3322/CV-pretrained-model)：A collection of computer vision pre-trained models.
+19. [腾讯优图开源项目](https://github.com/TencentYoutuResearch)
 
 ##### opencv
 
@@ -801,7 +809,12 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [fudan_mtl_reviews](https://github.com/FrankWork/fudan_mtl_reviews)：TensorFlow implementation of the paper `Adversarial Multi-task Learning for Text Classification`
 2. https://decanlp.com/： The Natural Language Decathlon (decaNLP) is a new benchmark for studying general NLP models that can perform a variety of complex, natural language tasks. [decaNLP](https://github.com/salesforce/decaNLP)
-3. 
+
+
+
+#### 联邦学习
+
+1. [ FedML-AI](https://github.com/FedML-AI)/**[FedML](https://github.com/FedML-AI/FedML)**：(PyTorch > 1.0) A Research-Oriented Federated Learning Library. Supporting distributed computing, mobile/IoT on-device training, and standalone simulation. [Intro](https://mp.weixin.qq.com/s/gPBK551W2lgX3gm7SUgH3Q)
 
 ---
 
@@ -936,6 +949,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 3. [Unity Machine Learning Agents Toolkit 训练游戏AI](https://github.com/Unity-Technologies/ml-agents)
 4. [***ray](https://github.com/ray-project/ray)：A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library
 5. [cml](https://github.com/iterative/cml)：Continuous Machine Learning | CI/CD for ML，结果组织成网页分析
+6. [fairscale](https://github.com/facebookresearch/fairscale)：PyTorch extensions for high performance and large scale training.
 
 ### Transfer Learning
 
@@ -971,6 +985,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [Convolution arithmetic卷积算法可视化解释](https://github.com/vdumoulin/conv_arithmetic)
 2. [Recent Advances in Deep Learning for Object Detection](https://arxiv.org/abs/1908.03673v1)
+3. [cnn-explainer](https://github.com/poloclub/cnn-explainer)：可视化cnn训练学习
 
 #### 图网络
 
@@ -988,6 +1003,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 2. 【book】[O'Reilly book 'Generative Deep Learning'](https://github.com/davidADSP/GDL_code)
 3. [The classical paper list with code about generative adversarial nets](https://github.com/zhangqianhui/AdversarialNetsPapers)
 4. [SeqGAN](https://github.com/LantaoYu/SeqGAN)  [seqGAN-Simplified](https://github.com/suragnair/seqGAN)
+5. [super-resolution](https://github.com/krasserm/super-resolution): Tensorflow 2.x based implementation of EDSR, WDSR and SRGAN for single image super-resolution
 
 #### 优化算法
 
@@ -1058,6 +1074,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 10. [geomstats](https://github.com/geomstats/geomstats)：About Computations and statistics on manifolds with geometric structures.
 11. [scikit-multiflow](https://github.com/scikit-multiflow/scikit-multiflow)：A machine learning package for streaming data in Python. 流式数据输入进行训练
 12. [igel](https://github.com/nidhaloff/igel)：a delightful machine learning tool that allows to train, test and use models without writing code（不用写代码，还是有点不适）
+13. [creme](https://github.com/creme-ml/creme)：Online machine learning in Python
 
 #### 科学计算
 
