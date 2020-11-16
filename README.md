@@ -360,6 +360,7 @@
 2. [Transformer-Clinic](https://github.com/LiyuanLucasLiu/Transformer-Clinic)：Understanding the Difficulty of Training Transformers
 3. [rezero](https://github.com/majumderb/rezero)：This repository contains the ReZero-Transformer implementation from the paper. It matches Pytorch's Transformer and can be easily used as a drop-in replacement. [**ReZero is All You Need: Fast Convergence at Large Depth**](https://arxiv.org/abs/2003.04887); *ArXiv, March 2020*. 
 4. [collaborative-attention](https://github.com/epfml/collaborative-attention)：Code for Multi-Head Attention: Collaborate Instead of Concatenate
+5. [sentence_transformer_zh](https://github.com/zhangyi24/sentence_transformer_zh)
 
 ##### 2 预训练模型  
 
@@ -414,6 +415,7 @@
 - [GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese)
 - [gpt2-ml](https://github.com/imcaspar/gpt2-ml)：GPT2 for Multiple Languages, including pretrained models. GPT2 多语言支持, 15亿参数中文预训练模型
 - [Decoders-Chinese-TF2.0](https://github.com/Morizeyao/Decoders-Chinese-TF2.0)：GPT2 training script for Chinese in Tensorflow 2.0
+- [MetaAdapter](https://github.com/iedwardwangi/MetaAdapter)：Specific Layers in Multilingual Language Models
 
 ##### 3 CRF、LAN
 
@@ -595,6 +597,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [open-entity-relation-extraction](https://github.com/lemonhu/open-entity-relation-extraction)：Knowledge triples extraction and knowledge base construction based on dependency syntax for open domain text.
 - [BERT-Relation-Extraction](https://github.com/plkmo/BERT-Relation-Extraction)：PyTorch implementation for "Matching the Blanks: Distributional Similarity for Relation Learning" paper
 - [PersonRelationKnowledgeGraph](https://github.com/liuhuanyong/PersonRelationKnowledgeGraph)：bootstrapping方法的人物关系抽取,基于知识图谱的知识问答等应用
+- [OpenKE](https://github.com/thunlp/OpenKE)：An Open-Source Package for Knowledge Embedding (KE)
 
 ##### 14 蒸馏
 
@@ -714,6 +717,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 4. [deepdetect](https://github.com/jolibrain/deepdetect)：Deep Learning API and Server in C++11 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE
 5. [ mmdetection](https://github.com/open-mmlab/mmdetection)：OpenMMLab Detection Toolbox and Benchmark
 6. [FaceBoxes.PyTorch](https://github.com/zisianw/FaceBoxes.PyTorch)：A PyTorch Implementation of FaceBoxes
+7. [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)：OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation
 
 
 
@@ -824,6 +828,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 2. [jax](https://github.com/google/jax)：Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU
 3. **[PyCandle](https://github.com/johnny-richards/PyCandle)**：A numpy and cpu based neural network tool. For those who intend to learn more about the details of how a neural network works.
 4. 【\**】**[einops](https://github.com/arogozhnikov/einops)**：Deep learning operations reinvented (for pytorch, tensorflow, chainer, gluon and others)。还在为tensor维度变化操作的语法发愁吗？试试这个说人话的package
+5. [tinygrad](https://github.com/geohot/tinygrad)：You like pytorch? You like micrograd? You love tinygrad! ❤️
+6. [MatrixSlow](https://github.com/zackchen/MatrixSlow)：A simple deep learning framework in pure python for purpose of learning in DL
 
 #### Tensorflow
 
@@ -843,6 +849,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 14. [简单粗暴 TensorFlow 2.0](https://github.com/snowkylin/tensorflow-handbook)
 15. [ TensorFlow for Deep Learning Research. ](https://github.com/chiphuyen/stanford-tensorflow-tutorials)  [课件](https://web.stanford.edu/class/cs20si/2017/syllabus.html)
 16. **[ tensor2tensor](https://github.com/tensorflow/tensor2tensor)**
+17. [tensorpack](https://github.com/tensorpack/tensorpack)：A Neural Net Training Interface on TensorFlow, with focus on speed + flexibility
 
 ##### C++
 
@@ -865,6 +872,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 11. [serve](https://github.com/pytorch/serve)：Model Serving on PyTorch
 12. [pytorch-seq2seq](https://github.com/bentrevett/pytorch-seq2seq)：Tutorials on implementing a few sequence-to-sequence (seq2seq) models with PyTorch and TorchText.
 13. [pycandle](https://github.com/cschoeller/pycandle)：PyCandle is a lightweight library for pytorch that makes running experiments easy, structured, repeatable and avoids boilerplate code.
+14. [AI-Art](https://github.com/Adi-iitd/AI-Art)：PyTorch implementation of Neural Style Transfer, Pix2Pix, CycleGAN, and Deep Dream!
 
 #### MxNet
 
@@ -950,6 +958,9 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 4. [***ray](https://github.com/ray-project/ray)：A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library
 5. [cml](https://github.com/iterative/cml)：Continuous Machine Learning | CI/CD for ML，结果组织成网页分析
 6. [fairscale](https://github.com/facebookresearch/fairscale)：PyTorch extensions for high performance and large scale training.
+7. [replicate](https://github.com/replicate/replicate)：Version control for machine learning
+8. [orchest](https://github.com/orchest/orchest)：Orchest is a tool for creating data science pipelines.
+9. [trains](https://github.com/allegroai/trains)：Auto-Magical Experiment Manager & Version Control for AI 
 
 ### Transfer Learning
 
@@ -1095,15 +1106,17 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 1. [Minimal and clean examples of machine learning algorithms implementations](https://github.com/rushter/MLAlgorithms)
 2. [Machine learning, in numpy 全numpy实现](https://github.com/ddbourgin/numpy-ml)
 3. [统计学习方法](https://github.com/WenDesi/lihang_book_algorithm)
-4. [概率模型：变分推断、GAN、MC等等 Python library for probabilistic modeling, inference, and criticism](https://github.com/blei-lab/edward)
-5. [PRML algorithms implemented in Python](https://github.com/ctgk/PRML)
-6. [finite-state toolkit--FST](https://github.com/graehl/carmel)
-7. [ Machine learning: a probabilistic perspective ](https://github.com/probml/pyprobml)
-8. [TGBoost](https://github.com/wepe/tgboost)
-9. [umap](https://github.com/lmcinnes/umap)：Uniform Manifold Approximation and Projection，like t-sne
-10. [Arbitrary order factorization machines](https://github.com/geffy/tffm)：TensorFlow implementation of an arbitrary order Factorization Machine
-11. [SpectralNet](https://github.com/KlugerLab/SpectralNet)：Deep network that performs spectral clustering 【聚类】
-12. [Deep universal probabilistic programming with Python and PyTorch](https://github.com/pyro-ppl/pyro)
+4. [统计学习方法：An-Introduction-to-Statistical-Learning](https://github.com/hardikkamboj/An-Introduction-to-Statistical-Learning)：官方版本
+5. [概率模型：变分推断、GAN、MC等等 Python library for probabilistic modeling, inference, and criticism](https://github.com/blei-lab/edward)
+6. [PRML algorithms implemented in Python](https://github.com/ctgk/PRML)
+7. [finite-state toolkit--FST](https://github.com/graehl/carmel)
+8. [ Machine learning: a probabilistic perspective ](https://github.com/probml/pyprobml)
+9. [TGBoost](https://github.com/wepe/tgboost)
+10. [umap](https://github.com/lmcinnes/umap)：Uniform Manifold Approximation and Projection，like t-sne
+11. [Arbitrary order factorization machines](https://github.com/geffy/tffm)：TensorFlow implementation of an arbitrary order Factorization Machine
+12. [SpectralNet](https://github.com/KlugerLab/SpectralNet)：Deep network that performs spectral clustering 【聚类】
+13. [Deep universal probabilistic programming with Python and PyTorch](https://github.com/pyro-ppl/pyro)
+14. [An-Introduction-to-Statistical-Learning](https://github.com/hardikkamboj/An-Introduction-to-Statistical-Learning)：This repository contains the exercises and its solution contained in the book "An Introduction to Statistical Learning" in python.
 
 
 
@@ -1123,6 +1136,10 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [OpenMined / PySyft：A library for encrypted, privacy preserving machine learning ](https://github.com/OpenMined/PySyft)
 2. [FATE](https://github.com/FederatedAI/FATE): An Industrial Level Federated Learning Framework
+
+### AutoML
+
+1. [AlphaPy](https://github.com/ScottfreeLLC/AlphaPy)：Automated Machine Learning [AutoML] with Python, scikit-learn, Keras, XGBoost, LightGBM, and CatBoost
 
 ### 可解释机器学习
 
@@ -1201,23 +1218,24 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [中文自然语言处理数据集](https://github.com/InsaneLife/ChineseNLPCorpus)
 2. [100+ Chinese Word Vectors 上百种预训练中文词向量](https://github.com/Embedding/Chinese-Word-Vectors)
-3. [TX-WORD2VEC-SMALL](https://github.com/cliuxinxin/TX-WORD2VEC-SMALL)：腾讯word2vec模型缩小版
-4. [Fasttext](https://fasttext.cc/docs/en/crawl-vectors.html)
-5. [ laserembeddings](https://github.com/yannvgn/laserembeddings)：LASER multilingual sentence embeddings as a pip package
-6. [中文 自然语言处理 语料/数据集](https://github.com/SophonPlus/ChineseNlpCorpus)
-7. [nlp_chinese_corpus](https://github.com/brightmart/nlp_chinese_corpus): 大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP
-8. [WEIBO_USER_DATA](https://github.com/az0ne/WEIBO_USER_DATA)：收集了20W新浪微博用户的数据 
-9. 中文NLP.数据集搜索：https://www.cluebenchmarks.com/dataSet_search.html
-10. [toutiao-multilevel-text-classfication-dataset](https://github.com/skdjfla/toutiao-multilevel-text-classfication-dataset)：今日头条中文新闻文本(多层)分类数据集
-11. [chinese_chatbot_corpus](https://github.com/codemayq/chinese_chatbot_corpus)：中文公开聊天语料库
-12. [chinese-xinhua](https://github.com/pwxcoo/chinese-xinhua)：中华新华字典数据库。包括歇后语，成语，词语，汉字。
-13. [zhvoice](https://github.com/KuangDD/zhvoice)：中文语音语料，语音更加清晰自然，包含8个开源数据集，3200个说话人，900小时语音，1300万字。
-14. [CognitiveInference](https://github.com/liuhuanyong/CognitiveInference)：认知推理、常识知识库、常识推理与常识推理评估的系统项目
-15. [ChineseNlpCorpus-1](https://github.com/liuhuanyong/ChineseNlpCorpus-1)：搜集、整理、发布 中文 自然语言处理 语料/数据集
-16. [modern-poetry](https://github.com/qyxtim/modern-poetry)：最全的中国近现代诗以及外国诗数据库
-17. [Poetry](https://github.com/Werneror/Poetry)：非常全的古诗词数据，收录了从先秦到现代的共计85万余首古诗词。
-18. [ChineseLyrics](https://github.com/dengxiuqi/ChineseLyrics)：10W首中文歌词数据库
-19. [poetry](https://github.com/javayhu/poetry)：china ancient poetry project data
+3. [glyph-aware-character-embedding](https://github.com/yagays/glyph-aware-character-embedding)：区别西文字母不同样式的vec
+4. [TX-WORD2VEC-SMALL](https://github.com/cliuxinxin/TX-WORD2VEC-SMALL)：腾讯word2vec模型缩小版
+5. [Fasttext](https://fasttext.cc/docs/en/crawl-vectors.html)
+6. [ laserembeddings](https://github.com/yannvgn/laserembeddings)：LASER multilingual sentence embeddings as a pip package
+7. [中文 自然语言处理 语料/数据集](https://github.com/SophonPlus/ChineseNlpCorpus)
+8. [nlp_chinese_corpus](https://github.com/brightmart/nlp_chinese_corpus): 大规模中文自然语言处理语料 Large Scale Chinese Corpus for NLP
+9. [WEIBO_USER_DATA](https://github.com/az0ne/WEIBO_USER_DATA)：收集了20W新浪微博用户的数据 
+10. 中文NLP.数据集搜索：https://www.cluebenchmarks.com/dataSet_search.html
+11. [toutiao-multilevel-text-classfication-dataset](https://github.com/skdjfla/toutiao-multilevel-text-classfication-dataset)：今日头条中文新闻文本(多层)分类数据集
+12. [chinese_chatbot_corpus](https://github.com/codemayq/chinese_chatbot_corpus)：中文公开聊天语料库
+13. [chinese-xinhua](https://github.com/pwxcoo/chinese-xinhua)：中华新华字典数据库。包括歇后语，成语，词语，汉字。
+14. [zhvoice](https://github.com/KuangDD/zhvoice)：中文语音语料，语音更加清晰自然，包含8个开源数据集，3200个说话人，900小时语音，1300万字。
+15. [CognitiveInference](https://github.com/liuhuanyong/CognitiveInference)：认知推理、常识知识库、常识推理与常识推理评估的系统项目
+16. [ChineseNlpCorpus-1](https://github.com/liuhuanyong/ChineseNlpCorpus-1)：搜集、整理、发布 中文 自然语言处理 语料/数据集
+17. [modern-poetry](https://github.com/qyxtim/modern-poetry)：最全的中国近现代诗以及外国诗数据库
+18. [Poetry](https://github.com/Werneror/Poetry)：非常全的古诗词数据，收录了从先秦到现代的共计85万余首古诗词。
+19. [ChineseLyrics](https://github.com/dengxiuqi/ChineseLyrics)：10W首中文歌词数据库
+20. [poetry](https://github.com/javayhu/poetry)：china ancient poetry project data
 
 ### 标注工具
 
