@@ -164,15 +164,20 @@
 
 1. [收集各种爬虫 （默认爬虫语言为 python）](https://github.com/facert/awesome-spider)
 2. [lazynlp](https://github.com/chiphuyen/lazynlp)：Library to scrape and clean web pages to create massive datasets.
-3. **[ WeiboSpider](https://github.com/nghuyong/WeiboSpider)**: This is a sina weibo spider built by scrapy [微博爬虫/持续维护]
-4. [webspider](https://github.com/JustForFunnnn/webspider)：数据库用的是`MySQL`, 主要用到的库是`celery`和`requests`，并实现了定时任务，出错重试，日志记录，自动更改`Cookies`等的功能
-5. **[ scrapyscript](https://github.com/jschnurr/scrapyscript)**：Run a Scrapy spider programmatically from a script or a Celery task
-6. [pspider](https://github.com/zhao94254/pspider)：一个简单的分布式爬虫框架
-7. [taoyoulue_spider](https://github.com/runtangr/taoyoulue_spider)：基于mongodb存储，redis缓存，celery 实现的分布式爬虫。
-8. [DeadPool](https://github.com/Ryuchen/DeadPool)：使用celery作为主体框架的爬虫应用，能够灵活的添加爬虫任务，并且同时运行多站点的爬虫工作
-9. [python-bloomfilter](https://github.com/jaybaird/python-bloomfilter)：Scalable Bloom Filter implemented in Python
-10. [learn_python3_spider](https://github.com/wistbean/learn_python3_spider)：python爬虫教程系列、从0到1学习python爬虫，包括浏览器抓包，手机APP抓包
-11. 
+3. [WeiboSpider](https://github.com/nghuyong/WeiboSpider): This is a sina weibo spider built by scrapy
+4. [ weibospider](https://github.com/SpiderClub/weibospider)：A distributed crawler for weibo, building with celery and requests.
+5. [webspider](https://github.com/JustForFunnnn/webspider)：数据库用的是`MySQL`, 主要用到的库是`celery`和`requests`，并实现了定时任务，出错重试，日志记录，自动更改`Cookies`等的功能
+6. **[ scrapyscript](https://github.com/jschnurr/scrapyscript)**：Run a Scrapy spider programmatically from a script or a Celery task
+7. [pspider](https://github.com/zhao94254/pspider)：一个简单的分布式爬虫框架
+8. [taoyoulue_spider](https://github.com/runtangr/taoyoulue_spider)：基于mongodb存储，redis缓存，celery 实现的分布式爬虫。
+9. [DeadPool](https://github.com/Ryuchen/DeadPool)：使用celery作为主体框架的爬虫应用，能够灵活的添加爬虫任务，并且同时运行多站点的爬虫工作
+10. [python-bloomfilter](https://github.com/jaybaird/python-bloomfilter)：Scalable Bloom Filter implemented in Python
+11. [learn_python3_spider](https://github.com/wistbean/learn_python3_spider)：python爬虫教程系列、从0到1学习python爬虫，包括浏览器抓包，手机APP抓包
+12. [pyspider](https://github.com/binux/pyspider)：A Powerful Spider(Web Crawler) System in Python.
+13. [examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers)：一些非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、豆瓣、QQ等网站
+14. [PythonCrawler](https://github.com/yhangf/PythonCrawler)：用python编写的爬虫项目集合
+15. [crawler-py](https://github.com/abbeyokgo/crawler-py)：分享一些爬虫脚本
+16. **[playwright-python](https://github.com/microsoft/playwright-python)**：Python version of the Playwright testing and automation library.
 
 ##### 其他
 
@@ -279,44 +284,20 @@
 ### 数据结构与算法
 
 1. [数据结构和算法必知必会的50个代码实现](https://github.com/wangzheng0822/algo)
-
 2. [Python算法实现-轻量级](https://github.com/qiwsir/algorithm)   [用动画的形式呈现解LeetCode题目的思路-轻量级](https://github.com/MisterBooo/LeetCodeAnimation)
-
 3. [Tech Interview Guide 技术面试必备基础知识](https://github.com/CyC2018/CS-Notes)
-
 4. [C++ ：Play-Leetcode](https://github.com/liuyubobobo/Play-Leetcode)
-
 5. [深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)
-
 6. [算法/深度学习/NLP面试笔记](https://github.com/imhuay/Algorithm_Interview_Notes-Chinese)
-
 7. [Algorithm_Interview_Notes-Chinese](https://github.com/DarLiner/Algorithm_Interview_Notes-Chinese)
-
 8. [ML-Interview](https://github.com/ms-sharma/ML-Interview)
-
 9. [All Algorithms implemented in Python](https://github.com/TheAlgorithms/Python)
-
 10. [algorithms：Minimal examples of data structures and algorithms in Python](https://github.com/keon/algorithms)
-
 11. [Algorithms implemented in C++：For education](https://github.com/TheAlgorithms/C-Plus-Plus)
-
-12. 数据结构与算法，coursera 
-
-    > https://github.com/huyvohcmc/coursera-dsa py
-    >
-    > https://github.com/xuwd11/Coursera_Data_Structures_and_Algorithms_Specialization py
-    >
-    > https://github.com/manparvesh/coursera-ds-algorithms cpp
-    >
-    > https://github.com/MaxPoon/Data-Structure-and-Algorithms/tree/master/coursera-Data-Structures-and-Algorithms-specialization py
-    >
-    > https://github.com/HUMANIAM/Algorithms_DataStructure_Specialization  cpp
-    >
-    > https://github.com/AndriiShostatskyi/Genome-Assembly-Programming-Challenge  cpp
-
+12. [awesome-algorithms](https://github.com/tayllan/awesome-algorithms)：精选的学习和/或练习算法的资源列表
 13. [fucking-algorithm](https://github.com/labuladong/fucking-algorithm)：刷算法全靠套路，labuladong
-
 14. [leetcode_company_wise_questions](https://github.com/MysteryVaibhav/leetcode_company_wise_questions) ：按公司分类的题目列表
+15. [ands](https://github.com/nbro/ands)：Algorithms and data structures for educational, demonstrational and experimental purposes.
 
 ### 计算机科学基础
 
@@ -363,10 +344,14 @@
 
 ## 2 深度学习
 
+### Colab神器
+
+1. [colabcode](https://github.com/abhishekkrthakur/colabcode): Run VSCode (codeserver) on Google Colab or Kaggle Notebooks.  !!! 注意 访问时，使用 https 协议 ！！！ python extention 使用 2020.5.86806 版本，最新版本不能debug 和 选择 解释器。
+
 ### 损失函数
 
 1. [self-adj-dice](https://github.com/fursovia/self-adj-dice)：Implementation of Self-adjusting Dice Loss from "Dice Loss for Data-imbalanced NLP Tasks" paper
-2. 
+2. [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)：label-smooth, amsoftmax, focal-loss, triplet-loss, lovasz-softmax ...
 
 ### 算法实现
 
@@ -388,6 +373,8 @@
 6. [Transformer-Transducer](https://github.com/okkteam/Transformer-Transducer)：A streamable speech recognition model。
 
 ##### 2 预训练模型  
+
+- [awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models)：高质量中文预训练模型下载链接集合
 
 - [awesome-bert](https://github.com/Jiakui/awesome-bert): BERT、XLNet 相关论文和 github 项目
 
@@ -449,7 +436,8 @@
 - [MetaAdapter](https://github.com/iedwardwangi/MetaAdapter)：Specific Layers in Multilingual Language Models
 - [BERT-flow](https://github.com/bohanli/BERT-flow)：TensorFlow implementation of On the Sentence Embeddings from Pre-trained Language Models (EMNLP 2020)
 - [gpt-2](https://github.com/openai/gpt-2)：Code for the paper "Language Models are Unsupervised Multitask Learners"
-- 
+
+  
 
 ##### 3 CRF、LAN
 
@@ -516,7 +504,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [simbert](https://github.com/ZhuiyiTechnology/simbert)：a bert for retrieval and generation
 - [haystack](https://github.com/deepset-ai/haystack)： Transformers at scale for question answering & search
 - [epidemic-sentence-pair](https://github.com/zzy99/epidemic-sentence-pair)：天池 疫情相似句对判定大赛 线上第一名方案
-- 
+- [deep_text_matching](https://github.com/wangle1218/deep_text_matching): implementation several deep text match (text similarly) models for keras . cdssm, arc-ii,match_pyramid, mvlstm ,esim, drcn ,bimpm, bert, albert, roberta
 
 ##### * 文本分类
 
@@ -563,11 +551,11 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 ##### * QA
 
-- **[ qa_match](https://github.com/wuba/qa_match)**：A simple effective ToolKit for short text matching
+- **[qa_match](https://github.com/wuba/qa_match)**：A simple effective ToolKit for short text matching
 - [QA-Survey](https://github.com/BDBC-KG-NLP/QA-Survey)：对问答系统的调研。
 - [QueryGeneration](https://github.com/YunwenTechnology/QueryGeneration)：Conversational Standard Meta Language
 - [acl2020-openqa-tutorial](https://github.com/danqi/acl2020-openqa-tutorial)：ACL2020 Tutorial: Open-Domain Question Answering
-- 
+- [ccf_2020_qa_match](https://github.com/xv44586/ccf_2020_qa_match): ccf 2020 qa match competition top1
 
 ##### 7 ModelZoo
 
@@ -641,8 +629,10 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [BERT-Relation-Extraction](https://github.com/plkmo/BERT-Relation-Extraction)：PyTorch implementation for "Matching the Blanks: Distributional Similarity for Relation Learning" paper
 - [PersonRelationKnowledgeGraph](https://github.com/liuhuanyong/PersonRelationKnowledgeGraph)：bootstrapping方法的人物关系抽取,基于知识图谱的知识问答等应用
 - [OpenKE](https://github.com/thunlp/OpenKE)：An Open-Source Package for Knowledge Embedding (KE)
+- [deepke](https://github.com/zjunlp/deepke)：基于 Pytorch 的深度学习中文关系抽取处理套件
 - [DeepIE](https://github.com/loujie0822/DeepIE)：DeepIE: Deep Learning for Information Extraction
 - [CasRel](https://github.com/weizhepei/CasRel)：A Novel Cascade Binary Tagging Framework for Relational Triple Extraction
+- [two-are-better-than-one](https://github.com/LorrinWWW/two-are-better-than-one)：Code associated with the paper **Two are Better Than One: Joint Entity and Relation Extraction with Table-Sequence Encoders**, at EMNLP 2020
 
 ##### 14 蒸馏
 
@@ -703,6 +693,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 6. [pyannote-audio](https://github.com/pyannote/pyannote-audio)：Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding
 7. [Kersa-Speaker-Recognition](https://github.com/yeyupiaoling/Kersa-Speaker-Recognition)：基于Kersa实现的声纹识别模型
 8. [Transformer-TTS](https://github.com/Deepest-Project/Transformer-TTS)：Implementation of "FastSpeech: Fast, Robust and Controllable Text to Speech"
+9. [kaldi](https://github.com/kaldi-asr/kaldi)：kaldi-asr/kaldi is the official location of the Kaldi project.
 
 
 
@@ -766,6 +757,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 6. [FaceBoxes.PyTorch](https://github.com/zisianw/FaceBoxes.PyTorch)：A PyTorch Implementation of FaceBoxes
 7. [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)：OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation
 8. [ Surface-Defect-Detection](https://github.com/Charmve/Surface-Defect-Detection)：open source dataset and important critical papers in the field of surface defect research
+9. [ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch): Pytorch reimplementation of the Vision Transformer (An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale)
+10. [efficientnet-pytorch](https://github.com/katsura-jp/efficientnet-pytorch): PyTorch implementation of "EfficientNet", ICML 2019
 
 
 
@@ -791,7 +784,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 1. [fast-autoaugment](https://github.com/kakaobrain/fast-autoaugment)：Official Implementation of 'Fast AutoAugment' in PyTorch.
 2. [zao-](https://github.com/qiucheng025/zao-)：AI技术换脸源码
 3. [AutoAugment](https://github.com/DeepVoltaire/AutoAugment)：Unofficial implementation of the ImageNet, CIFAR 10 and SVHN Augmentation Policies learned by AutoAugment using pillow
-4. 
+4. [albumentations](https://github.com/albumentations-team/albumentations): Fast image augmentation library and easy to use wrapper around other libraries
 
 
 
@@ -811,19 +804,20 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 #### 知识图谱
 
-1. [ 农业知识图谱(AgriKG) ](https://github.com/qq547276542/Agriculture_KnowledgeGraph)
+1. [农业知识图谱(AgriKG) ](https://github.com/qq547276542/Agriculture_KnowledgeGraph)
 2. [KGQA-Based-On-medicine](https://github.com/YeYzheng/KGQA-Based-On-medicine)
 3. [KEQA_WSDM19](https://github.com/xhuang31/KEQA_WSDM19)
 4. [transE](https://github.com/wuxiyu/transE)
 5. [KB2E：thunlp](https://github.com/thunlp/KB2E)
 6. [tianchi_nl2sql: 首届中文NL2SQL挑战赛决赛第3名方案+代码](https://github.com/beader/tianchi_nl2sql)
-7. [**CCKS 2019 中文知识图谱问答**数据集](https://biendata.com/competition/ccks_2019_6/data/)
+7. [CCKS 2019 中文知识图谱问答数据集](https://biendata.com/competition/ccks_2019_6/data/)
 8. [knowledge-graph](https://github.com/kyzhouhzau/knowledge-graph)： a QA Demo based on KG! use scrapy and jena.
 9. [ONEPIECE-KG](https://github.com/mrbulb/ONEPIECE-KG)： a knowledge graph project for ONEPIECE /《海贼王》知识图谱
 10. [K-BERT](https://github.com/autoliuweijie/K-BERT)：Sorce code and datasets for ["K-BERT: Enabling Language Representation with Knowledge Graph"](https://aaai.org/Papers/AAAI/2020GB/AAAI-LiuW.5594.pdf)
 11. [scikit-kge](https://github.com/mnick/scikit-kge)：Python library to compute knowledge graph embeddings
 12. [Financial-Knowledge-Graphs](https://github.com/jm199504/Financial-Knowledge-Graphs)：小型金融知识图谱构建流程
-13. 
+13. [KG-demo-for-movie](https://github.com/SimmerChan/KG-demo-for-movie)：从无到有构建一个电影知识图谱，并基于该KG，开发一个简易的KBQA程序
+14. [pykg2vec](https://github.com/Sujit-O/pykg2vec)：Python library for knowledge graph embedding and representation learning.
 
 ---
 
@@ -891,6 +885,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 5. [tinygrad](https://github.com/geohot/tinygrad)：You like pytorch? You like micrograd? You love tinygrad! ❤️
 6. [MatrixSlow](https://github.com/zackchen/MatrixSlow)：A simple deep learning framework in pure python for purpose of learning in DL
 7. [best-of-ml-python](https://github.com/ml-tooling/best-of-ml-python)：🏆 A ranked list of awesome machine learning Python libraries.
+8. [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)：label-smooth, amsoftmax, focal-loss, triplet-loss, lovasz-softmax ...
+9. [pytorch-optimizer](https://github.com/jettify/pytorch-optimizer)：torch-optimizer -- collection of optimizers for Pytorch
 
 #### Tensorflow
 
@@ -912,6 +908,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 16. **[ tensor2tensor](https://github.com/tensorflow/tensor2tensor)**
 17. [tensorpack](https://github.com/tensorpack/tensorpack)：A Neural Net Training Interface on TensorFlow, with focus on speed + flexibility
 18. [larq](https://github.com/larq/larq)：An Open-Source Library for Training Binarized Neural Networks
+19. [keras-cosine-annealing](https://github.com/4uiiurz1/keras-cosine-annealing)
 
 ##### C++
 
@@ -943,6 +940,9 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 20. [nlp-recipes](https://github.com/microsoft/nlp-recipes)：Natural Language Processing Best Practices & Examples
 21. [pymde](https://github.com/cvxgrp/pymde)：Python library for computing vector embeddings for finite sets of items, such as images, biological cells, nodes in a network
 22. [mmf](https://github.com/facebookresearch/mmf)：MMF is a modular framework for vision and language multimodal research from Facebook AI Research.
+23. [examples](https://github.com/pytorch/examples): A set of examples around pytorch in Vision, Text, Reinforcement Learning, etc.
+24. [pytorch-image-models](https://github.com/rwightman/pytorch-image-models): PyTorch image models, scripts, pretrained weights -- (SE)ResNet/ResNeXT, DPN, EfficientNet, MixNet, MobileNet-V3/V2, MNASNet, Single-Path NAS, FBNet, and more
+25. [pytorch-cosine-annealing-with-warmup](https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup)
 
 #### MxNet
 
@@ -1029,6 +1029,10 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 16. [cs329s-ml-deployment-tutorial](https://github.com/mrdbourke/cs329s-ml-deployment-tutorial)：Code and files to go along with CS329s machine learning model deployment tutorial.
 
+17. [nboost](https://github.com/koursaros-ai/nboost)：deploying transformer models to improve the relevance of search results on different platforms (i.e. Elasticsearch)
+
+18. 
+
 #### 训练
 
 1. [BytePS：A high performance and general PS framework for distributed training](https://github.com/bytedance/byteps)
@@ -1071,6 +1075,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 14. [MTBook](https://github.com/NiuTrans/MTBook)：《机器翻译：统计建模与深度学习方法》肖桐 朱靖波 著
 15. [Leaderboards-for-Multi-Turn-Response-Selection](https://github.com/JasonForJoy/Leaderboards-for-Multi-Turn-Response-Selection)：provide the reader with a quick overview of benchmark datasets and the state-of-the-art studies on this task, which serves as a stepping stone for further research.
 16. [BERT-Tickets](https://github.com/VITA-Group/BERT-Tickets)：BERT的进一步探究
+17. **[awesome-papers](https://github.com/huggingface/awesome-papers)**：Papers & presentation materials from Hugging Face's internal science day
 
 #### CV
 
@@ -1179,6 +1184,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 4. [boost-histogram](https://github.com/scikit-hep/boost-histogram)：Python bindings for the C++14 Boost::Histogram library
 5. [cusignal](https://github.com/rapidsai/cusignal)：cuSignal - RAPIDS Signal Processing Library
 6. [scorep_binding_python](https://github.com/score-p/scorep_binding_python)：Allows tracing of python code using Score-P
+7. [scikit-opt](https://github.com/guofei9987/scikit-opt): 传统优化算法等 Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony Optimization Algorithm,Immune Algorithm, Artificial Fish Swarm Algorithm, Differential Evolution and TSP
 
 ### GPU加速
 
@@ -1248,10 +1254,11 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 3. [lic2019-dureader2.0-rank2](https://github.com/SunnyMarkLiu/lic2019-dureader2.0-rank2)：Rank2 solution (no-BERT) for 2019 Language and Intelligence Challenge - DuReader2.0 Machine Reading Comprehension.
 4. [Tencent2019_Finals_Rank1st](https://github.com/bettenW/Tencent2019_Finals_Rank1st)：2019腾讯广告算法大赛完整代码（冠军）
 5. [Tencent2020_Rank1st](https://github.com/guoday/Tencent2020_Rank1st)：The code for 2020 Tencent College Algorithm Contest, and the online result ranks 1st.
+6. [riiid-acp-pub 3rd](https://github.com/jamarju/riiid-acp-pub)：Riiid! Answer Correctness Predction 3rd place solution. 复现需要较好的机器配置。
 
 
 
-#### 比赛信息
+### 比赛信息
 
 1. [MLCompetitionHub](https://github.com/LogicJake/MLCompetitionHub)：机器学习竞赛信息
 
@@ -1283,6 +1290,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 8. **[ code-server](https://github.com/cdr/code-server)**：VS Code in the browser [https://coder.com](https://coder.com/)
 9. [gen_tags.vim](https://github.com/jsfaint/gen_tags.vim)：ctags增强
 10. [bat](https://github.com/sharkdp/bat)：`bat` supports syntax highlighting for a large number of programming and markup languages
+11. [records](https://github.com/kennethreitz42/records): SQL for Humans in Python. *Database support includes RedShift, Postgres, MySQL, SQLite, Oracle, and MS-SQL (drivers not included).*
 
 ### 小项目
 
@@ -1294,6 +1302,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 6. [Synonyms](https://github.com/chatopera/Synonyms)：中文近义词：聊天机器人，智能问答工具包
 7. [tushare](https://github.com/waditu/tushare): TuShare is a utility for crawling historical data of China stocks
 8. [h5-Dooring](https://github.com/MrXujiang/h5-Dooring)：简单方便、专业可靠、无限可能的H5/PC页面制作解决方案.
+9. [pytheory](https://github.com/kennethreitz42/pytheory): 学习音乐理论
+10. [live2d-widget](https://github.com/stevenjoezhang/live2d-widget)：前端页面自定义看板娘
 
 ### 底层编译架构
 
@@ -1353,6 +1363,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 ### 图书
 
 1. [singgel / Study-Floder](https://github.com/singgel/Study-Floder)
+2. [CS-Books](https://github.com/forthespada/CS-Books)：超过1000本的计算机经典书籍
 
  
 
@@ -1363,6 +1374,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 3. [公众号文章小集](https://github.com/shenweichen/AlgoNotes)
 4. [ML-NLP](https://github.com/NLP-LOVE/ML-NLP)：机器学习(Machine Learning)、深度学习(Deep Learning)、NLP面试中常考到的知识点和代码实现
 5. [Reflection_Summary](https://github.com/sladesha/Reflection_Summary)：算法理论基础知识
+6. [machinelearning](https://github.com/ljpzzz/machinelearning): blogs for machine learning
+7. [Pre-trained-Models](https://github.com/loujie0822/Pre-trained-Models)：NLP预训练模型的总结Blog
 
 
 
