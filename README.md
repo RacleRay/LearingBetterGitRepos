@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Title: GitHub收集项目维护
 
 <!-- TOC -->
