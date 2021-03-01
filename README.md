@@ -38,7 +38,7 @@
         - [* CLUE项目合辑（NLP）](#-clue项目合辑nlp)
         - [* BERT Applications](#-bert-applications)
         - [* NER](#-ner)
-        - [ELMo](#elmo)
+        - [* ELMo](#-elmo)
         - [4 相似度匹配](#4-相似度匹配)
         - [* 文本分类](#-文本分类)
         - [*  Aspect Based Sentiment Analysis](#--aspect-based-sentiment-analysis)
@@ -62,11 +62,12 @@
       - [语音](#语音)
       - [GAN](#gan)
       - [CV](#cv)
+        - [图像识别与分类](#图像识别与分类)
         - [opencv](#opencv)
         - [目标检测](#目标检测)
         - [医疗](#医疗)
         - [多模态](#多模态)
-        - [图像高清化](#图像高清化)
+        - [图像高清化/风格转换/老化照片处理](#图像高清化风格转换老化照片处理)
         - [数据增强](#数据增强)
       - [Reinforcement Learning](#reinforcement-learning)
       - [知识图谱](#知识图谱)
@@ -130,7 +131,7 @@
     - [NLP](#nlp-2)
     - [标注工具](#标注工具)
     - [图书](#图书)
-  - [Blogs](#blogs)
+  - [Blogs + 面经](#blogs--面经)
 
 <!-- /TOC -->
 
