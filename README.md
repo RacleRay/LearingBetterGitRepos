@@ -807,14 +807,20 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 #### Reinforcement Learning
 
-1. [算法、讲义、练习：Implementation of Reinforcement Learning Algorithms](https://github.com/dennybritz/reinforcement-learning)
-2. [NeuronDance / DeepRL: Deep Reinforcement Learning Lab](https://github.com/NeuronDance/DeepRL)
-3. [awesome-monte-carlo-tree-search-papers](https://github.com/benedekrozemberczki/awesome-monte-carlo-tree-search-papers)
-4. [advanced-deep-learning-and-reinforcement-learning-deepmind](https://github.com/Zhenye-Na/advanced-deep-learning-and-reinforcement-learning-deepmind)：UCL & DeepMind | YouTube videos 👉 [https://www.youtube.com/playlist?list…](https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs)
-5. [ AlphaZero_Gomoku](https://github.com/junxiaosong/AlphaZero_Gomoku)：An implementation of the AlphaZero algorithm for Gomoku (also called Gobang or Five in a Row)
-6. [reinforcement-learning-an-introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)：强化学习导论配套代码库
-7. [PARL](https://github.com/PaddlePaddle/PARL)：PARL A high-performance distributed training framework for Reinforcement Learning
-8. [trfl](https://github.com/deepmind/trfl)：TensorFlow Reinforcement Learning
+1. [算法、讲义、练习](https://github.com/dennybritz/reinforcement-learning)：Implementation of Reinforcement Learning Algorithms
+2. [RLexample](https://github.com/cuhkrlcourse/RLexample)：basic examples of playing with RL
+3. [DeepRL-Tutorials](https://github.com/cuhkrlcourse/DeepRL-Tutorials)：Contains high quality implementations of Deep Reinforcement Learning algorithms written in PyTorch
+4. [ierg5350-assignment](https://github.com/cuhkrlcourse/ierg5350-assignment)：assignments of our reinforcement learning (RL) course.
+5. [TD3](https://github.com/sfujim/TD3)：Author's PyTorch implementation of TD3 for OpenAI gym tasks. Nice code style and quality👍
+6. [baby-a3c](https://github.com/greydanus/baby-a3c): A high-performance Atari A3C agent in 180 lines of PyTorch
+7. [pytorch-a2c-ppo-acktr-gail](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail): PyTorch implementation of Advantage Actor Critic (A2C), Proximal Policy Optimization (PPO), Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation (ACKTR) and Generative Adversarial Imitation Learning (GAIL).
+8. [NeuronDance / DeepRL: Deep Reinforcement Learning Lab](https://github.com/NeuronDance/DeepRL)
+9. [awesome-monte-carlo-tree-search-papers](https://github.com/benedekrozemberczki/awesome-monte-carlo-tree-search-papers)
+10. [advanced-deep-learning-and-reinforcement-learning-deepmind](https://github.com/Zhenye-Na/advanced-deep-learning-and-reinforcement-learning-deepmind)：UCL & DeepMind | YouTube videos 👉 [https://www.youtube.com/playlist?list…](https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs)
+11. [ AlphaZero_Gomoku](https://github.com/junxiaosong/AlphaZero_Gomoku)：An implementation of the AlphaZero algorithm for Gomoku (also called Gobang or Five in a Row)
+12. [reinforcement-learning-an-introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)：强化学习导论配套代码库
+13. [PARL](https://github.com/PaddlePaddle/PARL)：PARL A high-performance distributed training framework for Reinforcement Learning
+14. [trfl](https://github.com/deepmind/trfl)：TensorFlow Reinforcement Learning
 
 ---
 
