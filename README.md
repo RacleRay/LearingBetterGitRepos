@@ -57,6 +57,7 @@
         - [16 指代消解](#16-指代消解)
         - [17 主题](#17-主题)
         - [18 自动机](#18-自动机)
+        - [19 阅读理解](#19-阅读理解)
       - [推荐系统](#推荐系统)
       - [相似性](#相似性)
       - [语音](#语音)
@@ -258,6 +259,8 @@
 13. [wwsearch](https://github.com/Tencent/wwsearch)：腾讯全文搜索引擎
 14. [workflow](https://github.com/sogou/workflow): C++ Parallel Computing and Asynchronous Networking Engine
 15. [drogon](https://github.com/an-tao/drogon)：Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows
+16. [openFrameworks](https://github.com/openframeworks/openFrameworks)：openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
+17. [TinyML](https://github.com/BurnellLiu/TinyML)：精简的C++ 机器学习库
 
 
 
@@ -372,6 +375,7 @@
 4. [collaborative-attention](https://github.com/epfml/collaborative-attention)：Code for Multi-Head Attention: Collaborate Instead of Concatenate
 5. [sentence_transformer_zh](https://github.com/zhangyi24/sentence_transformer_zh)
 6. [Transformer-Transducer](https://github.com/okkteam/Transformer-Transducer)：A streamable speech recognition model。
+7. [Informer2020](https://github.com/zhouhaoyi/Informer2020)：the origin Pytorch implementation of Informer in the following paper: [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://arxiv.org/abs/2012.07436).
 
 ##### 2 预训练模型  
 
@@ -406,6 +410,8 @@
 - [bert4keras](https://github.com/bojone/bert4keras)：keras implement of transformers for humans
 
 - [ERNIE-Pytorch](https://github.com/nghuyong/ERNIE-Pytorch): This project is to convert [ERNIE](https://github.com/PaddlePaddle/ERNIE) to [huggingface's](https://github.com/huggingface/pytorch-transformers) format.
+
+- [unilm](https://github.com/microsoft/unilm)：UniLM - Unified Language Model Pre-training / Pre-trained models for natural language understanding (NLU) and generation (NLG) tasks
 
 - #####  XLnet
 
@@ -600,6 +606,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [robustness-gym](https://github.com/robustness-gym/robustness-gym)：Evaluation Toolkit for NLP
 - [elasticsearch-py](https://github.com/elastic/elasticsearch-py)：Official Python low-level client for Elasticsearch
 - [py-googletrans](https://github.com/ssut/py-googletrans)：Free and Unlimited Google translate API for Python. 
+- [UDA_pytorch](https://github.com/SanghunYun/UDA_pytorch)：UDA(Unsupervised Data Augmentation) implemented by pytorch
 
 ##### 9 其他model
 
@@ -637,10 +644,12 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [DeepIE](https://github.com/loujie0822/DeepIE)：DeepIE: Deep Learning for Information Extraction
 - [CasRel](https://github.com/weizhepei/CasRel)：A Novel Cascade Binary Tagging Framework for Relational Triple Extraction
 - [two-are-better-than-one](https://github.com/LorrinWWW/two-are-better-than-one)：Code associated with the paper **Two are Better Than One: Joint Entity and Relation Extraction with Table-Sequence Encoders**, at EMNLP 2020
+- [TPlinker-joint-extraction](https://github.com/131250208/TPlinker-joint-extraction)：TPLinker: Single-stage Joint Extraction of Entities and Relations Through Token Pair Linking
 
 ##### 14 蒸馏
 
 - [TextBrewer](https://github.com/airaria/TextBrewer)：A PyTorch-based knowledge distillation toolkit for natural language processing
+- [KD_Lib](https://github.com/SforAiDl/KD_Lib)：A Pytorch Knowledge Distillation library for benchmarking and extending works in the domains of Knowledge Distillation, Pruning, and Quantization.
 
 ##### 15 对话
 
@@ -667,6 +676,11 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 ##### 18 自动机
 
 - [automata](https://github.com/caleb531/automata)：A Python library for simulating finite automata, pushdown automata, and Turing machines
+
+##### 19 阅读理解
+
+- [SDNet](https://github.com/microsoft/SDNet)
+- [luke](https://github.com/studio-ousia/luke)：LUKE -- Language Understanding with Knowledge-based Embeddings
 
 ---
 
@@ -769,6 +783,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 11. [efficientnet](https://github.com/qubvel/efficientnet): Implementation of EfficientNet model. Keras and TensorFlow Keras.
 12. [目标检测FCOS: Fully Convolutional One-Stage Object Detection (ICCV'19) ](https://github.com/tianzhi0549/FCOS)
 13. [image-segmentation-keras](https://github.com/divamgupta/image-segmentation-keras)：Implementation of Segnet, FCN, UNet , PSPNet and other models in Keras
+14. [YOLOF](https://github.com/chensnathan/YOLOF)：You Only Look One-level Feature (YOLOF), CVPR2021, Detectron2
 
 
 
@@ -779,6 +794,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 ##### 多模态
 
 1. [microsoft](https://github.com/microsoft)/[psi](https://github.com/microsoft/psi)：an open, extensible framework for development and research of multimodal, integrative-AI systems.  【C#】
+2. [ClipBERT](https://github.com/jayleicn/ClipBERT)：an efficient framework for end-to-end learning for image-text and video-text tasks.
 
 
 
@@ -939,7 +955,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [hello_tf_c_api](https://github.com/Neargye/hello_tf_c_api)：Neural Network TensorFlow C API
 2. [tensorflow_cc](https://github.com/FloopCZ/tensorflow_cc)：Build and install TensorFlow C++ API library.
-3. 
+3. [tiny-dnn](https://github.com/tiny-dnn/tiny-dnn)：header only, dependency-free deep learning framework in C++14
 
 #### Pytorch
 
@@ -968,6 +984,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 23. [examples](https://github.com/pytorch/examples): A set of examples around pytorch in Vision, Text, Reinforcement Learning, etc.
 24. [pytorch-image-models](https://github.com/rwightman/pytorch-image-models): PyTorch image models, scripts, pretrained weights -- (SE)ResNet/ResNeXT, DPN, EfficientNet, MixNet, MobileNet-V3/V2, MNASNet, Single-Path NAS, FBNet, and more
 25. [pytorch-cosine-annealing-with-warmup](https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup)
+26. [fastmoe](https://github.com/laekov/fastmoe)：A fast Mixture of Experts（MoE） impl for PyTorch
 
 #### MxNet
 
@@ -1060,6 +1077,10 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 19. [uwsgi-nginx-flask-docker](https://github.com/tiangolo/uwsgi-nginx-flask-docker)：Docker image with uWSGI and Nginx for Flask applications in Python running in a single container. Optionally with Alpine Linux.
 
+20. [Modin: Speed up your Pandas workflows by changing a single line of code](https://github.com/modin-project/modin)
+
+21. [nameko](https://github.com/nameko/nameko)：Python framework for building microservices
+
 
 
 #### 训练
@@ -1096,7 +1117,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 5. [*sentence embeddings*: InferSent](https://github.com/facebookresearch/InferSent)
 6. [nlg-eval: 评测指标](https://github.com/Maluuba/nlg-eval)
 7. [百度对话系统](https://github.com/baidu/Dialogue)
-8. [**AnyQ(ANswer Your Questions)** 开源项目主要包含面向FAQ集合的问答系统框架、文本语义匹配工具SimNet](https://github.com/baidu/AnyQ)
+8. [**AnyQ(ANswer Your Questions)**](https://github.com/baidu/AnyQ)： 开源项目主要包含面向FAQ集合的问答系统框架、文本语义匹配工具SimNet
 9. [Rasa开源机器学习框架，用于自动化基于文本和语音的对话](https://github.com/RasaHQ/rasa)
 10. [对话系统：sharing, training and evaluating dialogue models across many tasks.](https://github.com/facebookresearch/ParlAI)
 11. [ Deep Generative Models for Natural Language Processing  Papers](https://github.com/FranxYao/Deep-Generative-Models-for-Natural-Language-Processing)
@@ -1205,6 +1226,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 15. [statsmodels](https://github.com/statsmodels/statsmodels)：statistical modeling and econometrics in Python
 16. [xlearn](https://github.com/aksnzhy/xlearn)：High performance, easy-to-use, and scalable machine learning (ML) package, including linear model (LR), factorization machines (FM), and field-aware factorization machines (FFM) for Python and CLI
 17. [pycaret](https://github.com/pycaret/pycaret)：An open-source, low-code machine learning library in Python
+18. [GPy](https://github.com/SheffieldML/GPy)：Gaussian processes framework in python
 
 #### 科学计算
 
@@ -1307,8 +1329,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 1. [Tool for visualizing attention in the Transformer model](https://github.com/jessevig/bertviz)
 2. [tqdm](https://github.com/tqdm/tqdm)
 3. [Visualizations for machine learning datasets](https://github.com/PAIR-code/facets)
-4. [Modin: Speed up your Pandas workflows by changing a single line of code](https://github.com/modin-project/modin)
-5. [diagrams](https://github.com/mingrammer/diagrams)： Diagram as Code for prototyping cloud system architectures，用代码花架构图
+4. [manim](https://github.com/3b1b/manim)：Animation engine for explanatory math videos
+5. [diagrams](https://github.com/mingrammer/diagrams)： Diagram as Code for prototyping cloud system architectures，用代码画架构图
 6. [dl-visualization](https://github.com/vivek3141/dl-visualization)：This is a repository containing the source code for the animations to the series "Visualizing Deep Learning" on the YouTube channel [vcubingx](https://youtube.com/vcubingx).
 7. [weibo-analysis-and-visualization](https://github.com/HUANGZHIHAO1994/weibo-analysis-and-visualization)
 
@@ -1325,6 +1347,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 9. [gen_tags.vim](https://github.com/jsfaint/gen_tags.vim)：ctags增强
 10. [bat](https://github.com/sharkdp/bat)：`bat` supports syntax highlighting for a large number of programming and markup languages
 11. [records](https://github.com/kennethreitz42/records): SQL for Humans in Python. *Database support includes RedShift, Postgres, MySQL, SQLite, Oracle, and MS-SQL (drivers not included).*
+12. [miasm](https://github.com/cea-sec/miasm)：Reverse engineering framework in Python
+13. [graph-data-science](https://github.com/neo4j/graph-data-science)：Neo4j Graph Data Science library of graph algorithms.
 
 ### 小项目
 
