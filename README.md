@@ -76,6 +76,7 @@
       - [Capsule Net](#capsule-net)
       - [自动驾驶](#自动驾驶)
       - [机器人](#机器人)
+      - [Contrastive Learning](#contrastive-learning)
       - [Adversarial Attack](#adversarial-attack)
       - [Multi-Task Learning](#multi-task-learning)
       - [联邦学习](#联邦学习)
@@ -261,6 +262,7 @@
 15. [drogon](https://github.com/an-tao/drogon)：Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows
 16. [openFrameworks](https://github.com/openframeworks/openFrameworks)：openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
 17. [TinyML](https://github.com/BurnellLiu/TinyML)：精简的C++ 机器学习库
+18. [Catch2](https://github.com/catchorg/Catch2)：A modern, C++-native, header-only, test framework for unit-tests
 
 
 
@@ -681,6 +683,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 - [SDNet](https://github.com/microsoft/SDNet)
 - [luke](https://github.com/studio-ousia/luke)：LUKE -- Language Understanding with Knowledge-based Embeddings
+- [SogouMRCToolkit](https://github.com/sogou/SogouMRCToolkit)： fast and efficient development of modern machine comprehension models, including both published models and original prototypes
 
 ---
 
@@ -691,6 +694,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 3. [pytorch-fm](https://github.com/rixwew/pytorch-fm)：Factorization Machine models in PyTorch
 4. [tensorflow](https://github.com/tensorflow)/**[recommenders](https://github.com/tensorflow/recommenders)**: TensorFlow Recommenders is a library for building recommender system models using TensorFlow.
 5. [NEWS-RECOMMENDATION](https://github.com/wj19971997/NEWS-RECOMMENDATION)：简单demo
+6. [GrowNet](https://github.com/sbadirli/GrowNet)：Gradient Boosting Neural Networks: GrowNet
 
 ---
 
@@ -751,16 +755,28 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 ##### 图像识别与分类
 
 1. [图片搜索和分析](https://github.com/AKSHAYUBHAT/DeepVideoAnalytics)
+
 2. [DBoW2](https://github.com/dorian3d/DBoW2)：Enhanced hierarchical bag-of-word library for C++
+
 3. [Real-time face detection and emotion/gender classification ](https://github.com/oarriaga/face_classification)
+
 4. [人脸识别：The world's simplest facial recognition api for Python and the command line](https://github.com/ageitgey/face_recognition)
+
 5. [TF_FLAME](https://github.com/TimoBolkart/TF_FLAME)：Example Tensorflow code for the FLAME face model 
+
 6. [DeepFaceLab_Colab](https://github.com/dream80/DeepFaceLab_Colab)：[https://www.deepfaker.xyz](https://www.deepfaker.xyz/) -- NOTE：With colab you can use tesla P100 for free. Of course there are some restrictions
+
 7. [EasyOCR](https://github.com/JaidedAI/EasyOCR)：Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
+
 8. **[libfacedetection](https://github.com/ShiqiYu/libfacedetection)**：: face detection in images. The face detection speed can reach 1000FPS.
+
 9. [抠图：PyMatting: A Python Library for Alpha Matting](https://github.com/pymatting/pymatting)
 
-   
+10. [TransFG](https://github.com/TACJu/TransFG)：A Transformer Architecture for Fine-grained Recognition
+
+11. [bottleneck-transformer-pytorch](https://github.com/lucidrains/bottleneck-transformer-pytorch)：SotA visual recognition model with convolution + attention that outperforms EfficientNet and DeiT in terms of performance-computes trade-off, in Pytorch
+
+    
 
 ##### opencv
 
@@ -807,6 +823,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 5. [Code and data for paper "Deep Photo Style Transfer"](https://github.com/luanfujun/deep-photo-styletransfer)
 6. [TensorFlow CNN for fast style transfer](https://github.com/lengstrom/fast-style-transfer)
 7. [ALAE](https://github.com/podgorskiy/ALAE):  Adversarial Latent Autoencoders
+8. [deep-daze](https://github.com/lucidrains/deep-daze)：Simple command line tool for text to image generation using OpenAI's CLIP and Siren
 
 
 
@@ -889,12 +906,19 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 ---
 
+#### Contrastive Learning
+
+1. [PyContrast](https://github.com/HobbitLong/PyContrast)：PyTorch implementation of Contrastive Learning methods; List of awesome-contrastive-learning papers
+
+
+
 #### Adversarial Attack
 
 1. [adversarial-robustness-toolbox](https://github.com/IBM/adversarial-robustness-toolbox)
 2. [foolbox](https://github.com/bethgelab/foolbox)：fool neural networks
 3. [cleverhans](https://github.com/tensorflow/cleverhans)：constructing attacks, building defenses, and benchmarking both
 4. [FreeLB](https://github.com/zhuchen03/FreeLB)：Adversarial Training for Natural Language Understanding
+5. [DefenseByAttack](https://github.com/a554b554/DefenseByAttack): Code for paper "One Man's Trash is Another Man's Treasure"
 
 
 
@@ -1096,6 +1120,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 9. [trains](https://github.com/allegroai/trains)：Auto-Magical Experiment Manager & Version Control for AI 
 10. [cleverhans](https://github.com/cleverhans-lab/cleverhans)：An adversarial example library for constructing attacks, building defenses, and benchmarking both
 11. [docker-python](https://github.com/Kaggle/docker-python)：Kaggle Python docker image
+12. [distribuuuu](https://github.com/BIGBALLON/distribuuuu)：The pure and clear PyTorch Distributed Training Framework.
 
 ### Transfer Learning
 
@@ -1205,7 +1230,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 ## 3 机器学习
 
 1. [awesome-mlops](https://github.com/visenger/awesome-mlops): A curated list of references for MLOps, 机器学习开发周期教程、视频、博客
-2. 
+
+   
 
 ### 开源工具
 
@@ -1227,6 +1253,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 16. [xlearn](https://github.com/aksnzhy/xlearn)：High performance, easy-to-use, and scalable machine learning (ML) package, including linear model (LR), factorization machines (FM), and field-aware factorization machines (FFM) for Python and CLI
 17. [pycaret](https://github.com/pycaret/pycaret)：An open-source, low-code machine learning library in Python
 18. [GPy](https://github.com/SheffieldML/GPy)：Gaussian processes framework in python
+19. [mlens](https://github.com/flennerhag/mlens)：ML-Ensemble – high performance ensemble learning
 
 #### 科学计算
 
@@ -1299,8 +1326,6 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 ### 研究论文
 
-1. 
-
 
 
 ## 4 比赛方案
@@ -1364,6 +1389,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 10. [live2d-widget](https://github.com/stevenjoezhang/live2d-widget)：前端页面自定义看板娘
 11. [Screenshot-to-code](https://github.com/emilwallner/Screenshot-to-code)：静态网页代码生成
 12. [latexify_py](https://github.com/google/latexify_py)：Generates LaTeX math description from Python functions.
+13. [sherlock](https://github.com/sherlock-project/sherlock)： Hunt down social media accounts by username across social networks
+14. [core](https://github.com/home-assistant/core)：Open source home automation that puts local control and privacy first
 
 ### 底层编译架构
 
