@@ -701,7 +701,9 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 #### 相似性
 
 1. [milvus](https://github.com/milvus-io/milvus)：An open source vector similarity search engine -- Linux
-2. [annoy](https://github.com/spotify/annoy):  Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
+2. [faiss](https://github.com/facebookresearch/faiss)：A library for efficient similarity search and clustering of dense vectors.  -- Linux
+3. [annoy](https://github.com/spotify/annoy):  Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
+4. [Scann](https://github.com/google-research/google-research/tree/master/scann)：ScaNN (Scalable Nearest Neighbors) is a method for efficient vector similarity search at scale. [lecture](https://slideslive.com/38928419/accelerating-largescale-inference-with-anisotropic-vector-quantization)
 
 ---
 
