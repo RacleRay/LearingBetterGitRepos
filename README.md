@@ -207,10 +207,11 @@
 ##### 字符串搜索
 
 1. [pyahocorasick](https://github.com/WojciechMula/pyahocorasick)：**pyahocorasick** is a fast and memory efficient library for exact or approximate multi-pattern string search meaning that you can find multiple key strings occurrences at once in some input text. 
-   - AC自动机：https://xueyouluo.github.io/Aho-Corasick-algorithm/
-2. [ahocorapy](https://github.com/abusix/ahocorapy): Pure python Aho-Corasick library.
-3. [acora](https://github.com/scoder/acora): Fast multi-keyword search engine for text strings.
-4. [datrie](https://github.com/pytries/datrie)：Fast, efficiently stored Trie for Python. Uses libdatrie. http://pypi.python.org/pypi/datrie/
+   - AC自动机：[link](https://xueyouluo.github.io/Aho-Corasick-algorithm/) [link](https://racleray.github.io/2021/02/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E4%BB%8EKMP%E5%88%B0AC%E8%87%AA%E5%8A%A8%E6%9C%BA/)
+2. [ahocorasick-python](https://github.com/xizhicode/ahocorasick-python)：AC自动机python的实现，并进行了优化
+3. [ahocorapy](https://github.com/abusix/ahocorapy): Pure python Aho-Corasick library.
+4. [acora](https://github.com/scoder/acora): Fast multi-keyword search engine for text strings.
+5. [datrie](https://github.com/pytries/datrie)：Fast, efficiently stored Trie for Python. Uses libdatrie. http://pypi.python.org/pypi/datrie/
 
 ##### 工具API
 
@@ -263,6 +264,7 @@
 16. [openFrameworks](https://github.com/openframeworks/openFrameworks)：openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
 17. [TinyML](https://github.com/BurnellLiu/TinyML)：精简的C++ 机器学习库
 18. [Catch2](https://github.com/catchorg/Catch2)：A modern, C++-native, header-only, test framework for unit-tests
+19. [flashlight](https://github.com/flashlight/flashlight): A C++ standalone library for machine learning
 
 
 
@@ -378,6 +380,12 @@
 5. [sentence_transformer_zh](https://github.com/zhangyi24/sentence_transformer_zh)
 6. [Transformer-Transducer](https://github.com/okkteam/Transformer-Transducer)：A streamable speech recognition model。
 7. [Informer2020](https://github.com/zhouhaoyi/Informer2020)：the origin Pytorch implementation of Informer in the following paper: [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://arxiv.org/abs/2012.07436).
+8. [linformer-pytorch](https://github.com/tatp22/linformer-pytorch): implementation of Linformer for Pytorch.
+9. [awesome-fast-attention](https://github.com/Separius/awesome-fast-attention): list of efficient attention modules
+10. [Synthesizer-Rethinking-Self-Attention-Transformer-Models](https://github.com/leaderj1001/Synthesizer-Rethinking-Self-Attention-Transformer-Models)  + [Synthesizer](https://github.com/10-zin/Synthesizer): Implementing SYNTHESIZER
+11. [aft-pytorch](https://github.com/rish-16/aft-pytorch)：Unofficial PyTorch implementation of the Attention Free Transformer's AFT-Full layer by Apple Inc
+12. 
+13. 
 
 ##### 2 预训练模型  
 
@@ -432,19 +440,33 @@
 
 - [BERT-whitening](https://github.com/bojone/BERT-whitening)：简单的向量白化就可以媲美BERT flow
 
+- [OptiPrompt](https://github.com/princeton-nlp/OptiPrompt)：NAACL'2021: Factual Probing Is [MASK]: Learning vs. Learning to Recall
+
 ##### * 其他语言模型
 
 - T5： https://github.com/google-research/text-to-text-transfer-transformer   [中文博客](https://mp.weixin.qq.com/s?__biz=MjM5ODkzMzMwMQ==&mid=2650411701&idx=2&sn=f253b2cde92e0be27e4cdb010f8f957a&chksm=becd94ef89ba1df9c417810e83fe2b06686b5f43f550d9335e7b4ebcccb99678d0fbe7b90910&scene=21#wechat_redirect)
+
 - google-research https://github.com/google-research/google-research 
+
 - [ELECTRA: 超越BERT, 19年最佳NLP预训练模型]( https://zhuanlan.zhihu.com/p/89763176 )
+
 - ZEN中文预训练语言模型： https://github.com/sinovation/ZEN 
+
 - [albert](https://github.com/google-research/albert)：ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
+
 - [GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese)
+
 - [gpt2-ml](https://github.com/imcaspar/gpt2-ml)：GPT2 for Multiple Languages, including pretrained models. GPT2 多语言支持, 15亿参数中文预训练模型
+
 - [Decoders-Chinese-TF2.0](https://github.com/Morizeyao/Decoders-Chinese-TF2.0)：GPT2 training script for Chinese in Tensorflow 2.0
+
 - [MetaAdapter](https://github.com/iedwardwangi/MetaAdapter)：Specific Layers in Multilingual Language Models
+
 - [BERT-flow](https://github.com/bohanli/BERT-flow)：TensorFlow implementation of On the Sentence Embeddings from Pre-trained Language Models (EMNLP 2020)
+
 - [gpt-2](https://github.com/openai/gpt-2)：Code for the paper "Language Models are Unsupervised Multitask Learners"
+
+- [NeZha_Chinese_PyTorch](https://github.com/lonePatient/NeZha_Chinese_PyTorch)：pytorch版NEZHA，适配transformers
 
   
 
@@ -514,6 +536,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [haystack](https://github.com/deepset-ai/haystack)： Transformers at scale for question answering & search
 - [epidemic-sentence-pair](https://github.com/zzy99/epidemic-sentence-pair)：天池 疫情相似句对判定大赛 线上第一名方案
 - [deep_text_matching](https://github.com/wangle1218/deep_text_matching): implementation several deep text match (text similarly) models for keras . cdssm, arc-ii,match_pyramid, mvlstm ,esim, drcn ,bimpm, bert, albert, roberta
+- [attention-feature-distillation](https://github.com/clovaai/attention-feature-distillation)：Official implementation for (Show, Attend and Distill: Knowledge Distillation via Attention-based Feature Matching, AAAI-2021)
 
 ##### * 文本分类
 
@@ -550,6 +573,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [SPACES](https://github.com/bojone/SPACES)：端到端的长本文摘要模型（法研杯2020司法摘要赛道）
 - [GPT2-NewsTitle](https://github.com/liucongg/GPT2-NewsTitle)：中文GPT2新闻标题生成项目。
 - [Texygen](https://github.com/geek-ai/Texygen)：A text generation benchmarking platform
+- [summarize-from-feedback](https://github.com/openai/summarize-from-feedback)：基于强化学习的SOTA
 
 ##### 6 seq2seq
 
@@ -609,11 +633,13 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [elasticsearch-py](https://github.com/elastic/elasticsearch-py)：Official Python low-level client for Elasticsearch
 - [py-googletrans](https://github.com/ssut/py-googletrans)：Free and Unlimited Google translate API for Python. 
 - [UDA_pytorch](https://github.com/SanghunYun/UDA_pytorch)：UDA(Unsupervised Data Augmentation) implemented by pytorch
+- [PaddleNLP](https://github.com/PaddlePaddle/PaddleNLP)：An NLP library with Awesome pre-trained Transformer models
 
 ##### 9 其他model
 
 - [show-attend-and-tell](https://github.com/yunjey/show-attend-and-tell)
 - [Retrieval-Based Conversational Model in Tensorflow](https://github.com/dennybritz/chatbot-retrieval)
+- [sru](https://github.com/asappresearch/sru)：Training RNNs as Fast as CNNs
 
 #####  10 Book代码
 
@@ -652,6 +678,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 - [TextBrewer](https://github.com/airaria/TextBrewer)：A PyTorch-based knowledge distillation toolkit for natural language processing
 - [KD_Lib](https://github.com/SforAiDl/KD_Lib)：A Pytorch Knowledge Distillation library for benchmarking and extending works in the domains of Knowledge Distillation, Pruning, and Quantization.
+- [RepDistiller](https://github.com/HobbitLong/RepDistiller)：[ICLR 2020] Contrastive Representation Distillation (CRD), and benchmark of recent knowledge distillation methods
+- [KD_SRRL](https://github.com/jingyang2017/KD_SRRL)：Paper. Knowledge distillation via softmax regression representation learning
 
 ##### 15 对话
 
@@ -757,28 +785,18 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 ##### 图像识别与分类
 
 1. [图片搜索和分析](https://github.com/AKSHAYUBHAT/DeepVideoAnalytics)
-
 2. [DBoW2](https://github.com/dorian3d/DBoW2)：Enhanced hierarchical bag-of-word library for C++
-
 3. [Real-time face detection and emotion/gender classification ](https://github.com/oarriaga/face_classification)
-
 4. [人脸识别：The world's simplest facial recognition api for Python and the command line](https://github.com/ageitgey/face_recognition)
-
 5. [TF_FLAME](https://github.com/TimoBolkart/TF_FLAME)：Example Tensorflow code for the FLAME face model 
-
 6. [DeepFaceLab_Colab](https://github.com/dream80/DeepFaceLab_Colab)：[https://www.deepfaker.xyz](https://www.deepfaker.xyz/) -- NOTE：With colab you can use tesla P100 for free. Of course there are some restrictions
-
 7. [EasyOCR](https://github.com/JaidedAI/EasyOCR)：Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
-
 8. **[libfacedetection](https://github.com/ShiqiYu/libfacedetection)**：: face detection in images. The face detection speed can reach 1000FPS.
-
 9. [抠图：PyMatting: A Python Library for Alpha Matting](https://github.com/pymatting/pymatting)
-
 10. [TransFG](https://github.com/TACJu/TransFG)：A Transformer Architecture for Fine-grained Recognition
-
 11. [bottleneck-transformer-pytorch](https://github.com/lucidrains/bottleneck-transformer-pytorch)：SotA visual recognition model with convolution + attention that outperforms EfficientNet and DeiT in terms of performance-computes trade-off, in Pytorch
-
-    
+12. [deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)：deep learning for image processing including classification and object-detection etc.
+13. [DEKR](https://github.com/HRNet/DEKR)：This is an official implementation of our CVPR 2021 paper "Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression" (https://arxiv.org/abs/2104.02300)
 
 ##### opencv
 
@@ -802,6 +820,9 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 12. [目标检测FCOS: Fully Convolutional One-Stage Object Detection (ICCV'19) ](https://github.com/tianzhi0549/FCOS)
 13. [image-segmentation-keras](https://github.com/divamgupta/image-segmentation-keras)：Implementation of Segnet, FCN, UNet , PSPNet and other models in Keras
 14. [YOLOF](https://github.com/chensnathan/YOLOF)：You Only Look One-level Feature (YOLOF), CVPR2021, Detectron2
+15. [Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection)：Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)
+16. [LSPS](https://github.com/masabdi/LSPS)：Source code for "3D Hand Pose Estimation using Simulation and Partial-Supervision with a Shared Latent Space"
+17. 
 
 
 
@@ -911,6 +932,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 #### Contrastive Learning
 
 1. [PyContrast](https://github.com/HobbitLong/PyContrast)：PyTorch implementation of Contrastive Learning methods; List of awesome-contrastive-learning papers
+2. [SimCSE](https://github.com/princeton-nlp/SimCSE)：SimCSE: Simple Contrastive Learning of Sentence Embeddings
 
 
 
@@ -1123,6 +1145,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 10. [cleverhans](https://github.com/cleverhans-lab/cleverhans)：An adversarial example library for constructing attacks, building defenses, and benchmarking both
 11. [docker-python](https://github.com/Kaggle/docker-python)：Kaggle Python docker image
 12. [distribuuuu](https://github.com/BIGBALLON/distribuuuu)：The pure and clear PyTorch Distributed Training Framework.
+13. [maggot](https://github.com/ex4sperans/maggot)：A lightweight python library that helps to keep track of numerical experiments
 
 ### Transfer Learning
 
@@ -1338,6 +1361,9 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 4. [Tencent2019_Finals_Rank1st](https://github.com/bettenW/Tencent2019_Finals_Rank1st)：2019腾讯广告算法大赛完整代码（冠军）
 5. [Tencent2020_Rank1st](https://github.com/guoday/Tencent2020_Rank1st)：The code for 2020 Tencent College Algorithm Contest, and the online result ranks 1st.
 6. [riiid-acp-pub 3rd](https://github.com/jamarju/riiid-acp-pub)：Riiid! Answer Correctness Predction 3rd place solution. 复现需要较好的机器配置。
+7. [quest_qa_labeling1st](https://github.com/oleg-yaroshevskiy/quest_qa_labeling)：Google QUEST Q&A Labeling. Improving automated understanding of complex question answer content
+8. [gaic_track3_pair_sim](https://github.com/nilboy/gaic_track3_pair_sim)：全球人工智能技术创新大赛-短文本语义匹配--冠军方案
+9. [ccks_baidu_entity_link](https://github.com/panchunguang/ccks_baidu_entity_link)：ccks baidu entity link 实体链接 第一名
 
 
 
@@ -1463,7 +1489,6 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 3. [公众号文章小集](https://github.com/shenweichen/AlgoNotes)
 4. [ML-NLP](https://github.com/NLP-LOVE/ML-NLP)：机器学习(Machine Learning)、深度学习(Deep Learning)、NLP面试中常考到的知识点和代码实现
 5. [深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)
-6. [算法/深度学习/NLP面试笔记](https://github.com/imhuay/Algorithm_Interview_Notes-Chinese)
 7. [Reflection_Summary](https://github.com/sladesha/Reflection_Summary)：算法理论基础知识
 8. [machinelearning](https://github.com/ljpzzz/machinelearning): blogs for machine learning
 9. [Pre-trained-Models](https://github.com/loujie0822/Pre-trained-Models)：NLP预训练模型的总结Blog、
