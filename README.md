@@ -363,6 +363,8 @@
 
 ### 算法实现
 
+- [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) ：Implementations/tutorials of deep learning papers with side-by-side notes; including transformers (original, xl, switch, feedback), optimizers(adam, radam, adabelief), gans(dcgan, cyclegan, stylegan2), reinforcement learning (ppo, dqn), capsnet, sketch-rnn, etc.
+
 #### NLP
 
 - [nlp-recipes](https://github.com/microsoft/nlp-recipes)：Natural Language Processing Best Practices & Examples
@@ -504,6 +506,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [Top2Vec](https://github.com/ddangelov/Top2Vec)：Top2Vec is an algorithm for **topic modeling** and **semantic search**. It automatically detects topics present in text and generates jointly embedded topic, document and word vectors.
 - [EssayKiller_V2](https://github.com/EssayKillerBrain/EssayKiller_V2)：基于开源GPT2.0的初代创作型人工智能 | 可扩展、可进化
 - [Guyu](https://github.com/lipiji/Guyu)：pre-training and fine-tuning framework for text generation
+- [LM-BFF](https://github.com/princeton-nlp/LM-BFF)：ACL'2021: LM-BFF: Better Few-shot Fine-tuning of Language Models
+- [AliceMind](https://github.com/alibaba/AliceMind)：pre-trained encoder-decoder models and its related optimization techniques developed by Alibaba's MinD
 
 ##### * NER
 
@@ -551,12 +555,15 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [lightning-text-classification](https://github.com/minimalist-nlp/lightning-text-classification)：Minimalist implementation of a BERT Sentence Classifier with PyTorch Lightning, Transformers and PyTorch-NLP.
 - [Sequence Projection Models](https://github.com/tensorflow/models/tree/master/research/sequence_projection) >> [**PRADO**]：A family of models that projects sequence to fixed sized features. The idea behind is to build embedding-free models that minimize the model size. Instead of using embedding table to lookup embeddings, sequence projection models computes them on the fly.
 - [pytorch-sentiment-analysis](https://github.com/bentrevett/pytorch-sentiment-analysis)：Tutorials on getting started with PyTorch and TorchText for sentiment analysis.
+- [BertGCN](https://github.com/ZeroRin/BertGCN)
+- [detext](https://github.com/linkedin/detext)：DeText: A Deep Neural Text Understanding Framework for Ranking and Classification Tasks
 
 ##### *  Aspect Based Sentiment Analysis
 
 - [ABSA-PyTorch](https://github.com/songyouwei/ABSA-PyTorch)：基于方面的情感分析，使用PyTorch实现。
 - [BERT-for-RRC-ABSA](https://github.com/howardhsu/BERT-for-RRC-ABSA)：code for our NAACL 2019 paper: "BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis"
 - [Aspect-Based-Sentiment-Analysis](https://github.com/ScalaConsultants/Aspect-Based-Sentiment-Analysis)：Aspect-Based-Sentiment-Analysis: Transformer & Explainable ML (TensorFlow)
+- [torchMoji](https://github.com/huggingface/torchMoji)：A pyTorch implementation of the DeepMoji model: state-of-the-art deep learning model for analyzing sentiment, emotion
 
 ##### 5 文本摘要
 
@@ -634,6 +641,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [py-googletrans](https://github.com/ssut/py-googletrans)：Free and Unlimited Google translate API for Python. 
 - [UDA_pytorch](https://github.com/SanghunYun/UDA_pytorch)：UDA(Unsupervised Data Augmentation) implemented by pytorch
 - [PaddleNLP](https://github.com/PaddlePaddle/PaddleNLP)：An NLP library with Awesome pre-trained Transformer models
+- [mars](https://github.com/mars-project/mars)：a tensor-based unified framework for large-scale data computation which scales Numpy, pandas, Scikit-learn and Python functions.
 
 ##### 9 其他model
 
@@ -671,8 +679,10 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [deepke](https://github.com/zjunlp/deepke)：基于 Pytorch 的深度学习中文关系抽取处理套件
 - [DeepIE](https://github.com/loujie0822/DeepIE)：DeepIE: Deep Learning for Information Extraction
 - [CasRel](https://github.com/weizhepei/CasRel)：A Novel Cascade Binary Tagging Framework for Relational Triple Extraction
+- [CasRel-pytorch-reimplement](https://github.com/longlongman/CasRel-pytorch-reimplement)
 - [two-are-better-than-one](https://github.com/LorrinWWW/two-are-better-than-one)：Code associated with the paper **Two are Better Than One: Joint Entity and Relation Extraction with Table-Sequence Encoders**, at EMNLP 2020
 - [TPlinker-joint-extraction](https://github.com/131250208/TPlinker-joint-extraction)：TPLinker: Single-stage Joint Extraction of Entities and Relations Through Token Pair Linking
+- [PURE](https://github.com/princeton-nlp/PURE)：NAACL'2021: A Frustratingly Easy Approach for Entity and Relation Extraction
 
 ##### 14 蒸馏
 
@@ -746,6 +756,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 7. [Kersa-Speaker-Recognition](https://github.com/yeyupiaoling/Kersa-Speaker-Recognition)：基于Kersa实现的声纹识别模型
 8. [Transformer-TTS](https://github.com/Deepest-Project/Transformer-TTS)：Implementation of "FastSpeech: Fast, Robust and Controllable Text to Speech"
 9. [kaldi](https://github.com/kaldi-asr/kaldi)：kaldi-asr/kaldi is the official location of the Kaldi project.
+10. [espnet](https://github.com/espnet/espnet)：End-to-End Speech Processing Toolkit
 
 
 
@@ -797,6 +808,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 11. [bottleneck-transformer-pytorch](https://github.com/lucidrains/bottleneck-transformer-pytorch)：SotA visual recognition model with convolution + attention that outperforms EfficientNet and DeiT in terms of performance-computes trade-off, in Pytorch
 12. [deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)：deep learning for image processing including classification and object-detection etc.
 13. [DEKR](https://github.com/HRNet/DEKR)：This is an official implementation of our CVPR 2021 paper "Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression" (https://arxiv.org/abs/2104.02300)
+14. [mmpose](https://github.com/open-mmlab/mmpose)：OpenMMLab Pose Estimation Toolbox and Benchmark.
 
 ##### opencv
 
@@ -822,7 +834,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 14. [YOLOF](https://github.com/chensnathan/YOLOF)：You Only Look One-level Feature (YOLOF), CVPR2021, Detectron2
 15. [Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection)：Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)
 16. [LSPS](https://github.com/masabdi/LSPS)：Source code for "3D Hand Pose Estimation using Simulation and Partial-Supervision with a Shared Latent Space"
-17. 
+17. [nanodet](https://github.com/RangiLyu/nanodet): ⚡Super fast and lightweight anchor-free object detection model. 🔥Only 980 KB(int8) / 1.8MB (fp16) and run 97FPS on cellphone🔥
 
 
 
@@ -856,6 +868,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 2. [zao-](https://github.com/qiucheng025/zao-)：AI技术换脸源码
 3. [AutoAugment](https://github.com/DeepVoltaire/AutoAugment)：Unofficial implementation of the ImageNet, CIFAR 10 and SVHN Augmentation Policies learned by AutoAugment using pillow
 4. [albumentations](https://github.com/albumentations-team/albumentations): Fast image augmentation library and easy to use wrapper around other libraries
+5. [imgaug](https://github.com/aleju/imgaug)：Image augmentation for machine learning experiments.
+6. [AugLy](https://github.com/facebookresearch/AugLy)：A data augmentations library for audio, image, text, and video.
 
 
 
@@ -1033,6 +1047,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 24. [pytorch-image-models](https://github.com/rwightman/pytorch-image-models): PyTorch image models, scripts, pretrained weights -- (SE)ResNet/ResNeXT, DPN, EfficientNet, MixNet, MobileNet-V3/V2, MNASNet, Single-Path NAS, FBNet, and more
 25. [pytorch-cosine-annealing-with-warmup](https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup)
 26. [fastmoe](https://github.com/laekov/fastmoe)：A fast Mixture of Experts（MoE） impl for PyTorch
+27. [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)
 
 #### MxNet
 
@@ -1146,6 +1161,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 11. [docker-python](https://github.com/Kaggle/docker-python)：Kaggle Python docker image
 12. [distribuuuu](https://github.com/BIGBALLON/distribuuuu)：The pure and clear PyTorch Distributed Training Framework.
 13. [maggot](https://github.com/ex4sperans/maggot)：A lightweight python library that helps to keep track of numerical experiments
+14. [rigl](https://github.com/google-research/rigl)：End-to-end training of sparse deep neural networks with little-to-no performance loss.  "Making All Tickets Winners"
 
 ### Transfer Learning
 
@@ -1229,6 +1245,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 13. [awesome-mlops](https://github.com/visenger/awesome-mlops): A curated list of references for MLOps, 机器学习开发周期教程、视频、博客
 14. [google-research / language](https://github.com/google-research/language)：Shared repository for open-sourced projects from the Google AI Language team.
 15. [awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)：A curated list of awesome resources dedicated to Relation Extraction
+16. [awesome-grounding](https://github.com/TheShadow29/awesome-grounding)：A curated list of research papers in grounding.
 
 
 
