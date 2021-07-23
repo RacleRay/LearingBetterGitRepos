@@ -372,6 +372,7 @@
 - [NLP-pretrained-model](https://github.com/balavenkatesh3322/NLP-pretrained-model)：A collection of Natural language processing pre-trained models.
 - [EasyTransfer](https://github.com/alibaba/EasyTransfer)：EasyTransfer is designed to make the development of transfer learning in NLP applications easier.
 - [google-research / language](https://github.com/google-research/language)：Shared repository for open-sourced projects from the Google AI Language team.
+- [HuggingFace Bert Model Download Site](https://huggingface.co/models?filter=zh)
 
 ##### Transformer
 
@@ -476,6 +477,7 @@
 
 - label-attention inference  https://github.com/oxford-cs-deepnlp-2017/lectures/blob/master/README.md 
 -   https://arxiv.org/abs/1908.08676 
+-   [pytorch-struct](https://github.com/harvardnlp/pytorch-struct)：A library of tested, GPU implementations of core structured prediction algorithms for deep learning applications. [概率图模型]
 
 ##### * CLUE项目合辑（NLP）
 
@@ -557,6 +559,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [pytorch-sentiment-analysis](https://github.com/bentrevett/pytorch-sentiment-analysis)：Tutorials on getting started with PyTorch and TorchText for sentiment analysis.
 - [BertGCN](https://github.com/ZeroRin/BertGCN)
 - [detext](https://github.com/linkedin/detext)：DeText: A Deep Neural Text Understanding Framework for Ranking and Classification Tasks
+- [LTP](https://github.com/kssteven418/LTP)：Learned Token Pruning for Transformers
 
 ##### *  Aspect Based Sentiment Analysis
 
@@ -796,19 +799,34 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 ##### 图像识别与分类
 
 1. [图片搜索和分析](https://github.com/AKSHAYUBHAT/DeepVideoAnalytics)
+
 2. [DBoW2](https://github.com/dorian3d/DBoW2)：Enhanced hierarchical bag-of-word library for C++
+
 3. [Real-time face detection and emotion/gender classification ](https://github.com/oarriaga/face_classification)
+
 4. [人脸识别：The world's simplest facial recognition api for Python and the command line](https://github.com/ageitgey/face_recognition)
+
 5. [TF_FLAME](https://github.com/TimoBolkart/TF_FLAME)：Example Tensorflow code for the FLAME face model 
+
 6. [DeepFaceLab_Colab](https://github.com/dream80/DeepFaceLab_Colab)：[https://www.deepfaker.xyz](https://www.deepfaker.xyz/) -- NOTE：With colab you can use tesla P100 for free. Of course there are some restrictions
+
 7. [EasyOCR](https://github.com/JaidedAI/EasyOCR)：Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
+
 8. **[libfacedetection](https://github.com/ShiqiYu/libfacedetection)**：: face detection in images. The face detection speed can reach 1000FPS.
+
 9. [抠图：PyMatting: A Python Library for Alpha Matting](https://github.com/pymatting/pymatting)
+
 10. [TransFG](https://github.com/TACJu/TransFG)：A Transformer Architecture for Fine-grained Recognition
+
 11. [bottleneck-transformer-pytorch](https://github.com/lucidrains/bottleneck-transformer-pytorch)：SotA visual recognition model with convolution + attention that outperforms EfficientNet and DeiT in terms of performance-computes trade-off, in Pytorch
+
 12. [deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)：deep learning for image processing including classification and object-detection etc.
+
 13. [DEKR](https://github.com/HRNet/DEKR)：This is an official implementation of our CVPR 2021 paper "Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression" (https://arxiv.org/abs/2104.02300)
+
 14. [mmpose](https://github.com/open-mmlab/mmpose)：OpenMMLab Pose Estimation Toolbox and Benchmark.
+
+    
 
 ##### opencv
 
@@ -835,6 +853,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 15. [Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection)：Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)
 16. [LSPS](https://github.com/masabdi/LSPS)：Source code for "3D Hand Pose Estimation using Simulation and Partial-Supervision with a Shared Latent Space"
 17. [nanodet](https://github.com/RangiLyu/nanodet): ⚡Super fast and lightweight anchor-free object detection model. 🔥Only 980 KB(int8) / 1.8MB (fp16) and run 97FPS on cellphone🔥
+18. [U-2-Net](https://github.com/xuebinqin/U-2-Net)：paper in Pattern Recognition 2020: "U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection."
 
 
 
@@ -910,6 +929,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 12. [Financial-Knowledge-Graphs](https://github.com/jm199504/Financial-Knowledge-Graphs)：小型金融知识图谱构建流程
 13. [KG-demo-for-movie](https://github.com/SimmerChan/KG-demo-for-movie)：从无到有构建一个电影知识图谱，并基于该KG，开发一个简易的KBQA程序
 14. [pykg2vec](https://github.com/Sujit-O/pykg2vec)：Python library for knowledge graph embedding and representation learning.
+15. [text_to_knowledge](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_to_knowledge): 解语（Text to Knowledge）是首个覆盖中文全词类的知识库（百科知识树）及知识标注框架，拥有可描述所有中文词汇的词类体系、中文知识标注工具集，以及更适用于中文挖掘任务的预训练语言模型。paddlenlp子项目，没有开源。
 
 
 
@@ -1048,6 +1068,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 25. [pytorch-cosine-annealing-with-warmup](https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup)
 26. [fastmoe](https://github.com/laekov/fastmoe)：A fast Mixture of Experts（MoE） impl for PyTorch
 27. [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)
+28. [External-Attention-pytorch](https://github.com/xmu-xiaoma666/External-Attention-pytorch)：🍀 Pytorch implementation of various Attention Mechanisms, MLP, Re-parameter, Convolution, which is helpful to further understand papers.
 
 #### MxNet
 
@@ -1296,6 +1317,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 17. [pycaret](https://github.com/pycaret/pycaret)：An open-source, low-code machine learning library in Python
 18. [GPy](https://github.com/SheffieldML/GPy)：Gaussian processes framework in python
 19. [mlens](https://github.com/flennerhag/mlens)：ML-Ensemble – high performance ensemble learning
+20. [boruta_py](https://github.com/scikit-learn-contrib/boruta_py)：Python implementations of the Boruta all-relevant feature selection method.
+21. [Kats](https://github.com/facebookresearch/Kats)：[时序]analyze time series data, a lightweight, easy-to-use, generalizable, and extendable framework to perform time series analysis
 
 #### 科学计算
 
@@ -1359,6 +1382,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 ### 可解释机器学习
 
 1. [interpretable-ml-book](https://github.com/christophM/interpretable-ml-book)
+2. [shapash](https://github.com/MAIF/shapash)：🔅 Shapash makes Machine Learning models transparent and understandable by everyone
 
 ### 实用资料/调参工具
 
