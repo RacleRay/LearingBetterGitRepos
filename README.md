@@ -200,6 +200,7 @@
 14. [PythonCrawler](https://github.com/yhangf/PythonCrawler)：用python编写的爬虫项目集合
 15. [crawler-py](https://github.com/abbeyokgo/crawler-py)：分享一些爬虫脚本
 16. [playwright-python](https://github.com/microsoft/playwright-python)：Python version of the Playwright testing and automation library.
+17. [python-cheatsheet](https://github.com/gto76/python-cheatsheet)
 
 ##### 其他
 
@@ -217,6 +218,7 @@
 12. [bandit](https://github.com/PyCQA/bandit)：Bandit is a tool designed to find common security issues in Python code.
 13. [gopup](https://github.com/justinzm/gopup)：数据接口：百度、谷歌、头条、微博指数,宏观数据，利率数据，货币汇率，千里马、独角兽公司，新闻联播文字稿，影视票房数据，高校名单，疫情数据...
 14. [playwright-python](https://github.com/microsoft/playwright-python): python操作浏览器
+15. [loguru](https://github.com/Delgan/loguru): 更简洁的python log工具
 
 ##### 异步
 
@@ -285,6 +287,9 @@
 18. [TinyML](https://github.com/BurnellLiu/TinyML)：精简的C++ 机器学习库
 19. [Catch2](https://github.com/catchorg/Catch2)：A modern, C++-native, header-only, test framework for unit-tests
 20. [flashlight](https://github.com/flashlight/flashlight): A C++ standalone library for machine learning
+20. [mlibc](https://github.com/managarm/mlibc): 可移植的C标准库
+21. [uthash](https://github.com/troydhanson/uthash)：C macros for hash tables and more
+22. [WindowsAppSDK](https://github.com/microsoft/WindowsAppSDK)：[FOR Using, NOT Reading] Windows App SDK empowers all Windows Desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet. 
 
 ---
 
@@ -313,13 +318,13 @@
 
 1. [数据结构和算法必知必会的50个代码实现](https://github.com/wangzheng0822/algo)
 2. [Python算法实现-轻量级](https://github.com/qiwsir/algorithm)   [用动画的形式呈现解LeetCode题目的思路-轻量级](https://github.com/MisterBooo/LeetCodeAnimation)
-9. [All Algorithms implemented in Python](https://github.com/TheAlgorithms/Python)
-10. [algorithms：Minimal examples of data structures and algorithms in Python](https://github.com/keon/algorithms)
-11. [Algorithms implemented in C++：For education](https://github.com/TheAlgorithms/C-Plus-Plus)
-12. [awesome-algorithms](https://github.com/tayllan/awesome-algorithms)：精选的学习和/或练习算法的资源列表
-13. [fucking-algorithm](https://github.com/labuladong/fucking-algorithm)：刷算法全靠套路，labuladong
-14. [leetcode_company_wise_questions](https://github.com/MysteryVaibhav/leetcode_company_wise_questions) ：按公司分类的题目列表
-15. [ands](https://github.com/nbro/ands)：Algorithms and data structures for educational, demonstrational and experimental purposes.
+3. [All Algorithms implemented in Python](https://github.com/TheAlgorithms/Python)
+4. [algorithms](https://github.com/keon/algorithms)：Minimal examples of data structures and algorithms in Python
+5. [Algorithms implemented in C++：For education](https://github.com/TheAlgorithms/C-Plus-Plus)
+6. [awesome-algorithms](https://github.com/tayllan/awesome-algorithms)：精选的学习和/或练习算法的资源列表
+7. [fucking-algorithm](https://github.com/labuladong/fucking-algorithm)：刷算法全靠套路，labuladong
+8. [leetcode_company_wise_questions](https://github.com/MysteryVaibhav/leetcode_company_wise_questions) ：按公司分类的题目列表
+9. [ands](https://github.com/nbro/ands)：Algorithms and data structures for educational, demonstrational and experimental purposes.
 10. [Algorithms_in_C](https://thealgorithms.github.io/C/)
 
 ### 计算机科学基础
@@ -327,11 +332,13 @@
 1. [计算机速成课](https://github.com/1c7/Crash-Course-Computer-Science-Chinese)
 2. [TeachYourselfCS-CN](https://github.com/keithnull/TeachYourselfCS-CN)
 3. [computer-science](https://github.com/ossu/computer-science)：🎓 Path to a free self-taught education in Computer Science!
-4. [REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT)：清华大学计算机系课程攻略
-5. [zju-icicles](https://github.com/QSCTech/zju-icicles)：浙江大学课程攻略共享计划
-6. [CS-Xmind-Note](https://github.com/SSHeRun/CS-Xmind-Note)：计算机专业课（408）思维导图和笔记：计算机组成原理（第五版 王爱英），数据结构（王道），计算机网络（第七版 谢希仁），操作系统（第四版 汤小丹）
-7. [awesome-courses](https://github.com/prakhar1989/awesome-courses)：List of awesome university courses for learning Computer Science!
-8. [Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)：《计算机网络－自顶向下方法(原书第6版)》编程作业，Wireshark实验文档的翻译和解答
+4. [University-Courses-China](https://github.com/deepwzh/University-Courses-China): 中国几所大学课程资料整理，里面有的课程资料带有习题答案，这点很nice
+5. [REKCARC-TSC-UHT](https://github.com/PKUanonym/REKCARC-TSC-UHT)：清华大学计算机系课程攻略
+6. [zju-icicles](https://github.com/QSCTech/zju-icicles)：浙江大学课程攻略共享计划 [web page](https://qsctech.github.io/zju-icicles/)
+7. [CS-Xmind-Note](https://github.com/SSHeRun/CS-Xmind-Note)：计算机专业课（408）思维导图和笔记：计算机组成原理（第五版 王爱英），数据结构（王道），计算机网络（第七版 谢希仁），操作系统（第四版 汤小丹）
+8. [awesome-courses](https://github.com/prakhar1989/awesome-courses)：List of awesome university courses for learning Computer Science!
+9. [Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)：《计算机网络－自顶向下方法(原书第6版)》编程作业，Wireshark实验文档的翻译和解答
+10. [dragon-book-exercise-answers](https://github.com/fool2fish/dragon-book-exercise-answers)：编译原理（紫龙书）第2版习题答案
 
 #### CSAPP
 
@@ -341,7 +348,7 @@
 
 #### 系统设计
 
-- **[system-design-primer](https://github.com/donnemartin/system-design-primer)** Learn how to design large-scale systems.
+- **[system-design-primer](https://github.com/donnemartin/system-design-primer)**： Learn how to design large-scale systems.
 
 - [Distributed system resources](https://github.com/ty4z2008/Qix/blob/master/ds.md)：分布式资料列表
 - [Database system resources](https://github.com/ty4z2008/Qix/blob/master/db.md)：数据库系统资料列表
@@ -696,6 +703,9 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [TextBlob](https://github.com/sloria/TextBlob): Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation...
 - [knlp](https://github.com/DukeEnglish/knlp)：类似 snownlp 和 textblob，调用方便，提供基础算法的训练和推理的脚本，各种nlp任务的评估方法以及评估数据集，提供深度学习，面向中文开发，且功能很基础，适合于二次改造。
 - [skweak](https://github.com/NorskRegnesentral/skweak):   A software toolkit for weak supervision applied to NLP tasks
+- [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning): The easiest way to use deep metric learning in your application. 可直接使用的 NTXENT loss (InfoNCE) ，SupContrast loss等对比学习损失。
+- [dice_loss_for_NLP](https://github.com/ShannonAI/dice_loss_for_NLP)：ACL2020 paper `Dice Loss for Data-imbalanced NLP Tasks`
+- [TextBlob](https://github.com/sloria/TextBlob)：Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation, and more.
 
 
 
@@ -785,6 +795,16 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 - [SDNet](https://github.com/microsoft/SDNet)
 - [luke](https://github.com/studio-ousia/luke)：LUKE -- Language Understanding with Knowledge-based Embeddings
 - [SogouMRCToolkit](https://github.com/sogou/SogouMRCToolkit)： fast and efficient development of modern machine comprehension models, including both published models and original prototypes
+
+##### 20 数据增强
+
+- [Cutoff](https://github.com/dinghanshen/Cutoff)：Cutoff data augmentation approach for NLP
+
+##### 21 Prompt
+
+- [PromptPapers](https://github.com/thunlp/PromptPapers)：Must-read papers on prompt-based tuning for pre-trained language models.
+- [autoprompt](https://github.com/ucinlp/autoprompt)：AutoPrompt: Automatic Prompt Construction for Masked Language Models.
+- 
 
 ---
 
@@ -973,6 +993,7 @@ openvino
 12. [reinforcement-learning-an-introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)：强化学习导论配套代码库
 13. [PARL](https://github.com/PaddlePaddle/PARL)：PARL A high-performance distributed training framework for Reinforcement Learning
 14. [trfl](https://github.com/deepmind/trfl)：TensorFlow Reinforcement Learning
+15. [tianshou](https://github.com/thu-ml/tianshou)：An elegant PyTorch deep reinforcement learning library.
 
 ---
 
@@ -1030,6 +1051,8 @@ openvino
 
 1. [PyContrast](https://github.com/HobbitLong/PyContrast)：PyTorch implementation of Contrastive Learning methods; List of awesome-contrastive-learning papers
 2. [SimCSE](https://github.com/princeton-nlp/SimCSE)：SimCSE: Simple Contrastive Learning of Sentence Embeddings
+3. [ConSERT](https://github.com/yym6472/ConSERT): ACL 2021 paper - ConSERT: A Contrastive Framework for Self-Supervised Sentence Representation Transfer
+4. [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning): The easiest way to use deep metric learning in your application. 可直接使用的 NTXENT loss (InfoNCE) ，SupContrast loss等对比学习损失。
 
 
 
@@ -1132,6 +1155,8 @@ openvino
 26. [fastmoe](https://github.com/laekov/fastmoe)：A fast Mixture of Experts（MoE） impl for PyTorch
 27. [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)
 28. [External-Attention-pytorch](https://github.com/xmu-xiaoma666/External-Attention-pytorch)：🍀 Pytorch implementation of various Attention Mechanisms, MLP, Re-parameter, Convolution, which is helpful to further understand papers.
+29. [torch-toolbox](https://github.com/PistonY/torch-toolbox)：ToolBox to make using Pytorch much easier. Mainly for CV.
+30. [tianshou](https://github.com/thu-ml/tianshou)：An elegant PyTorch deep reinforcement learning library.
 
 #### MxNet
 
@@ -1478,6 +1503,7 @@ openvino
 7. [quest_qa_labeling1st](https://github.com/oleg-yaroshevskiy/quest_qa_labeling)：Google QUEST Q&A Labeling. Improving automated understanding of complex question answer content
 8. [gaic_track3_pair_sim](https://github.com/nilboy/gaic_track3_pair_sim)：全球人工智能技术创新大赛-短文本语义匹配--冠军方案
 9. [ccks_baidu_entity_link](https://github.com/panchunguang/ccks_baidu_entity_link)：ccks baidu entity link 实体链接 第一名
+10. [daguancup_-5th](https://github.com/effort-yq/daguancup_-5th)：第五届“达观杯” 基于大规模预训练模型的风险事件标签识别比赛，初赛A榜第四，最终排名第六。只用了单模nezha。
 
 
 
