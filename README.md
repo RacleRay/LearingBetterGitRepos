@@ -29,7 +29,7 @@
   - [2 深度学习](#2-深度学习)
     - [Colab神器](#colab神器)
     - [损失函数](#损失函数)
-    - [算法实现](#算法实现)
+    - [分类资源](#分类资源)
       - [NLP](#nlp)
         - [Transformer](#transformer)
         - [2 预训练模型](#2-预训练模型)
@@ -38,7 +38,7 @@
         - [* CLUE项目合辑（NLP）](#-clue项目合辑nlp)
         - [* BERT Applications](#-bert-applications)
         - [* NER](#-ner)
-        - [* ELMo](#-elmo)
+        - [* ELMo And Others](#-elmo-and-others)
         - [4 相似度匹配](#4-相似度匹配)
         - [* 文本分类](#-文本分类)
         - [*  Aspect Based Sentiment Analysis](#--aspect-based-sentiment-analysis)
@@ -48,18 +48,18 @@
         - [7 ModelZoo](#7-modelzoo)
         - [8 开源包](#8-开源包)
         - [9 其他model](#9-其他model)
-        - [10 Book代码](#10-book代码)
-        - [11 可视化](#11-可视化)
-        - [12 最新研究进展](#12-最新研究进展)
-        - [13 关系抽取](#13-关系抽取)
-        - [14 蒸馏](#14-蒸馏)
-        - [15 对话](#15-对话)
-        - [16 指代消解](#16-指代消解)
-        - [17 主题](#17-主题)
-        - [18 自动机](#18-自动机)
-        - [19 阅读理解](#19-阅读理解)
-        - [20 数据增强](#20-数据增强)
-        - [21 Prompt](#21-prompt)
+        - [10 关系抽取](#10-关系抽取)
+        - [11 蒸馏](#11-蒸馏)
+        - [12 对话](#12-对话)
+        - [13 指代消解](#13-指代消解)
+        - [14 主题](#14-主题)
+        - [15 自动机](#15-自动机)
+        - [16 阅读理解](#16-阅读理解)
+        - [17 数据增强](#17-数据增强)
+        - [18 Prompt](#18-prompt)
+        - [19 Book and Course](#19-book-and-course)
+        - [20 可视化](#20-可视化)
+        - [21 最新研究进展](#21-最新研究进展)
       - [推荐系统](#推荐系统)
       - [相似性](#相似性)
       - [语音](#语音)
@@ -67,6 +67,7 @@
       - [CV](#cv)
         - [图像识别与分类](#图像识别与分类)
         - [opencv](#opencv)
+        - [openvino](#openvino)
         - [目标检测](#目标检测)
         - [医疗](#医疗)
         - [多模态](#多模态)
@@ -83,6 +84,7 @@
       - [Multi-Task Learning](#multi-task-learning)
       - [联邦学习](#联邦学习)
       - [图网络](#图网络)
+      - [优化算法](#优化算法)
     - [框架实践](#框架实践)
       - [Tensorflow](#tensorflow)
         - [C++](#c-1)
@@ -100,13 +102,6 @@
       - [训练](#训练)
     - [Transfer Learning](#transfer-learning)
     - [多任务](#多任务)
-    - [偏向研究](#偏向研究)
-      - [NLP](#nlp-1)
-      - [CV](#cv-1)
-      - [图网络](#图网络-1)
-      - [GAN](#gan-1)
-      - [优化算法](#优化算法)
-      - [Trading](#trading)
     - [Awesome](#awesome)
     - [会议资源](#会议资源)
     - [项目idea](#项目idea)
@@ -117,7 +112,7 @@
       - [特征](#特征)
       - [科学计算](#科学计算)
     - [GPU加速](#gpu加速)
-    - [算法实现](#算法实现-1)
+    - [算法实现](#算法实现)
     - [安全机器学习](#安全机器学习)
     - [AutoML](#automl)
     - [可解释机器学习](#可解释机器学习)
@@ -133,7 +128,7 @@
     - [测试工具](#测试工具)
   - [6 数据集](#6-数据集)
     - [工具包](#工具包)
-    - [NLP](#nlp-2)
+    - [NLP](#nlp-1)
     - [标注工具](#标注工具)
     - [图书](#图书)
   - [7 Blogs + 面经](#7-blogs--面经)
@@ -297,7 +292,7 @@
 
 ### Julia
 
-1. [ julia_notebooks](https://github.com/ageron/julia_notebooks)：Julia Jupyter/Colab Notebooks
+1. [julia_notebooks](https://github.com/ageron/julia_notebooks)：Julia Jupyter/Colab Notebooks
 2. [julia](https://github.com/JuliaLang/julia)：The Julia Language: A fresh approach to technical computing.
 
 ---
@@ -387,9 +382,10 @@
 1. [self-adj-dice](https://github.com/fursovia/self-adj-dice)：Implementation of Self-adjusting Dice Loss from "Dice Loss for Data-imbalanced NLP Tasks" paper
 2. [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)：label-smooth, amsoftmax, focal-loss, triplet-loss, lovasz-softmax ...
 
-### 算法实现
+### 分类资源
 
 - [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) ：Implementations/tutorials of deep learning papers with side-by-side notes; including transformers (original, xl, switch, feedback), optimizers(adam, radam, adabelief), gans(dcgan, cyclegan, stylegan2), reinforcement learning (ppo, dqn), capsnet, sketch-rnn, etc.
+- [awesome-deep-trading](https://github.com/cbailes/awesome-deep-trading)
 
 
 
@@ -422,94 +418,93 @@
 
 ##### 2 预训练模型  
 
-- [awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models)：高质量中文预训练模型下载链接集合
+1. [awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models)：高质量中文预训练模型下载链接集合
 
-- [awesome-bert](https://github.com/Jiakui/awesome-bert): BERT、XLNet 相关论文和 github 项目
+2. [awesome-bert](https://github.com/Jiakui/awesome-bert): BERT、XLNet 相关论文和 github 项目
 
-- [TensorFlow 官方 code and pre-trained models for BERT](https://github.com/facebookresearch/fastText)
+3. [BERT-Tickets](https://github.com/VITA-Group/BERT-Tickets)：BERT的进一步探究
 
-- [UER-py](https://github.com/dbiir/UER-py)：Open Source Pre-training Model Framework in PyTorch & Pre-trained Model Zoo
+4. [TensorFlow 官方 code and pre-trained models for BERT](https://github.com/facebookresearch/fastText)
 
-- huggingface [transformers](https://github.com/huggingface/transformers)：Transformers: State-of-the-art Natural Language Processing for Pytorch and TensorFlow 2.0.
+5. [UER-py](https://github.com/dbiir/UER-py)：Open Source Pre-training Model Framework in PyTorch & Pre-trained Model Zoo
 
-- [ERINE](https://github.com/PaddlePaddle/ERNIE)：An Implementation of ERNIE For Language Understanding (including Pre-training models and Fine-tuning tools)
+6. huggingface [transformers](https://github.com/huggingface/transformers)：Transformers: State-of-the-art Natural Language Processing for Pytorch and TensorFlow 2.0.
 
-- [ERNIE-Pytorch](https://github.com/nghuyong/ERNIE-Pytorch)
+7. [ERINE](https://github.com/PaddlePaddle/ERNIE)：An Implementation of ERNIE For Language Understanding (including Pre-training models and Fine-tuning tools)
 
-- [五行代码玩转GPT-2Easy-to-use Wrapper for GPT-2](https://github.com/rish-16/gpt2client)
+8. [ERNIE-Pytorch](https://github.com/nghuyong/ERNIE-Pytorch)
 
-- [ Facebook AI ](https://ai.facebook.com/)
+9. [五行代码玩转GPT-2Easy-to-use Wrapper for GPT-2](https://github.com/rish-16/gpt2client)
 
-- [google-research / text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer)
+10. [google-research / text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer)
 
-- [bert-as-service](https://github.com/hanxiao/bert-as-service)：Mapping a variable-length sentence to a fixed-length vector using BERT model
+11. [bert-as-service](https://github.com/hanxiao/bert-as-service)：Mapping a variable-length sentence to a fixed-length vector using BERT model
 
-- [Chinese-BERT-wwm](https://github.com/ymcui/Chinese-BERT-wwm): Pre-Training with Whole Word Masking for Chinese BERT（中文BERT-wwm系列模型）
+12. [Chinese-BERT-wwm](https://github.com/ymcui/Chinese-BERT-wwm): Pre-Training with Whole Word Masking for Chinese BERT（中文BERT-wwm系列模型）
 
-- [Chinese-ELECTRA](https://github.com/ymcui/Chinese-ELECTRA)：Pre-trained Chinese ELECTRA（中文ELECTRA预训练模型）
+13. [Chinese-ELECTRA](https://github.com/ymcui/Chinese-ELECTRA)：Pre-trained Chinese ELECTRA（中文ELECTRA预训练模型）
 
-- [bert-for-tf2](https://github.com/kpe/bert-for-tf2)：A Keras TensorFlow 2.0 implementation of BERT, ALBERT and adapter-BERT.
+14. [bert-for-tf2](https://github.com/kpe/bert-for-tf2)：A Keras TensorFlow 2.0 implementation of BERT, ALBERT and adapter-BERT.
 
-- [bert4keras](https://github.com/bojone/bert4keras)：keras implement of transformers for humans
+15. [bert4keras](https://github.com/bojone/bert4keras)：keras implement of transformers for humans
 
-- [ERNIE-Pytorch](https://github.com/nghuyong/ERNIE-Pytorch): This project is to convert [ERNIE](https://github.com/PaddlePaddle/ERNIE) to [huggingface's](https://github.com/huggingface/pytorch-transformers) format.
+16. [ERNIE-Pytorch](https://github.com/nghuyong/ERNIE-Pytorch): This project is to convert [ERNIE](https://github.com/PaddlePaddle/ERNIE) to [huggingface's](https://github.com/huggingface/pytorch-transformers) format.
 
-- [unilm](https://github.com/microsoft/unilm)：UniLM - Unified Language Model Pre-training / Pre-trained models for natural language understanding (NLU) and generation (NLG) tasks
+17. [unilm](https://github.com/microsoft/unilm)：UniLM - Unified Language Model Pre-training / Pre-trained models for natural language understanding (NLU) and generation (NLG) tasks
 
-- #####  XLnet
+18. #####  XLnet
 
-  - https://github.com/zihangdai/xlnet
-  - https://github.com/graykode/xlnet-Pytorch
+   - https://github.com/zihangdai/xlnet
+   - https://github.com/graykode/xlnet-Pytorch
 
-- [marge-pytorch](https://github.com/lucidrains/marge-pytorch)：Implementation of Marge, **Pre-training via Paraphrasing**, in Pytorch
+19. [marge-pytorch](https://github.com/lucidrains/marge-pytorch)：Implementation of Marge, **Pre-training via Paraphrasing**, in Pytorch
 
-- [BERT-CCPoem](https://github.com/THUNLP-AIPoet/BERT-CCPoem)：BERT-CCPoem is an BERT-based pre-trained model particularly for Chinese classical poetry
+20. [BERT-CCPoem](https://github.com/THUNLP-AIPoet/BERT-CCPoem)：BERT-CCPoem is an BERT-based pre-trained model particularly for Chinese classical poetry
 
-- [microsoft](https://github.com/microsoft)/**[Unicoder](https://github.com/microsoft/Unicoder)** : Unicoder model for understanding and generation. This repo provides the code for reproducing the experiments in [XGLUE: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation](https://arxiv.org/abs/2004.01401) ([`leaderboard`](https://microsoft.github.io/XGLUE/)).
+21. [microsoft](https://github.com/microsoft)/**[Unicoder](https://github.com/microsoft/Unicoder)** : Unicoder model for understanding and generation. This repo provides the code for reproducing the experiments in [XGLUE: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation](https://arxiv.org/abs/2004.01401) ([`leaderboard`](https://microsoft.github.io/XGLUE/)).
 
-- [CPM-Generate](https://github.com/TsinghuaAI/CPM-Generate)：Chinese Pre-Trained Language Models (CPM-LM) Version-I
+22. [CPM-Generate](https://github.com/TsinghuaAI/CPM-Generate)：Chinese Pre-Trained Language Models (CPM-LM) Version-I
 
-- [CPM-LM-TF2](https://github.com/qhduan/CPM-LM-TF2)：TensorFlow 2.x CPM-Generate
+23. [CPM-LM-TF2](https://github.com/qhduan/CPM-LM-TF2)：TensorFlow 2.x CPM-Generate
 
-- [BERT-whitening](https://github.com/bojone/BERT-whitening)：简单的向量白化就可以媲美BERT flow
+24. [BERT-whitening](https://github.com/bojone/BERT-whitening)：简单的向量白化就可以媲美BERT flow
 
-- [OptiPrompt](https://github.com/princeton-nlp/OptiPrompt)：NAACL'2021: Factual Probing Is [MASK]: Learning vs. Learning to Recall
+25. [OptiPrompt](https://github.com/princeton-nlp/OptiPrompt)：NAACL'2021: Factual Probing Is [MASK]: Learning vs. Learning to Recall
 
 
 
 ##### * 其他语言模型
 
-- T5： https://github.com/google-research/text-to-text-transfer-transformer   [中文博客](https://mp.weixin.qq.com/s?__biz=MjM5ODkzMzMwMQ==&mid=2650411701&idx=2&sn=f253b2cde92e0be27e4cdb010f8f957a&chksm=becd94ef89ba1df9c417810e83fe2b06686b5f43f550d9335e7b4ebcccb99678d0fbe7b90910&scene=21#wechat_redirect)
+1. T5： https://github.com/google-research/text-to-text-transfer-transformer   [中文博客](https://mp.weixin.qq.com/s?__biz=MjM5ODkzMzMwMQ==&mid=2650411701&idx=2&sn=f253b2cde92e0be27e4cdb010f8f957a&chksm=becd94ef89ba1df9c417810e83fe2b06686b5f43f550d9335e7b4ebcccb99678d0fbe7b90910&scene=21#wechat_redirect)
 
-- google-research https://github.com/google-research/google-research 
+2. google-research https://github.com/google-research/google-research 
 
-- [ELECTRA: 超越BERT, 19年最佳NLP预训练模型]( https://zhuanlan.zhihu.com/p/89763176 )
+3. [ELECTRA: 超越BERT, 19年最佳NLP预训练模型]( https://zhuanlan.zhihu.com/p/89763176 )
 
-- ZEN中文预训练语言模型： https://github.com/sinovation/ZEN 
+4. ZEN中文预训练语言模型： https://github.com/sinovation/ZEN 
 
-- [albert](https://github.com/google-research/albert)：ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
+5. [albert](https://github.com/google-research/albert)：ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
 
-- [GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese)
+6. [GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese)
 
-- [gpt2-ml](https://github.com/imcaspar/gpt2-ml)：GPT2 for Multiple Languages, including pretrained models. GPT2 多语言支持, 15亿参数中文预训练模型
+7. [gpt2-ml](https://github.com/imcaspar/gpt2-ml)：GPT2 for Multiple Languages, including pretrained models. GPT2 多语言支持, 15亿参数中文预训练模型
 
-- [Decoders-Chinese-TF2.0](https://github.com/Morizeyao/Decoders-Chinese-TF2.0)：GPT2 training script for Chinese in Tensorflow 2.0
+8. [Decoders-Chinese-TF2.0](https://github.com/Morizeyao/Decoders-Chinese-TF2.0)：GPT2 training script for Chinese in Tensorflow 2.0
 
-- [MetaAdapter](https://github.com/iedwardwangi/MetaAdapter)：Specific Layers in Multilingual Language Models
+9. [MetaAdapter](https://github.com/iedwardwangi/MetaAdapter)：Specific Layers in Multilingual Language Models
 
-- [BERT-flow](https://github.com/bohanli/BERT-flow)：TensorFlow implementation of On the Sentence Embeddings from Pre-trained Language Models (EMNLP 2020)
+10. [BERT-flow](https://github.com/bohanli/BERT-flow)：TensorFlow implementation of On the Sentence Embeddings from Pre-trained Language Models (EMNLP 2020)
 
-- [gpt-2](https://github.com/openai/gpt-2)：Code for the paper "Language Models are Unsupervised Multitask Learners"
+11. [gpt-2](https://github.com/openai/gpt-2)：Code for the paper "Language Models are Unsupervised Multitask Learners"
 
-- [NeZha_Chinese_PyTorch](https://github.com/lonePatient/NeZha_Chinese_PyTorch)：pytorch版NEZHA，适配transformers
+12. [NeZha_Chinese_PyTorch](https://github.com/lonePatient/NeZha_Chinese_PyTorch)：pytorch版NEZHA，适配transformers
 
-  
+    
 
 ##### 3 CRF、LAN
 
-- label-attention inference  https://github.com/oxford-cs-deepnlp-2017/lectures/blob/master/README.md 
--   https://arxiv.org/abs/1908.08676 
--   [pytorch-struct](https://github.com/harvardnlp/pytorch-struct)：A library of tested, GPU implementations of core structured prediction algorithms for deep learning applications. [概率图模型]
+1. label-attention inference  [paper](https://arxiv.org/abs/1908.08676)
+2. [pytorch-struct](https://github.com/harvardnlp/pytorch-struct)：A library of tested, GPU implementations of core structured prediction algorithms for deep learning applications. [概率图模型]
 
 
 
@@ -532,28 +527,28 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 ##### * BERT Applications
 
-- [rasa_chatbot_cn](https://github.com/GaoQ1/rasa_chatbot_cn):基于最新版本rasa搭建的对话系统
-- [Bert-Chinese-Text-Classification-Pytorch](https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch):使用Bert，ERNIE，进行中文文本分类
-- [BERT-train2deploy](https://github.com/xmxoxo/BERT-train2deploy)：BERT模型从训练到部署
-- [rasa-tutorial](https://github.com/terrifyzhao/rasa-tutorial)：Rasa中文demo与指南
-- [rasa-ui](https://github.com/paschmann/rasa-ui): Rasa UI is a frontend for the Rasa Framework
-- [text_matching](https://github.com/terrifyzhao/text_matching)：常用文本匹配模型tf版本，数据集为QA_corpus
-- [sentence-transformers](https://github.com/UKPLab/sentence-transformers)：Sentence Embeddings with BERT & XLNet, https://arxiv.org/abs/1908.10084
-- [labse](https://github.com/bojone/labse)：Language-agnostic BERT Sentence Embedding (LaBSE)
-- [BERTopic](https://github.com/MaartenGr/BERTopic)：BERTopic is a topic modeling technique that leverages BERT embeddings and c-TF-IDF to create dense clusters allowing for easily interpretable topics whilst keeping important words in the topic descriptions.
-- [Top2Vec](https://github.com/ddangelov/Top2Vec)：Top2Vec is an algorithm for **topic modeling** and **semantic search**. It automatically detects topics present in text and generates jointly embedded topic, document and word vectors.
-- [EssayKiller_V2](https://github.com/EssayKillerBrain/EssayKiller_V2)：基于开源GPT2.0的初代创作型人工智能 | 可扩展、可进化
-- [Guyu](https://github.com/lipiji/Guyu)：pre-training and fine-tuning framework for text generation
-- [LM-BFF](https://github.com/princeton-nlp/LM-BFF)：ACL'2021: LM-BFF: Better Few-shot Fine-tuning of Language Models
-- [AliceMind](https://github.com/alibaba/AliceMind)：pre-trained encoder-decoder models and its related optimization techniques developed by Alibaba's MinD
+1. [rasa_chatbot_cn](https://github.com/GaoQ1/rasa_chatbot_cn):基于最新版本rasa搭建的对话系统
+2. [Bert-Chinese-Text-Classification-Pytorch](https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch):使用Bert，ERNIE，进行中文文本分类
+3. [BERT-train2deploy](https://github.com/xmxoxo/BERT-train2deploy)：BERT模型从训练到部署
+4. [rasa-tutorial](https://github.com/terrifyzhao/rasa-tutorial)：Rasa中文demo与指南
+5. [rasa-ui](https://github.com/paschmann/rasa-ui): Rasa UI is a frontend for the Rasa Framework
+6. [text_matching](https://github.com/terrifyzhao/text_matching)：常用文本匹配模型tf版本，数据集为QA_corpus
+7. [sentence-transformers](https://github.com/UKPLab/sentence-transformers)：Sentence Embeddings with BERT & XLNet, https://arxiv.org/abs/1908.10084
+8. [labse](https://github.com/bojone/labse)：Language-agnostic BERT Sentence Embedding (LaBSE)
+9. [BERTopic](https://github.com/MaartenGr/BERTopic)：BERTopic is a topic modeling technique that leverages BERT embeddings and c-TF-IDF to create dense clusters allowing for easily interpretable topics whilst keeping important words in the topic descriptions.
+10. [Top2Vec](https://github.com/ddangelov/Top2Vec)：Top2Vec is an algorithm for **topic modeling** and **semantic search**. It automatically detects topics present in text and generates jointly embedded topic, document and word vectors.
+11. [EssayKiller_V2](https://github.com/EssayKillerBrain/EssayKiller_V2)：基于开源GPT2.0的初代创作型人工智能 | 可扩展、可进化
+12. [Guyu](https://github.com/lipiji/Guyu)：pre-training and fine-tuning framework for text generation
+13. [LM-BFF](https://github.com/princeton-nlp/LM-BFF)：ACL'2021: LM-BFF: Better Few-shot Fine-tuning of Language Models
+14. [AliceMind](https://github.com/alibaba/AliceMind)：pre-trained encoder-decoder models and its related optimization techniques developed by Alibaba's MinD
 
 
 
 ##### * NER
 
-- [spert](https://github.com/markus-eberts/spert)：PyTorch code for SpERT: "Span-based Entity and Relation Transformer". For a description of the model and experiments, see our paper: https://arxiv.org/abs/1909.07755 (accepted at ECAI 2020).
-- [mrc-for-flat-nested-ner](https://github.com/pranciskus/mrc-for-flat-nested-ner)：The code for "A Unified MRC Framework for Named Entity Recognition"
-- [AutoNER](https://github.com/shangjingbo1226/AutoNER): Learning Named Entity Tagger from Domain-Specific Dictionary. [远程监督方法](https://www.cnblogs.com/Luv-GEM/p/11598294.html)训练，利用无标注数据。
+1. [spert](https://github.com/markus-eberts/spert)：PyTorch code for SpERT: "Span-based Entity and Relation Transformer". For a description of the model and experiments, see our paper: https://arxiv.org/abs/1909.07755 (accepted at ECAI 2020).
+2. [mrc-for-flat-nested-ner](https://github.com/pranciskus/mrc-for-flat-nested-ner)：The code for "A Unified MRC Framework for Named Entity Recognition"
+3. [AutoNER](https://github.com/shangjingbo1226/AutoNER): Learning Named Entity Tagger from Domain-Specific Dictionary. [远程监督方法](https://www.cnblogs.com/Luv-GEM/p/11598294.html)训练，利用无标注数据。
 
 > - Inference:
 >   - **[LightNER](https://github.com/LiyuanLucasLiu/LightNER)**: inference w. models pre-trained / trained w. *any* following tools, *efficiently*.
@@ -565,248 +560,266 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### * ELMo
+##### * ELMo And Others
 
-- [bilm-tf](https://github.com/allenai/bilm-tf)：Tensorflow implementation，allen ai
-- [预训练模型](https://allennlp.org/elmo)
-- [ELMoForManyLangs](https://github.com/HIT-SCIR/ELMoForManyLangs): 中文模型
+1. [bilm-tf](https://github.com/allenai/bilm-tf)：Tensorflow implementation，allen ai
+2. [预训练模型](https://allennlp.org/elmo)
+3. [ELMoForManyLangs](https://github.com/HIT-SCIR/ELMoForManyLangs): 中文模型
+4. [sentence embeddings: InferSent](https://github.com/facebookresearch/InferSent)
 
 
 
 ##### 4 相似度匹配
 
-- [cail2019](https://github.com/padeoe/cail2019)：法研杯2019相似案例匹配第二名解决方案（附数据集和文档）
-- [StarSpace](https://github.com/facebookresearch/StarSpace)：Learning embeddings for classification, retrieval and ranking.
-- [DSSM](https://github.com/airalcorn2/Deep-Semantic-Similarity-Model)
-- [Chinese-sentence-similarity-task](https://github.com/ShuaichiLi/Chinese-sentence-similarity-task)：中文问题句子相似度计算比赛及方案汇总
-- [Question-Answering-Albert-Electra](https://github.com/renatoviolin/Question-Answering-Albert-Electra) : Question Answering using Albert and Electra
-- [simbert](https://github.com/ZhuiyiTechnology/simbert)：a bert for retrieval and generation
-- [haystack](https://github.com/deepset-ai/haystack)： Transformers at scale for question answering & search
-- [epidemic-sentence-pair](https://github.com/zzy99/epidemic-sentence-pair)：天池 疫情相似句对判定大赛 线上第一名方案
-- [deep_text_matching](https://github.com/wangle1218/deep_text_matching): implementation several deep text match (text similarly) models for keras . cdssm, arc-ii,match_pyramid, mvlstm ,esim, drcn ,bimpm, bert, albert, roberta
-- [attention-feature-distillation](https://github.com/clovaai/attention-feature-distillation)：Official implementation for (Show, Attend and Distill: Knowledge Distillation via Attention-based Feature Matching, AAAI-2021)
+1. [cail2019](https://github.com/padeoe/cail2019)：法研杯2019相似案例匹配第二名解决方案（附数据集和文档）
+2. [StarSpace](https://github.com/facebookresearch/StarSpace)：Learning embeddings for classification, retrieval and ranking.
+3. [DSSM](https://github.com/airalcorn2/Deep-Semantic-Similarity-Model)
+4. [Chinese-sentence-similarity-task](https://github.com/ShuaichiLi/Chinese-sentence-similarity-task)：中文问题句子相似度计算比赛及方案汇总
+5. [Question-Answering-Albert-Electra](https://github.com/renatoviolin/Question-Answering-Albert-Electra) : Question Answering using Albert and Electra
+6. [simbert](https://github.com/ZhuiyiTechnology/simbert)：a bert for retrieval and generation
+7. [haystack](https://github.com/deepset-ai/haystack)： Transformers at scale for question answering & search
+8. [epidemic-sentence-pair](https://github.com/zzy99/epidemic-sentence-pair)：天池 疫情相似句对判定大赛 线上第一名方案
+9. [deep_text_matching](https://github.com/wangle1218/deep_text_matching): implementation several deep text match (text similarly) models for keras . cdssm, arc-ii,match_pyramid, mvlstm ,esim, drcn ,bimpm, bert, albert, roberta
+10. [attention-feature-distillation](https://github.com/clovaai/attention-feature-distillation)：Official implementation for (Show, Attend and Distill: Knowledge Distillation via Attention-based Feature Matching, AAAI-2021)
 
 
 
 ##### * 文本分类
 
-- [text_classification](https://github.com/brightmart/text_classification)：all kinds of text classification models and more with deep learning
-- [Chinese-Text-Classification-Pytorch](https://github.com/649453932/Chinese-Text-Classification-Pytorch)：中文文本分类，TextCNN，TextRNN，FastText，TextRCNN，BiLSTM_Attention，DPCNN，Transformer，基于pytorch，开箱即用
-- [TextClassificationBenchmark](https://github.com/wabyking/TextClassificationBenchmark)：A Benchmark of Text Classification in PyTorch
-- [Bert-Chinese-Text-Classification-Pytorch](https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch)：使用Bert，ERNIE，进行中文文本分类
-- [multi-class-text-classification-cnn](https://github.com/jiegzhan/multi-class-text-classification-cnn)：Classify Kaggle Consumer Finance Complaints into 11 classes. Build the model with CNN (Convolutional Neural Network) and Word Embeddings on Tensorflow.
-- [deep-text-classifier-mtl](https://github.com/dhwajraj/deep-text-classifier-mtl)：tensorflow script for multi-task learning implementation of Kim's paper : Convolutional Neural Networks for Sentence Classification.
-- [multi_task-nlp-bert](https://github.com/ZagHe568/multi_task-nlp-bert)： NLP multi-task learning, which includes single-sentence classification, pairwise text similarity, pairwise text classification, and relevance ranking.
-- [TextFooler](https://github.com/jind11/TextFooler)：A Model for Natural Language Attack on Text Classification and Inference【对抗攻击】
-- [lightning-text-classification](https://github.com/minimalist-nlp/lightning-text-classification)：Minimalist implementation of a BERT Sentence Classifier with PyTorch Lightning, Transformers and PyTorch-NLP.
-- [Sequence Projection Models](https://github.com/tensorflow/models/tree/master/research/sequence_projection) >> [**PRADO**]：A family of models that projects sequence to fixed sized features. The idea behind is to build embedding-free models that minimize the model size. Instead of using embedding table to lookup embeddings, sequence projection models computes them on the fly.
-- [pytorch-sentiment-analysis](https://github.com/bentrevett/pytorch-sentiment-analysis)：Tutorials on getting started with PyTorch and TorchText for sentiment analysis.
-- [BertGCN](https://github.com/ZeroRin/BertGCN)
-- [detext](https://github.com/linkedin/detext)：DeText: A Deep Neural Text Understanding Framework for Ranking and Classification Tasks
-- [LTP](https://github.com/kssteven418/LTP)：Learned Token Pruning for Transformers
-- [regularized-embeddings](https://github.com/MIR-MU/regularized-embeddings)：code for the “Text classification with word embedding regularization and soft similarity measure” (Novotný et al., 2020) paper
+1. [text_classification](https://github.com/brightmart/text_classification)：all kinds of text classification models and more with deep learning
+2. [Chinese-Text-Classification-Pytorch](https://github.com/649453932/Chinese-Text-Classification-Pytorch)：中文文本分类，TextCNN，TextRNN，FastText，TextRCNN，BiLSTM_Attention，DPCNN，Transformer，基于pytorch，开箱即用
+3. [TextClassificationBenchmark](https://github.com/wabyking/TextClassificationBenchmark)：A Benchmark of Text Classification in PyTorch
+4. [Bert-Chinese-Text-Classification-Pytorch](https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch)：使用Bert，ERNIE，进行中文文本分类
+5. [multi-class-text-classification-cnn](https://github.com/jiegzhan/multi-class-text-classification-cnn)：Classify Kaggle Consumer Finance Complaints into 11 classes. Build the model with CNN (Convolutional Neural Network) and Word Embeddings on Tensorflow.
+6. [deep-text-classifier-mtl](https://github.com/dhwajraj/deep-text-classifier-mtl)：tensorflow script for multi-task learning implementation of Kim's paper : Convolutional Neural Networks for Sentence Classification.
+7. [multi_task-nlp-bert](https://github.com/ZagHe568/multi_task-nlp-bert)： NLP multi-task learning, which includes single-sentence classification, pairwise text similarity, pairwise text classification, and relevance ranking.
+8. [TextFooler](https://github.com/jind11/TextFooler)：A Model for Natural Language Attack on Text Classification and Inference【对抗攻击】
+9. [lightning-text-classification](https://github.com/minimalist-nlp/lightning-text-classification)：Minimalist implementation of a BERT Sentence Classifier with PyTorch Lightning, Transformers and PyTorch-NLP.
+10. [Sequence Projection Models](https://github.com/tensorflow/models/tree/master/research/sequence_projection) >> [**PRADO**]：A family of models that projects sequence to fixed sized features. The idea behind is to build embedding-free models that minimize the model size. Instead of using embedding table to lookup embeddings, sequence projection models computes them on the fly.
+11. [pytorch-sentiment-analysis](https://github.com/bentrevett/pytorch-sentiment-analysis)：Tutorials on getting started with PyTorch and TorchText for sentiment analysis.
+12. [BertGCN](https://github.com/ZeroRin/BertGCN)
+13. [detext](https://github.com/linkedin/detext)：DeText: A Deep Neural Text Understanding Framework for Ranking and Classification Tasks
+14. [LTP](https://github.com/kssteven418/LTP)：Learned Token Pruning for Transformers
+15. [regularized-embeddings](https://github.com/MIR-MU/regularized-embeddings)：code for the “Text classification with word embedding regularization and soft similarity measure” (Novotný et al., 2020) paper
 
 
 
 ##### *  Aspect Based Sentiment Analysis
 
-- [ABSA-PyTorch](https://github.com/songyouwei/ABSA-PyTorch)：基于方面的情感分析，使用PyTorch实现。
-- [BERT-for-RRC-ABSA](https://github.com/howardhsu/BERT-for-RRC-ABSA)：code for our NAACL 2019 paper: "BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis"
-- [Aspect-Based-Sentiment-Analysis](https://github.com/ScalaConsultants/Aspect-Based-Sentiment-Analysis)：Aspect-Based-Sentiment-Analysis: Transformer & Explainable ML (TensorFlow)
-- [torchMoji](https://github.com/huggingface/torchMoji)：A pyTorch implementation of the DeepMoji model: state-of-the-art deep learning model for analyzing sentiment, emotion
+1. [ABSA-PyTorch](https://github.com/songyouwei/ABSA-PyTorch)：基于方面的情感分析，使用PyTorch实现。
+2. [BERT-for-RRC-ABSA](https://github.com/howardhsu/BERT-for-RRC-ABSA)：code for our NAACL 2019 paper: "BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis"
+3. [Aspect-Based-Sentiment-Analysis](https://github.com/ScalaConsultants/Aspect-Based-Sentiment-Analysis)：Aspect-Based-Sentiment-Analysis: Transformer & Explainable ML (TensorFlow)
+4. [torchMoji](https://github.com/huggingface/torchMoji)：A pyTorch implementation of the DeepMoji model: state-of-the-art deep learning model for analyzing sentiment, emotion
 
 
 
 ##### 5 文本摘要
 
-- [**textsum**](https://github.com/tensorflow/models/tree/master/research/textsum)：Sequence-to-Sequence with Attention Model for Text Summarization.
-- [sumy](https://github.com/miso-belica/sumy)：Module for automatic summarization of text documents and HTML pages.
-- [pointer_summarizer](https://github.com/atulkum/pointer_summarizer)：pytorch implementation of "Get To The Point: Summarization with Pointer-Generator Networks"
-- [pointer-generator](https://github.com/abisee/pointer-generator)：Code for the ACL 2017 paper "Get To The Point: Summarization with Pointer-Generator Networks"
-- [transformer-pointer-generator](https://github.com/policeme/transformer-pointer-generator)： Transformer and Pointer-generator
-- [BertSum](https://github.com/nlpyang/BertSum)：Code for paper Fine-tune BERT for Extractive Summarization
-- [hiersumm](https://github.com/nlpyang/hiersumm)：Code for paper Hierarchical Transformers for Multi-Document Summarization in ACL2019
-- [**rouge**](https://github.com/google-research/google-research/tree/master/rouge)
-- [pegasus](https://github.com/google-research/pegasus)：Pre-training with Extracted Gap-sentences for Abstractive SUmmarization Sequence-to-sequence models, or PEGASUS, uses self-supervised objective Gap Sentences Generation (GSG) to train a transformer encoder-decoder model.
-- [awesome-text-summarization](https://github.com/icoxfog417/awesome-text-summarization)：The guide to tackle with the Text Summarization
-- [SPACES](https://github.com/bojone/SPACES)：端到端的长本文摘要模型（法研杯2020司法摘要赛道）
-- [GPT2-NewsTitle](https://github.com/liucongg/GPT2-NewsTitle)：中文GPT2新闻标题生成项目。
-- [Texygen](https://github.com/geek-ai/Texygen)：A text generation benchmarking platform
-- [summarize-from-feedback](https://github.com/openai/summarize-from-feedback)：基于强化学习的SOTA
+1. [textsum](https://github.com/tensorflow/models/tree/master/research/textsum)：Sequence-to-Sequence with Attention Model for Text Summarization.
+2. [sumy](https://github.com/miso-belica/sumy)：Module for automatic summarization of text documents and HTML pages.
+3. [pointer_summarizer](https://github.com/atulkum/pointer_summarizer)：pytorch implementation of "Get To The Point: Summarization with Pointer-Generator Networks"
+4. [pointer-generator](https://github.com/abisee/pointer-generator)：Code for the ACL 2017 paper "Get To The Point: Summarization with Pointer-Generator Networks"
+5. [transformer-pointer-generator](https://github.com/policeme/transformer-pointer-generator)： Transformer and Pointer-generator
+6. [BertSum](https://github.com/nlpyang/BertSum)：Code for paper Fine-tune BERT for Extractive Summarization
+7. [hiersumm](https://github.com/nlpyang/hiersumm)：Code for paper Hierarchical Transformers for Multi-Document Summarization in ACL2019
+8. [rouge](https://github.com/google-research/google-research/tree/master/rouge)
+9. [pegasus](https://github.com/google-research/pegasus)：Pre-training with Extracted Gap-sentences for Abstractive SUmmarization Sequence-to-sequence models, or PEGASUS, uses self-supervised objective Gap Sentences Generation (GSG) to train a transformer encoder-decoder model.
+10. [awesome-text-summarization](https://github.com/icoxfog417/awesome-text-summarization)：The guide to tackle with the Text Summarization
+11. [SPACES](https://github.com/bojone/SPACES)：端到端的长本文摘要模型（法研杯2020司法摘要赛道）
+12. [GPT2-NewsTitle](https://github.com/liucongg/GPT2-NewsTitle)：中文GPT2新闻标题生成项目。
+13. [Texygen](https://github.com/geek-ai/Texygen)：A text generation benchmarking platform
+14. [summarize-from-feedback](https://github.com/openai/summarize-from-feedback)：基于强化学习的SOTA
 
 
 
 ##### 6 seq2seq
 
-- [OpenSeq2Seq](https://github.com/NVIDIA/OpenSeq2Seq)：Toolkit for efficient experimentation with Speech Recognition, Text2Speech and NLP
-- [Magenta: Music and Art Generation with Machine Intelligence](https://github.com/tensorflow/magenta)：involves developing new deep learning and reinforcement learning algorithms for generating songs, images, drawings, and other materials.
-- [exdeep-nmt](https://github.com/namisan/exdeep-nmt)：代码审核中
-- [EmbeddinglessNMT](https://github.com/UriSha/EmbeddinglessNMT)：The implementation of "Neural Machine Translation without Embeddings"
-- [TransCoder](https://github.com/facebookresearch/TransCoder)：Pytorch original implementation of TransCoder in [Unsupervised Translation of Programming Languages](https://arxiv.org/pdf/2006.03511.pdf)
-- [Sentence-VAE](https://github.com/timbmg/Sentence-VAE)：PyTorch Re-Implementation of "Generating Sentences from a Continuous Space" by Bowman et al 2015 https://arxiv.org/abs/1511.06349
+1. [nlg-eval](https://github.com/Maluuba/nlg-eval): 评测指标
+2. [OpenSeq2Seq](https://github.com/NVIDIA/OpenSeq2Seq)：Toolkit for efficient experimentation with Speech Recognition, Text2Speech and NLP
+3. [Magenta: Music and Art Generation with Machine Intelligence](https://github.com/tensorflow/magenta)：involves developing new deep learning and reinforcement learning algorithms for generating songs, images, drawings, and other materials.
+4. [exdeep-nmt](https://github.com/namisan/exdeep-nmt)：代码审核中
+5. [EmbeddinglessNMT](https://github.com/UriSha/EmbeddinglessNMT)：The implementation of "Neural Machine Translation without Embeddings"
+6. [TransCoder](https://github.com/facebookresearch/TransCoder)：Pytorch original implementation of TransCoder in [Unsupervised Translation of Programming Languages](https://arxiv.org/pdf/2006.03511.pdf)
+7. [Sentence-VAE](https://github.com/timbmg/Sentence-VAE)：PyTorch Re-Implementation of "Generating Sentences from a Continuous Space" by Bowman et al 2015 https://arxiv.org/abs/1511.06349
+8. [Deep Generative Models for Natural Language Processing  Papers](https://github.com/FranxYao/Deep-Generative-Models-for-Natural-Language-Processing)
 
 
 
 ##### * QA
 
-- **[qa_match](https://github.com/wuba/qa_match)**：A simple effective ToolKit for short text matching
-- [QA-Survey](https://github.com/BDBC-KG-NLP/QA-Survey)：对问答系统的调研。
-- [QueryGeneration](https://github.com/YunwenTechnology/QueryGeneration)：Conversational Standard Meta Language
-- [acl2020-openqa-tutorial](https://github.com/danqi/acl2020-openqa-tutorial)：ACL2020 Tutorial: Open-Domain Question Answering
-- [ccf_2020_qa_match](https://github.com/xv44586/ccf_2020_qa_match): ccf 2020 qa match competition top1
+1. **[qa_match](https://github.com/wuba/qa_match)**：A simple effective ToolKit for short text matching
+2. [QA-Survey](https://github.com/BDBC-KG-NLP/QA-Survey)：对问答系统的调研。
+3. [QueryGeneration](https://github.com/YunwenTechnology/QueryGeneration)：Conversational Standard Meta Language
+4. [acl2020-openqa-tutorial](https://github.com/danqi/acl2020-openqa-tutorial)：ACL2020 Tutorial: Open-Domain Question Answering
+5. [ccf_2020_qa_match](https://github.com/xv44586/ccf_2020_qa_match): ccf 2020 qa match competition top1
+6. [AnyQ(ANswer Your Questions)](https://github.com/baidu/AnyQ)： 开源项目主要包含面向FAQ集合的问答系统框架、文本语义匹配工具SimNet
 
 
 
 ##### 7 ModelZoo
 
-- [***Gathers machine learning and Tensorflow deep learning models for NLP problems](https://github.com/huseinzol05/NLP-Models-Tensorflow)
-- [MatchZoo 是一个通用的文本匹配工具包](https://github.com/NTMC-Community/MatchZoo): deep text matching models
-- [awesome-sentence-embedding](https://github.com/Separius/awesome-sentence-embedding)
-- [Awesome-Chinese-NLP](https://github.com/crownpku/Awesome-Chinese-NLP)：中文自然语言处理相关资料
+1. [Gathers machine learning and Tensorflow deep learning models for NLP problems](https://github.com/huseinzol05/NLP-Models-Tensorflow)
+2. [MatchZoo 是一个通用的文本匹配工具包](https://github.com/NTMC-Community/MatchZoo): deep text matching models
+3. [awesome-sentence-embedding](https://github.com/Separius/awesome-sentence-embedding)
+4. [Awesome-Chinese-NLP](https://github.com/crownpku/Awesome-Chinese-NLP)：中文自然语言处理相关资料
+5. [awesome-nlp：研究进展、guides、工具包等](https://github.com/keon/awesome-nlp)
+6. [中文自然语言处理 Chinese NLP：各种任务sota baseline](https://chinesenlp.xyz/#/docs/co-reference_resolution)
+7. [funNLP：相关资源合集](https://github.com/fighting41love/funNLP)
 
 
 
 ##### 8 开源包
 
-- [Open-Source Neural Machine Translation in Tensorflow](https://github.com/EdinburghNLP/nematus)
-- [Gluon-NLP made easy](https://github.com/dmlc/gluon-nlp)
-- [SnowNLP：Python library for processing Chinese text](https://github.com/isnowfy/snownlp)
-- [gensim – Topic Modelling in Python](https://github.com/RaRe-Technologies/gensim)
-- [PyText](https://github.com/facebookresearch/pytext)：A natural language modeling framework based on PyTorch，is a deep-learning based NLP modeling framework built on PyTorch.
-- [allennlp：An open-source NLP research library, built on PyTorch](https://github.com/allenai/allennlp)
-- [结巴中文分词](https://github.com/fxsjy/jieba)
-- [lda2vec: Tools for interpreting natural language](https://github.com/cemoody/lda2vec)
-- [复旦 fastNLP](https://github.com/fastnlp/fastNLP)：: A Modularized and Extensible NLP Framework. Currently still in incubation.
-- [fast text： representation and classification.](https://github.com/facebookresearch/fastText)
-- [autotuning for fastText](https://ai.facebook.com/blog/fasttext-blog-post-open-source-in-brief/)
-- [HanLP](https://github.com/hankcs/HanLP)
-- [pkuseg多领域中文分词工具](https://github.com/lancopku/pkuseg-python)：pkuseg简单易用，支持细分领域分词，有效提升了分词准确度
-- [ An open-source neural machine translation toolkit 清华](https://github.com/THUNLP-MT/THUMT/tree/d4cb62c215d846093e5357aa17b286506b2df1af)
-- [Neural Modules: a toolkit for conversational AI](https://github.com/NVIDIA/NeMo)
-- [stanza](https://github.com/stanfordnlp/stanza)  [Doc](https://readthedocs.org/projects/stanza/)： Official Stanford NLP Python Library for Many Human Languages
-- [StarSpace](https://github.com/facebookresearch/StarSpace)：Learning embeddings for classification, retrieval and ranking.
-- [BigARTM](http://docs.bigartm.org/en/stable/index.html)：topic model
-- [tkitMarker_bert](https://github.com/napoler/tkitMarker_bert)：使用bert微调提取实体，描述
-- [fastHan](https://github.com/fastnlp/fastHan)：fastHan是基于fastNLP与pytorch实现的中文自然语言处理工具，像spacy一样调用方便。
-- [Jiagu](https://github.com/ownthink/Jiagu)：Jiagu深度学习自然语言处理工具 知识图谱关系抽取 中文分词 词性标注 命名实体识别 情感分析 新词发现 关键词 文本摘要 文本聚类
-- [KILT](https://github.com/facebookresearch/KILT)：A Benchmark for Knowledge Intensive Language Tasks。
-- [AutoPhrase](https://github.com/shangjingbo1226/AutoPhrase)：Automated Phrase Mining from Massive Text Corpora
-- [Kashgari-doc-zh](https://github.com/BrikerMan/Kashgari-doc-zh) [Kashgari](https://github.com/BrikerMan/Kashgari)：Kashgari 是一个极简且强大的 NLP 框架，可用于文本分类和标注的学习，研究及部署上线
-- [Senta](https://github.com/baidu/Senta)：Baidu's open-source Sentiment Analysis System.
-- [DDParser](https://github.com/baidu/DDParser)：百度开源的依存句法分析系统
-- [FastBERT](https://github.com/autoliuweijie/FastBERT)
-- [OpenMatch](https://github.com/thunlp/OpenMatch)：An Open-Source Package for Information Retrieval.
-- [robustness-gym](https://github.com/robustness-gym/robustness-gym)：Evaluation Toolkit for NLP
-- [elasticsearch-py](https://github.com/elastic/elasticsearch-py)：Official Python low-level client for Elasticsearch
-- [py-googletrans](https://github.com/ssut/py-googletrans)：Free and Unlimited Google translate API for Python. 
-- [UDA_pytorch](https://github.com/SanghunYun/UDA_pytorch)：UDA(Unsupervised Data Augmentation) implemented by pytorch
-- [PaddleNLP](https://github.com/PaddlePaddle/PaddleNLP)：An NLP library with Awesome pre-trained Transformer models
-- [mars](https://github.com/mars-project/mars)：a tensor-based unified framework for large-scale data computation which scales Numpy, pandas, Scikit-learn and Python functions.
-- [TextBlob](https://github.com/sloria/TextBlob): Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation...
-- [knlp](https://github.com/DukeEnglish/knlp)：类似 snownlp 和 textblob，调用方便，提供基础算法的训练和推理的脚本，各种nlp任务的评估方法以及评估数据集，提供深度学习，面向中文开发，且功能很基础，适合于二次改造。
-- [skweak](https://github.com/NorskRegnesentral/skweak):   A software toolkit for weak supervision applied to NLP tasks
-- [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning): The easiest way to use deep metric learning in your application. 可直接使用的 NTXENT loss (InfoNCE) ，SupContrast loss等对比学习损失。
-- [dice_loss_for_NLP](https://github.com/ShannonAI/dice_loss_for_NLP)：ACL2020 paper `Dice Loss for Data-imbalanced NLP Tasks`
-- [TextBlob](https://github.com/sloria/TextBlob)：Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation, and more.
+1. [Open-Source Neural Machine Translation in Tensorflow](https://github.com/EdinburghNLP/nematus)
+2. [Gluon-NLP made easy](https://github.com/dmlc/gluon-nlp)
+3. [SnowNLP：Python library for processing Chinese text](https://github.com/isnowfy/snownlp)
+4. [gensim – Topic Modelling in Python](https://github.com/RaRe-Technologies/gensim)
+5. [PyText](https://github.com/facebookresearch/pytext)：A natural language modeling framework based on PyTorch，is a deep-learning based NLP modeling framework built on PyTorch.
+6. [allennlp：An open-source NLP research library, built on PyTorch](https://github.com/allenai/allennlp)
+7. [结巴中文分词](https://github.com/fxsjy/jieba)
+8. [lda2vec: Tools for interpreting natural language](https://github.com/cemoody/lda2vec)
+9. [复旦 fastNLP](https://github.com/fastnlp/fastNLP)：: A Modularized and Extensible NLP Framework. Currently still in incubation.
+10. [fast text： representation and classification.](https://github.com/facebookresearch/fastText)
+11. [autotuning for fastText](https://ai.facebook.com/blog/fasttext-blog-post-open-source-in-brief/)
+12. [HanLP](https://github.com/hankcs/HanLP)
+13. [pkuseg多领域中文分词工具](https://github.com/lancopku/pkuseg-python)：pkuseg简单易用，支持细分领域分词，有效提升了分词准确度
+14. [An open-source neural machine translation toolkit 清华](https://github.com/THUNLP-MT/THUMT/tree/d4cb62c215d846093e5357aa17b286506b2df1af)
+15. [Neural Modules: a toolkit for conversational AI](https://github.com/NVIDIA/NeMo)
+16. [stanza](https://github.com/stanfordnlp/stanza) ： Official Stanford NLP Python Library for Many Human Languages  [Doc](https://readthedocs.org/projects/stanza/)
+17. [StarSpace](https://github.com/facebookresearch/StarSpace)：Learning embeddings for classification, retrieval and ranking.
+18. [BigARTM](http://docs.bigartm.org/en/stable/index.html)：topic model
+19. [tkitMarker_bert](https://github.com/napoler/tkitMarker_bert)：使用bert微调提取实体，描述
+20. [fastHan](https://github.com/fastnlp/fastHan)：fastHan是基于fastNLP与pytorch实现的中文自然语言处理工具，像spacy一样调用方便。
+21. [Jiagu](https://github.com/ownthink/Jiagu)：Jiagu深度学习自然语言处理工具 知识图谱关系抽取 中文分词 词性标注 命名实体识别 情感分析 新词发现 关键词 文本摘要 文本聚类
+22. [KILT](https://github.com/facebookresearch/KILT)：A Benchmark for Knowledge Intensive Language Tasks。
+23. [AutoPhrase](https://github.com/shangjingbo1226/AutoPhrase)：Automated Phrase Mining from Massive Text Corpora
+24. [Kashgari-doc-zh](https://github.com/BrikerMan/Kashgari-doc-zh) [Kashgari](https://github.com/BrikerMan/Kashgari)：Kashgari 是一个极简且强大的 NLP 框架，可用于文本分类和标注的学习，研究及部署上线
+25. [Senta](https://github.com/baidu/Senta)：Baidu's open-source Sentiment Analysis System.
+26. [DDParser](https://github.com/baidu/DDParser)：百度开源的依存句法分析系统
+27. [FastBERT](https://github.com/autoliuweijie/FastBERT)
+28. [OpenMatch](https://github.com/thunlp/OpenMatch)：An Open-Source Package for Information Retrieval.
+29. [robustness-gym](https://github.com/robustness-gym/robustness-gym)：Evaluation Toolkit for NLP
+30. [elasticsearch-py](https://github.com/elastic/elasticsearch-py)：Official Python low-level client for Elasticsearch
+31. [py-googletrans](https://github.com/ssut/py-googletrans)：Free and Unlimited Google translate API for Python. 
+32. [UDA_pytorch](https://github.com/SanghunYun/UDA_pytorch)：UDA(Unsupervised Data Augmentation) implemented by pytorch
+33. [PaddleNLP](https://github.com/PaddlePaddle/PaddleNLP)：An NLP library with Awesome pre-trained Transformer models
+34. [mars](https://github.com/mars-project/mars)：a tensor-based unified framework for large-scale data computation which scales Numpy, pandas, Scikit-learn and Python functions.
+35. [TextBlob](https://github.com/sloria/TextBlob): Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation...
+36. [knlp](https://github.com/DukeEnglish/knlp)：类似 snownlp 和 textblob，调用方便，提供基础算法的训练和推理的脚本，各种nlp任务的评估方法以及评估数据集，提供深度学习，面向中文开发，且功能很基础，适合于二次改造。
+37. [skweak](https://github.com/NorskRegnesentral/skweak):   A software toolkit for weak supervision applied to NLP tasks
+38. [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning): The easiest way to use deep metric learning in your application. 可直接使用的 NTXENT loss (InfoNCE) ，SupContrast loss等对比学习损失。
+39. [dice_loss_for_NLP](https://github.com/ShannonAI/dice_loss_for_NLP)：ACL2020 paper `Dice Loss for Data-imbalanced NLP Tasks`
+40. [TextBlob](https://github.com/sloria/TextBlob)：Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation, and more.
 
 
 
 ##### 9 其他model
 
-- [show-attend-and-tell](https://github.com/yunjey/show-attend-and-tell)
-- [Retrieval-Based Conversational Model in Tensorflow](https://github.com/dennybritz/chatbot-retrieval)
-- [sru](https://github.com/asappresearch/sru)：Training RNNs as Fast as CNNs
-- [Self_Explaining_Structures_Improve_NLP_Models](https://github.com/ShannonAI/Self_Explaining_Structures_Improve_NLP_Models): BERT输出特征交叉的一种尝试，自定义模型层维度不要太大。依赖调参，效果说好一点就好一点吧。
-
-#####  10 Book代码
-
-   - [Natural Language Processing with PyTorch](https://github.com/joosthub/PyTorchNLPBook)
-##### 11 可视化
-
-- [**Text Visualization Browser**](https://textvis.lnu.se/)
-
-##### 12 最新研究进展
-
-   - [track the progress in Natural Language Processing (NLP)](https://github.com/sebastianruder/NLP-progress)
-   - [Repository to show how NLP can tacke real problem.](https://github.com/makcedward/nlp)
-
-##### 13 关系抽取
-
-- [Snowball](https://github.com/davidsbatista/Snowball)：Snowball: Extracting Relations from Large Plain-Text Collections
-- [OpenNRE](https://github.com/thunlp/OpenNRE)： relation extraction models.
-- [MRC4ERE_plus](https://github.com/TanyaZhao/MRC4ERE_plus)：Implementation for Paper "Asking Effective and Diverse Questions: A Machine Reading Comprehension based Framework for Joint Entity-Relation Extraction"
-- [AlpacaTag](https://github.com/INK-USC/AlpacaTag)：AlpacaTag: An **Active Learning**-based Crowd Annotation Framework for Sequence Tagging (ACL 2019 Demo)
-- [Distant-Supervised-Chinese-Relation-Extraction](https://github.com/xiaolalala/Distant-Supervised-Chinese-Relation-Extraction)：基于远监督的中文关系抽取
-- [Entity-Relation-Extraction](https://github.com/yuanxiaosc/Entity-Relation-Extraction)：Entity and Relation Extraction Based on TensorFlow and BERT.
-- [Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese)：Chinese Named Entity Recognition with IDCNN/biLSTM+CRF, and Relation Extraction with biGRU+2ATT
-- [pytorch-relation-extraction](https://github.com/ShomyLiu/pytorch-relation-extraction)：distant supervised relation extraction models: PCNN MIL (Zeng 2015), PCNN+ATT(Lin 2016).
-- [USC-DS-RelationExtraction](https://github.com/INK-USC/USC-DS-RelationExtraction)：Distantly Supervised Relation Extraction
-- [open-entity-relation-extraction](https://github.com/lemonhu/open-entity-relation-extraction)：Knowledge triples extraction and knowledge base construction based on dependency syntax for open domain text.
-- [BERT-Relation-Extraction](https://github.com/plkmo/BERT-Relation-Extraction)：PyTorch implementation for "Matching the Blanks: Distributional Similarity for Relation Learning" paper
-- [PersonRelationKnowledgeGraph](https://github.com/liuhuanyong/PersonRelationKnowledgeGraph)：bootstrapping方法的人物关系抽取,基于知识图谱的知识问答等应用
-- [OpenKE](https://github.com/thunlp/OpenKE)：An Open-Source Package for Knowledge Embedding (KE)
-- [deepke](https://github.com/zjunlp/deepke)：基于 Pytorch 的深度学习中文关系抽取处理套件
-- [DeepIE](https://github.com/loujie0822/DeepIE)：DeepIE: Deep Learning for Information Extraction
-- [CasRel](https://github.com/weizhepei/CasRel)：A Novel Cascade Binary Tagging Framework for Relational Triple Extraction
-- [CasRel-pytorch-reimplement](https://github.com/longlongman/CasRel-pytorch-reimplement)
-- [two-are-better-than-one](https://github.com/LorrinWWW/two-are-better-than-one)：Code associated with the paper **Two are Better Than One: Joint Entity and Relation Extraction with Table-Sequence Encoders**, at EMNLP 2020
-- [TPlinker-joint-extraction](https://github.com/131250208/TPlinker-joint-extraction)：TPLinker: Single-stage Joint Extraction of Entities and Relations Through Token Pair Linking
-- [PURE](https://github.com/princeton-nlp/PURE)：NAACL'2021: A Frustratingly Easy Approach for Entity and Relation Extraction
+1. [show-attend-and-tell](https://github.com/yunjey/show-attend-and-tell)
+2. [Retrieval-Based Conversational Model in Tensorflow](https://github.com/dennybritz/chatbot-retrieval)
+3. [sru](https://github.com/asappresearch/sru)：Training RNNs as Fast as CNNs
+4. [Self_Explaining_Structures_Improve_NLP_Models](https://github.com/ShannonAI/Self_Explaining_Structures_Improve_NLP_Models): BERT输出特征交叉的一种尝试，自定义模型层维度不要太大。依赖调参，效果说好一点就好一点吧。
 
 
 
-##### 14 蒸馏
+##### 10 关系抽取
 
-- [TextBrewer](https://github.com/airaria/TextBrewer)：A PyTorch-based knowledge distillation toolkit for natural language processing
-- [KD_Lib](https://github.com/SforAiDl/KD_Lib)：A Pytorch Knowledge Distillation library for benchmarking and extending works in the domains of Knowledge Distillation, Pruning, and Quantization.
-- [RepDistiller](https://github.com/HobbitLong/RepDistiller)：[ICLR 2020] Contrastive Representation Distillation (CRD), and benchmark of recent knowledge distillation methods
-- [KD_SRRL](https://github.com/jingyang2017/KD_SRRL)：Paper. Knowledge distillation via softmax regression representation learning
+1. [Snowball](https://github.com/davidsbatista/Snowball)：Snowball: Extracting Relations from Large Plain-Text Collections
+2. [OpenNRE](https://github.com/thunlp/OpenNRE)： relation extraction models.
+3. [MRC4ERE_plus](https://github.com/TanyaZhao/MRC4ERE_plus)：Implementation for Paper "Asking Effective and Diverse Questions: A Machine Reading Comprehension based Framework for Joint Entity-Relation Extraction"
+4. [AlpacaTag](https://github.com/INK-USC/AlpacaTag)：AlpacaTag: An **Active Learning**-based Crowd Annotation Framework for Sequence Tagging (ACL 2019 Demo)
+5. [Distant-Supervised-Chinese-Relation-Extraction](https://github.com/xiaolalala/Distant-Supervised-Chinese-Relation-Extraction)：基于远监督的中文关系抽取
+6. [Entity-Relation-Extraction](https://github.com/yuanxiaosc/Entity-Relation-Extraction)：Entity and Relation Extraction Based on TensorFlow and BERT.
+7. [Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese)：Chinese Named Entity Recognition with IDCNN/biLSTM+CRF, and Relation Extraction with biGRU+2ATT
+8. [pytorch-relation-extraction](https://github.com/ShomyLiu/pytorch-relation-extraction)：distant supervised relation extraction models: PCNN MIL (Zeng 2015), PCNN+ATT(Lin 2016).
+9. [USC-DS-RelationExtraction](https://github.com/INK-USC/USC-DS-RelationExtraction)：Distantly Supervised Relation Extraction
+10. [open-entity-relation-extraction](https://github.com/lemonhu/open-entity-relation-extraction)：Knowledge triples extraction and knowledge base construction based on dependency syntax for open domain text.
+11. [BERT-Relation-Extraction](https://github.com/plkmo/BERT-Relation-Extraction)：PyTorch implementation for "Matching the Blanks: Distributional Similarity for Relation Learning" paper
+12. [PersonRelationKnowledgeGraph](https://github.com/liuhuanyong/PersonRelationKnowledgeGraph)：bootstrapping方法的人物关系抽取,基于知识图谱的知识问答等应用
+13. [OpenKE](https://github.com/thunlp/OpenKE)：An Open-Source Package for Knowledge Embedding (KE)
+14. [deepke](https://github.com/zjunlp/deepke)：基于 Pytorch 的深度学习中文关系抽取处理套件
+15. [DeepIE](https://github.com/loujie0822/DeepIE)：DeepIE: Deep Learning for Information Extraction
+16. [CasRel](https://github.com/weizhepei/CasRel)：A Novel Cascade Binary Tagging Framework for Relational Triple Extraction
+17. [CasRel-pytorch-reimplement](https://github.com/longlongman/CasRel-pytorch-reimplement)
+18. [two-are-better-than-one](https://github.com/LorrinWWW/two-are-better-than-one)：Code associated with the paper **Two are Better Than One: Joint Entity and Relation Extraction with Table-Sequence Encoders**, at EMNLP 2020
+19. [TPlinker-joint-extraction](https://github.com/131250208/TPlinker-joint-extraction)：TPLinker: Single-stage Joint Extraction of Entities and Relations Through Token Pair Linking
+20. [PURE](https://github.com/princeton-nlp/PURE)：NAACL'2021: A Frustratingly Easy Approach for Entity and Relation Extraction
 
 
 
-##### 15 对话
+##### 11 蒸馏
 
-- [DeepPavlov](https://github.com/deepmipt/DeepPavlov)：An open source library for deep learning end-to-end dialog systems and chatbots.
-- [ConvLab-2](https://github.com/thu-coai/ConvLab-2)：ConvLab-2: An Open-Source Toolkit for Building, Evaluating, and Diagnosing Dialogue Systems
-- [rasa-chatbot](https://github.com/samik-saha/rasa-chatbot)：Sample chatbot with rasa stack
-- [nezha_gpt_dialog](https://github.com/bojone/nezha_gpt_dialog)
-- [DialoGPT](https://github.com/microsoft/DialoGPT)：Large-scale pretraining for dialogue
-- [CDial-GPT](https://github.com/thu-coai/CDial-GPT)：A Large-scale Chinese Short-Text Conversation Dataset and Chinese pre-training dialog models
-- 【工具】[mirai](https://github.com/mamoe/mirai)：高效率 QQ 机器人框架 / High-performance bot framework for Tencent QQ
-- [unit-dmkit](https://github.com/baidu/unit-dmkit): DMKit作为UNIT的开源对话管理模块，可以无缝对接UNIT的理解能力，并赋予开发者多状态的复杂对话流程管理能力，还可以低成本对接外部知识库，迅速丰富话术信息量
-- [chat](https://github.com/Decalogue/chat)：基于自然语言理解与机器学习的聊天机器人，支持多用户并发及自定义多轮对话。对知识图谱以及 KBQA 感兴趣，想从0开始构建自己的知识图谱
-- [SMP2018](https://github.com/wangle1218/SMP2018)：SMP2018中文人机对话技术评测（ECDT）
-- [ GPT2-chitchat](https://github.com/yangjianxin1/GPT2-chitchat)：GPT2 for Chinese chitchat/用于中文闲聊的GPT2模型(实现了DialoGPT的MMI思想)
+1. [TextBrewer](https://github.com/airaria/TextBrewer)：A PyTorch-based knowledge distillation toolkit for natural language processing
+2. [KD_Lib](https://github.com/SforAiDl/KD_Lib)：A Pytorch Knowledge Distillation library for benchmarking and extending works in the domains of Knowledge Distillation, Pruning, and Quantization.
+3. [RepDistiller](https://github.com/HobbitLong/RepDistiller)：[ICLR 2020] Contrastive Representation Distillation (CRD), and benchmark of recent knowledge distillation methods
+4. [KD_SRRL](https://github.com/jingyang2017/KD_SRRL)：Paper. Knowledge distillation via softmax regression representation learning
 
 
 
-##### 16 指代消解
+##### 12 对话
 
-- [hobbs](https://github.com/cmward/hobbs)：Implementation of Hobbs' algorithm for coreference resolution in python
+1. [DeepPavlov](https://github.com/deepmipt/DeepPavlov)：An open source library for deep learning end-to-end dialog systems and chatbots.
+2. [ConvLab-2](https://github.com/thu-coai/ConvLab-2)：ConvLab-2: An Open-Source Toolkit for Building, Evaluating, and Diagnosing Dialogue Systems
+3. [rasa-chatbot](https://github.com/samik-saha/rasa-chatbot)：Sample chatbot with rasa stack
+4. [nezha_gpt_dialog](https://github.com/bojone/nezha_gpt_dialog)
+5. [DialoGPT](https://github.com/microsoft/DialoGPT)：Large-scale pretraining for dialogue
+6. [CDial-GPT](https://github.com/thu-coai/CDial-GPT)：A Large-scale Chinese Short-Text Conversation Dataset and Chinese pre-training dialog models
+7. 【工具】[mirai](https://github.com/mamoe/mirai)：高效率 QQ 机器人框架 / High-performance bot framework for Tencent QQ
+8. [unit-dmkit](https://github.com/baidu/unit-dmkit): DMKit作为UNIT的开源对话管理模块，可以无缝对接UNIT的理解能力，并赋予开发者多状态的复杂对话流程管理能力，还可以低成本对接外部知识库，迅速丰富话术信息量
+9. [chat](https://github.com/Decalogue/chat)：基于自然语言理解与机器学习的聊天机器人，支持多用户并发及自定义多轮对话。对知识图谱以及 KBQA 感兴趣，想从0开始构建自己的知识图谱
+10. [SMP2018](https://github.com/wangle1218/SMP2018)：SMP2018中文人机对话技术评测（ECDT）
+11. [ GPT2-chitchat](https://github.com/yangjianxin1/GPT2-chitchat)：GPT2 for Chinese chitchat/用于中文闲聊的GPT2模型(实现了DialoGPT的MMI思想)
+12. [百度对话系统](https://github.com/baidu/Dialogue)
+13. [Rasa开源机器学习框架，用于自动化基于文本和语音的对话](https://github.com/RasaHQ/rasa)
+14. [对话系统：sharing, training and evaluating dialogue models across many tasks.](https://github.com/facebookresearch/ParlAI)
 
-##### 17 主题
 
-- [microsoft / LightLDA](https://github.com/microsoft/LightLDA)
 
-##### 18 自动机
+##### 13 指代消解
 
-- [automata](https://github.com/caleb531/automata)：A Python library for simulating finite automata, pushdown automata, and Turing machines
+1. [hobbs](https://github.com/cmward/hobbs)：Implementation of Hobbs' algorithm for coreference resolution in python
 
-##### 19 阅读理解
+##### 14 主题
 
-- [SDNet](https://github.com/microsoft/SDNet)
-- [luke](https://github.com/studio-ousia/luke)：LUKE -- Language Understanding with Knowledge-based Embeddings
-- [SogouMRCToolkit](https://github.com/sogou/SogouMRCToolkit)： fast and efficient development of modern machine comprehension models, including both published models and original prototypes
+1. [microsoft / LightLDA](https://github.com/microsoft/LightLDA)
 
-##### 20 数据增强
+##### 15 自动机
 
-- [Cutoff](https://github.com/dinghanshen/Cutoff)：Cutoff data augmentation approach for NLP
+1. [automata](https://github.com/caleb531/automata)：A Python library for simulating finite automata, pushdown automata, and Turing machines
 
-##### 21 Prompt
+##### 16 阅读理解
 
-- [PromptPapers](https://github.com/thunlp/PromptPapers)：Must-read papers on prompt-based tuning for pre-trained language models.
-- [autoprompt](https://github.com/ucinlp/autoprompt)：AutoPrompt: Automatic Prompt Construction for Masked Language Models.
-- 
+1. [SDNet](https://github.com/microsoft/SDNet)
+2. [luke](https://github.com/studio-ousia/luke)：LUKE -- Language Understanding with Knowledge-based Embeddings
+3. [SogouMRCToolkit](https://github.com/sogou/SogouMRCToolkit)： fast and efficient development of modern machine comprehension models, including both published models and original prototypes
+
+##### 17 数据增强
+
+1. [Cutoff](https://github.com/dinghanshen/Cutoff)：Cutoff data augmentation approach for NLP
+
+##### 18 Prompt
+
+1. [PromptPapers](https://github.com/thunlp/PromptPapers)：Must-read papers on prompt-based tuning for pre-trained language models.
+2. [autoprompt](https://github.com/ucinlp/autoprompt)：AutoPrompt: Automatic Prompt Construction for Masked Language Models.
+
+
+
+#####  19 Book and Course
+
+   1. [Natural Language Processing with PyTorch](https://github.com/joosthub/PyTorchNLPBook)
+   2. [Course materials for Georgia Tech CS 4650 and 7650, "Natural Language"](https://github.com/jacobeisenstein/gt-nlp-class)
+   3. [MTBook](https://github.com/NiuTrans/MTBook)：《机器翻译：统计建模与深度学习方法》肖桐 朱靖波 著
+
+##### 20 可视化
+
+1. [Text Visualization Browser](https://textvis.lnu.se/)
+
+##### 21 最新研究进展
+
+   1. [track the progress in Natural Language Processing (NLP)](https://github.com/sebastianruder/NLP-progress)
+   2. [Repository to show how NLP can tacke real problem.](https://github.com/makcedward/nlp)
+   3. [Leaderboards-for-Multi-Turn-Response-Selection](https://github.com/JasonForJoy/Leaderboards-for-Multi-Turn-Response-Selection)：provide the reader with a quick overview of benchmark datasets and the state-of-the-art studies on this task, which serves as a stepping stone for further research.
+   4. **[awesome-papers](https://github.com/huggingface/awesome-papers)**：Papers & presentation materials from Hugging Face's internal science day
 
 ---
 
@@ -849,29 +862,40 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 #### GAN
 
 1. [GAN-ZOO：A list of all named GANs!](https://github.com/hindupuravinash/the-gan-zoo)
-2. [StarGAN](https://github.com/yunjey/stargan)
-3. [iGAN: Interactive Image Generation via Generative Adversarial Networks](https://github.com/junyanz/iGAN)
-4. [CycleGAN and pix2pix in PyTorch image-to-image translation](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
-5. [U-GAT-IT用小姐姐自拍，生成二次元萌妹子，神情高度还原，反过来也可以](https://github.com/znxlwm/UGATIT-pytorch  https://github.com/taki0112/UGATIT)
-6. [SeqGAN](https://github.com/LantaoYu/SeqGAN)： https://github.com/suragnair/seqGAN      https://github.com/ChenChengKuan/SeqGAN_tensorflow 
-7. [deepgenerativemodels / notes](https://github.com/deepgenerativemodels/notes)
-8. [sngan_projection](https://github.com/pfnet-research/sngan_projection)：GANs with spectral normalization and projection discriminator
-9. [gan](https://github.com/tensorflow/gan)：Tooling for GANs in TensorFlow
-10. [AnimeGAN](https://github.com/TachibanaYoshino/AnimeGAN)： AnimeGAN for fast photo animation ! 
-11. [BigGAN](https://github.com/ajbrock/biggan-pytorch)
-12. [first-order-model](https://github.com/AliaksandrSiarohin/first-order-model)：图片动画化
-13. [stargan-v2](https://github.com/clovaai/stargan-v2)：StarGAN v2 - Official PyTorch Implementation (CVPR 2020)
-14. [UGATIT-pytorch](https://github.com/znxlwm/UGATIT-pytorch)：风格转换. Official PyTorch implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation
+2. [The classical paper list with code about generative adversarial nets](https://github.com/zhangqianhui/AdversarialNetsPapers)
+3. [Curated list of awesome GAN applications and demo](https://github.com/nashory/gans-awesome-applications)
+4. [StarGAN](https://github.com/yunjey/stargan)
+5. [iGAN: Interactive Image Generation via Generative Adversarial Networks](https://github.com/junyanz/iGAN)
+6. [CycleGAN and pix2pix in PyTorch image-to-image translation](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+7. [U-GAT-IT用小姐姐自拍，生成二次元萌妹子，神情高度还原，反过来也可以](https://github.com/znxlwm/UGATIT-pytorch  https://github.com/taki0112/UGATIT)
+8. [SeqGAN](https://github.com/LantaoYu/SeqGAN)： https://github.com/suragnair/seqGAN      https://github.com/ChenChengKuan/SeqGAN_tensorflow 
+9. [deepgenerativemodels / notes](https://github.com/deepgenerativemodels/notes)
+10. [sngan_projection](https://github.com/pfnet-research/sngan_projection)：GANs with spectral normalization and projection discriminator
+11. [gan](https://github.com/tensorflow/gan)：Tooling for GANs in TensorFlow
+12. [AnimeGAN](https://github.com/TachibanaYoshino/AnimeGAN)： AnimeGAN for fast photo animation ! 
+13. [BigGAN](https://github.com/ajbrock/biggan-pytorch)
+14. [first-order-model](https://github.com/AliaksandrSiarohin/first-order-model)：图片动画化
+15. [stargan-v2](https://github.com/clovaai/stargan-v2)：StarGAN v2 - Official PyTorch Implementation (CVPR 2020)
+16. [UGATIT-pytorch](https://github.com/znxlwm/UGATIT-pytorch)：风格转换. Official PyTorch implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation
+17. 【book】[O'Reilly book 'Generative Deep Learning'](https://github.com/davidADSP/GDL_code)
+18. [SeqGAN](https://github.com/LantaoYu/SeqGAN)  [seqGAN-Simplified](https://github.com/suragnair/seqGAN)
+19. [super-resolution](https://github.com/krasserm/super-resolution): Tensorflow 2.x based implementation of EDSR, WDSR and SRGAN for single image super-resolution
 
 ---
 
 #### CV
 
-[CV-pretrained-model](https://github.com/balavenkatesh3322/CV-pretrained-model)：A collection of computer vision pre-trained models.
+1. [CV-pretrained-model](https://github.com/balavenkatesh3322/CV-pretrained-model)：A collection of computer vision pre-trained models.
 
-[腾讯优图开源项目](https://github.com/TencentYoutuResearch)
+2. [腾讯优图开源项目](https://github.com/TencentYoutuResearch)
 
-[Dlib](https://github.com/davisking/dlib)：making real world machine learning and data analysis applications in C++
+3. [Dlib](https://github.com/davisking/dlib)：making real world machine learning and data analysis applications in C++
+
+4. [mediapipe](https://github.com/google/mediapipe): Cross-platform, customizable ML solutions for live and streaming media. Google.
+
+5. [Convolution arithmetic卷积算法可视化解释](https://github.com/vdumoulin/conv_arithmetic)
+
+6. [cnn-explainer](https://github.com/poloclub/cnn-explainer)：可视化cnn训练学习
 
 
 
@@ -913,7 +937,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-openvino
+##### openvino
 
 1. [openvino_tensorflow](https://github.com/openvinotoolkit/openvino_tensorflow): OpenVINO™ integration with TensorFlow. [简短介绍](https://mp.weixin.qq.com/s?__biz=MzI5MDUyMDIxNA%3D%3D&abtest_cookie=AAACAA%3D%3D&ascene=56&chksm=ec1d37d5db6abec3d18567a2e43d53746fb88c73cd9d0182ff2791e193027e17a434b208f28a&clicktime=1630216035&devicetype=android-29&enterid=1630216035&exportkey=AyFWfNneyqVjLYNxYGEFiWI%3D&idx=1&lang=en&mid=2247572012&nettype=WIFI&pass_ticket=33lev6IS81X7EXB%2FIB4rKQ%2BaTeByxSTzjvfjcyi1NJRH8mbaydx4Y%2Bem%2BmoWOn1r&scene=90&sessionid=1630215765&sn=d685084cc88c0a6d8afeb7b168ed68b0&subscene=93&utm_source=pocket_mylist&version=28000a3d&wx_header=1)
 
@@ -921,24 +945,25 @@ openvino
 
 ##### 目标检测
 
-1. [pytorch-YOLOv4](https://github.com/Tianxiaomo/pytorch-YOLOv4)：PyTorch ,ONNX and TensorRT implementation of YOLOv4
-2. [yolov5](https://github.com/ultralytics/yolov5)：YOLOv5 in PyTorch > ONNX > CoreML > iOS
-3. [deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)：A paper list of object detection using deep learning.
-4. [deepdetect](https://github.com/jolibrain/deepdetect)：Deep Learning API and Server in C++11 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE
-5. [ mmdetection](https://github.com/open-mmlab/mmdetection)：OpenMMLab Detection Toolbox and Benchmark
-6. [FaceBoxes.PyTorch](https://github.com/zisianw/FaceBoxes.PyTorch)：A PyTorch Implementation of FaceBoxes
-7. [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)：OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation
-8. [ Surface-Defect-Detection](https://github.com/Charmve/Surface-Defect-Detection)：open source dataset and important critical papers in the field of surface defect research
-9. [ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch): Pytorch reimplementation of the Vision Transformer (An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale)
-10. [efficientnet-pytorch](https://github.com/katsura-jp/efficientnet-pytorch): PyTorch implementation of "EfficientNet", ICML 2019
-11. [efficientnet](https://github.com/qubvel/efficientnet): Implementation of EfficientNet model. Keras and TensorFlow Keras.
-12. [目标检测FCOS: Fully Convolutional One-Stage Object Detection (ICCV'19) ](https://github.com/tianzhi0549/FCOS)
-13. [image-segmentation-keras](https://github.com/divamgupta/image-segmentation-keras)：Implementation of Segnet, FCN, UNet , PSPNet and other models in Keras
-14. [YOLOF](https://github.com/chensnathan/YOLOF)：You Only Look One-level Feature (YOLOF), CVPR2021, Detectron2
-15. [Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection)：Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)
-16. [LSPS](https://github.com/masabdi/LSPS)：Source code for "3D Hand Pose Estimation using Simulation and Partial-Supervision with a Shared Latent Space"
-17. [nanodet](https://github.com/RangiLyu/nanodet): ⚡Super fast and lightweight anchor-free object detection model. 🔥Only 980 KB(int8) / 1.8MB (fp16) and run 97FPS on cellphone🔥
-18. [U-2-Net](https://github.com/xuebinqin/U-2-Net)：paper in Pattern Recognition 2020: "U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection."
+1. [Recent Advances in Deep Learning for Object Detection](https://arxiv.org/abs/1908.03673v1)
+2. [pytorch-YOLOv4](https://github.com/Tianxiaomo/pytorch-YOLOv4)：PyTorch ,ONNX and TensorRT implementation of YOLOv4
+3. [yolov5](https://github.com/ultralytics/yolov5)：YOLOv5 in PyTorch > ONNX > CoreML > iOS
+4. [deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)：A paper list of object detection using deep learning.
+5. [deepdetect](https://github.com/jolibrain/deepdetect)：Deep Learning API and Server in C++11 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE
+6. [ mmdetection](https://github.com/open-mmlab/mmdetection)：OpenMMLab Detection Toolbox and Benchmark
+7. [FaceBoxes.PyTorch](https://github.com/zisianw/FaceBoxes.PyTorch)：A PyTorch Implementation of FaceBoxes
+8. [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)：OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation
+9. [ Surface-Defect-Detection](https://github.com/Charmve/Surface-Defect-Detection)：open source dataset and important critical papers in the field of surface defect research
+10. [ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch): Pytorch reimplementation of the Vision Transformer (An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale)
+11. [efficientnet-pytorch](https://github.com/katsura-jp/efficientnet-pytorch): PyTorch implementation of "EfficientNet", ICML 2019
+12. [efficientnet](https://github.com/qubvel/efficientnet): Implementation of EfficientNet model. Keras and TensorFlow Keras.
+13. [目标检测FCOS: Fully Convolutional One-Stage Object Detection (ICCV'19) ](https://github.com/tianzhi0549/FCOS)
+14. [image-segmentation-keras](https://github.com/divamgupta/image-segmentation-keras)：Implementation of Segnet, FCN, UNet , PSPNet and other models in Keras
+15. [YOLOF](https://github.com/chensnathan/YOLOF)：You Only Look One-level Feature (YOLOF), CVPR2021, Detectron2
+16. [Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection)：Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)
+17. [LSPS](https://github.com/masabdi/LSPS)：Source code for "3D Hand Pose Estimation using Simulation and Partial-Supervision with a Shared Latent Space"
+18. [nanodet](https://github.com/RangiLyu/nanodet): ⚡Super fast and lightweight anchor-free object detection model. 🔥Only 980 KB(int8) / 1.8MB (fp16) and run 97FPS on cellphone🔥
+19. [U-2-Net](https://github.com/xuebinqin/U-2-Net)：paper in Pattern Recognition 2020: "U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection."
 
 
 
@@ -1023,9 +1048,9 @@ openvino
 
 #### 深度贝叶斯/概率
 
-1. [Deep universal probabilistic programming with Python and PyTorch](https://github.com/pyro-ppl/pyro)
-2. [ Python library for probabilistic modeling, inference, and criticism ](http://edwardlib.org/)
-3. [ A Library for Bayesian Deep Learning, Generative Models, Based on Tensorflow ](https://github.com/thu-ml/zhusuan)
+1. Deep universal probabilistic programming with Python and PyTorch](https://github.com/pyro-ppl/pyro)
+2. [Python library for probabilistic modeling, inference, and criticism ](http://edwardlib.org/)
+3. [A Library for Bayesian Deep Learning, Generative Models, Based on Tensorflow ](https://github.com/thu-ml/zhusuan)
 
 ---
 
@@ -1084,6 +1109,19 @@ openvino
 1. **[dgl](https://github.com/dmlc/dgl)**：Python package built to ease deep learning on graph, on top of existing DL frameworks.
 2. [AutoGL](https://github.com/THUMNLab/AutoGL)：An autoML framework & toolkit for machine learning on graphs.
 3. [graph_nets](https://github.com/deepmind/graph_nets)：Build Graph Nets in Tensorflow
+4. [A collection of important graph(Code)](https://github.com/benedekrozemberczki/awesome-graph-classification)
+5. [Must-read papers on graph neural networks (GNN)](https://github.com/thunlp/GNNPapers)
+6. [microsoft/tf-gnn-samples](https://github.com/microsoft/tf-gnn-samples) 
+7. [spektral](https://github.com/danielegrattarola/spektral)：Graph Neural Networks with Keras and Tensorflow 2. 
+8. [ littleballoffur](https://github.com/benedekrozemberczki/littleballoffur)：A NetworkX extension library for graph subsampling. 
+9. [awesome-gcn](https://github.com/Jiakui/awesome-gcn)： resources for graph convolutional networks （图卷积神经网络相关资源）
+10. [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric)：Geometric Deep Learning Extension Library for PyTorch [https://pytorch-geometric.readthedocs…](https://pytorch-geometric.readthedocs.io/)
+
+#### 优化算法
+
+1. [RAdam](https://github.com/LiyuanLucasLiu/RAdam)
+
+
 
 ---
 
@@ -1131,7 +1169,7 @@ openvino
 
 1. [Fairseq(-py) is a sequence modeling toolkit](https://github.com/pytorch/fairseq)
 2. [A practical approach to machine learning pytorch](https://github.com/GokuMohandas/practicalAI)
-3. [**pix2pixHD**](https://github.com/NVIDIA/pix2pixHD)
+3. [pix2pixHD](https://github.com/NVIDIA/pix2pixHD)
 4. [实战Deep Architectures PyTorch：ppt](https://docs.google.com/presentation/d/1MFhet5q-SIPqc_54CXWiBvlT9OdSi6P8kpkm6IxuyEM/edit#slide=id.g5540a1077d_0_502)
 5. [动手学深度学习Pytorch版](https://github.com/dsgiitr/d2l-pytorch)
 6. [A very simple framework for state-of-the-art Natural Language Processing (NLP)](https://github.com/zalandoresearch/flair)
@@ -1251,7 +1289,7 @@ openvino
 
 19. [uwsgi-nginx-flask-docker](https://github.com/tiangolo/uwsgi-nginx-flask-docker)：Docker image with uWSGI and Nginx for Flask applications in Python running in a single container. Optionally with Alpine Linux.
 
-20. [Modin: Speed up your Pandas workflows by changing a single line of code](https://github.com/modin-project/modin)
+20. [Modin](https://github.com/modin-project/modin): Speed up your Pandas workflows by changing a single line of code
 
 21. [nameko](https://github.com/nameko/nameko)：Python framework for building microservices
 
@@ -1261,10 +1299,10 @@ openvino
 
 #### 训练
 
-1. [BytePS：A high performance and general PS framework for distributed training](https://github.com/bytedance/byteps)
-2. [分布式训练框架：The goal of Horovod is to make distributed Deep Learning fast and easy to use](https://github.com/horovod/horovod)
-3. [Unity Machine Learning Agents Toolkit 训练游戏AI](https://github.com/Unity-Technologies/ml-agents)
-4. [***ray](https://github.com/ray-project/ray)：A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library
+4. [ray](https://github.com/ray-project/ray)：A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library
+2. [ml-agents](https://github.com/Unity-Technologies/ml-agents) ：：Unity Machine Learning Agents Toolkit 训练游戏AI
+3. [BytePS](https://github.com/bytedance/byteps)：A high performance and general PS framework for distributed training
+4. [Horovod](https://github.com/horovod/horovod)：The goal of Horovod is to make distributed Deep Learning fast and easy to use
 5. [cml](https://github.com/iterative/cml)：Continuous Machine Learning | CI/CD for ML，结果组织成网页分析
 6. [fairscale](https://github.com/facebookresearch/fairscale)：PyTorch extensions for high performance and large scale training.
 7. [replicate](https://github.com/replicate/replicate)：Version control for machine learning
@@ -1291,60 +1329,6 @@ openvino
 2. [mt-dnn](https://github.com/namisan/mt-dnn)：Multi-Task Deep Neural Networks for Natural Language Understanding
 
 
-
-### 偏向研究
-
-#### NLP
-
-1. [awesome-nlp：研究进展、guides、工具包等](https://github.com/keon/awesome-nlp)
-2. [track the progress in Natural Language Processing (NLP)]((https://github.com/sebastianruder/NLP-progress))
-3. [中文自然语言处理 Chinese NLP：各种任务sota baseline](https://chinesenlp.xyz/#/docs/co-reference_resolution)
-4. [funNLP：相关资源合集](https://github.com/fighting41love/funNLP)
-5. [*sentence embeddings*: InferSent](https://github.com/facebookresearch/InferSent)
-6. [nlg-eval: 评测指标](https://github.com/Maluuba/nlg-eval)
-7. [百度对话系统](https://github.com/baidu/Dialogue)
-8. [**AnyQ(ANswer Your Questions)**](https://github.com/baidu/AnyQ)： 开源项目主要包含面向FAQ集合的问答系统框架、文本语义匹配工具SimNet
-9. [Rasa开源机器学习框架，用于自动化基于文本和语音的对话](https://github.com/RasaHQ/rasa)
-10. [对话系统：sharing, training and evaluating dialogue models across many tasks.](https://github.com/facebookresearch/ParlAI)
-11. [ Deep Generative Models for Natural Language Processing  Papers](https://github.com/FranxYao/Deep-Generative-Models-for-Natural-Language-Processing)
-12. [Course materials for Georgia Tech CS 4650 and 7650, "Natural Language"](https://github.com/jacobeisenstein/gt-nlp-class)
-13. [NLP-BERT--ChineseVersion](https://github.com/Y1ran/NLP-BERT--ChineseVersion): 谷歌自然语言处理模型BERT：论文解析与python代码
-14. [MTBook](https://github.com/NiuTrans/MTBook)：《机器翻译：统计建模与深度学习方法》肖桐 朱靖波 著
-15. [Leaderboards-for-Multi-Turn-Response-Selection](https://github.com/JasonForJoy/Leaderboards-for-Multi-Turn-Response-Selection)：provide the reader with a quick overview of benchmark datasets and the state-of-the-art studies on this task, which serves as a stepping stone for further research.
-16. [BERT-Tickets](https://github.com/VITA-Group/BERT-Tickets)：BERT的进一步探究
-17. **[awesome-papers](https://github.com/huggingface/awesome-papers)**：Papers & presentation materials from Hugging Face's internal science day
-
-#### CV
-
-1. [Convolution arithmetic卷积算法可视化解释](https://github.com/vdumoulin/conv_arithmetic)
-2. [Recent Advances in Deep Learning for Object Detection](https://arxiv.org/abs/1908.03673v1)
-3. [cnn-explainer](https://github.com/poloclub/cnn-explainer)：可视化cnn训练学习
-
-#### 图网络
-
-1. [A collection of important graph(Code)](https://github.com/benedekrozemberczki/awesome-graph-classification)
-3. [Must-read papers on graph neural networks (GNN)](https://github.com/thunlp/GNNPapers)
-3.  https://github.com/microsoft/tf-gnn-samples 
-4. [spektral](https://github.com/danielegrattarola/spektral)：Graph Neural Networks with Keras and Tensorflow 2. 
-5. [ littleballoffur](https://github.com/benedekrozemberczki/littleballoffur)：A NetworkX extension library for graph subsampling. 
-6. [awesome-gcn](https://github.com/Jiakui/awesome-gcn)： resources for graph convolutional networks （图卷积神经网络相关资源）
-7. [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric)：Geometric Deep Learning Extension Library for PyTorch [https://pytorch-geometric.readthedocs…](https://pytorch-geometric.readthedocs.io/)
-
-#### GAN
-
-1. [Curated list of awesome GAN applications and demo](https://github.com/nashory/gans-awesome-applications)
-2. 【book】[O'Reilly book 'Generative Deep Learning'](https://github.com/davidADSP/GDL_code)
-3. [The classical paper list with code about generative adversarial nets](https://github.com/zhangqianhui/AdversarialNetsPapers)
-4. [SeqGAN](https://github.com/LantaoYu/SeqGAN)  [seqGAN-Simplified](https://github.com/suragnair/seqGAN)
-5. [super-resolution](https://github.com/krasserm/super-resolution): Tensorflow 2.x based implementation of EDSR, WDSR and SRGAN for single image super-resolution
-
-#### 优化算法
-
-1. [RAdam](https://github.com/LiyuanLucasLiu/RAdam)
-
-#### Trading
-
-1. [awesome-deep-trading](https://github.com/cbailes/awesome-deep-trading)
 
 ---
 
@@ -1653,9 +1637,12 @@ openvino
 5. [深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)
 7. [Reflection_Summary](https://github.com/sladesha/Reflection_Summary)：算法理论基础知识
 8. [machinelearning](https://github.com/ljpzzz/machinelearning): blogs for machine learning
-9. [Pre-trained-Models](https://github.com/loujie0822/Pre-trained-Models)：NLP预训练模型的总结Blog、
+9. [Pre-trained-Models](https://github.com/loujie0822/Pre-trained-Models)：NLP预训练模型的总结Blog
+9. [NLP-Interview-Notes](https://github.com/km1994/NLP-Interview-Notes)
 10. [Tech Interview Guide 技术面试必备基础知识](https://github.com/CyC2018/CS-Notes)
 11. [ML-Interview](https://github.com/ms-sharma/ML-Interview)
+12. [C-background-development-interview-experience](https://github.com/hujiese/C-background-development-interview-experience)
+13. [LogicStack-LeetCode](https://github.com/SharingSource/LogicStack-LeetCode)：LeetCode 系列文章
 
 
 
@@ -1667,7 +1654,7 @@ openvino
 
 ```
 git checkout master   # ensure you are on the main "master" branch
-git stash             # reset any changes you have made, !!!NOTICE!!!
+# git stash             # reset any changes you have made, !!!NOTICE!!!
 git pull              # pull the latest versions
 ```
 
