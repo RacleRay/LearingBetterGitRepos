@@ -142,6 +142,7 @@
 
 ### Python
 
+
 #### 基础
 
 1. [one-python-craftsman](https://github.com/piglei/one-python-craftsman)：python
@@ -235,6 +236,8 @@
 2. [apscheduler](https://github.com/agronholm/apscheduler)：Task scheduling library for Python
 3. [jupytext](https://github.com/mwouts/jupytext)：Jupyter Notebooks as Markdown Documents, Julia, Python or R scripts
 4. [nbdev](https://github.com/fastai/nbdev)：Create delightful python projects using Jupyter Notebooks
+
+</details>
 
 ---
 
@@ -618,6 +621,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 2. [BERT-for-RRC-ABSA](https://github.com/howardhsu/BERT-for-RRC-ABSA)：code for our NAACL 2019 paper: "BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis"
 3. [Aspect-Based-Sentiment-Analysis](https://github.com/ScalaConsultants/Aspect-Based-Sentiment-Analysis)：Aspect-Based-Sentiment-Analysis: Transformer & Explainable ML (TensorFlow)
 4. [torchMoji](https://github.com/huggingface/torchMoji)：A pyTorch implementation of the DeepMoji model: state-of-the-art deep learning model for analyzing sentiment, emotion
+5. [PyABSA](https://github.com/yangheng95/PyABSA)：Open Framework for Aspect-based Sentiment Analysis based on state-of-the-art Models **[NEW]**
 
 
 
@@ -679,14 +683,14 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 ##### 8 开源包
 
-1. [Open-Source Neural Machine Translation in Tensorflow](https://github.com/EdinburghNLP/nematus)
-2. [Gluon-NLP made easy](https://github.com/dmlc/gluon-nlp)
-3. [SnowNLP：Python library for processing Chinese text](https://github.com/isnowfy/snownlp)
-4. [gensim – Topic Modelling in Python](https://github.com/RaRe-Technologies/gensim)
+1. [nematus](https://github.com/EdinburghNLP/nematus)：Open-Source Neural Machine Translation in Tensorflow
+2. [Gluon-NLP](https://github.com/dmlc/gluon-nlp)
+3. [SnowNLP](https://github.com/isnowfy/snownlp)：Python library for processing Chinese text
+4. [gensim](https://github.com/RaRe-Technologies/gensim) ：Topic Modelling in Python
 5. [PyText](https://github.com/facebookresearch/pytext)：A natural language modeling framework based on PyTorch，is a deep-learning based NLP modeling framework built on PyTorch.
-6. [allennlp：An open-source NLP research library, built on PyTorch](https://github.com/allenai/allennlp)
+6. [allennlp](https://github.com/allenai/allennlp)：An open-source NLP research library, built on PyTorch
 7. [结巴中文分词](https://github.com/fxsjy/jieba)
-8. [lda2vec: Tools for interpreting natural language](https://github.com/cemoody/lda2vec)
+8. [lda2vec](https://github.com/cemoody/lda2vec): Tools for interpreting natural language
 9. [复旦 fastNLP](https://github.com/fastnlp/fastNLP)：: A Modularized and Extensible NLP Framework. Currently still in incubation.
 10. [fast text： representation and classification.](https://github.com/facebookresearch/fastText)
 11. [autotuning for fastText](https://ai.facebook.com/blog/fasttext-blog-post-open-source-in-brief/)
@@ -750,9 +754,10 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 15. [DeepIE](https://github.com/loujie0822/DeepIE)：DeepIE: Deep Learning for Information Extraction
 16. [CasRel](https://github.com/weizhepei/CasRel)：A Novel Cascade Binary Tagging Framework for Relational Triple Extraction
 17. [CasRel-pytorch-reimplement](https://github.com/longlongman/CasRel-pytorch-reimplement)
-18. [two-are-better-than-one](https://github.com/LorrinWWW/two-are-better-than-one)：Code associated with the paper **Two are Better Than One: Joint Entity and Relation Extraction with Table-Sequence Encoders**, at EMNLP 2020
+18. [two-are-better-than-one](https://github.com/LorrinWWW/two-are-better-than-one)：Code associated with the paper “Two are Better Than One: Joint Entity and Relation Extraction with Table-Sequence Encoders”, at EMNLP 2020
 19. [TPlinker-joint-extraction](https://github.com/131250208/TPlinker-joint-extraction)：TPLinker: Single-stage Joint Extraction of Entities and Relations Through Token Pair Linking
 20. [PURE](https://github.com/princeton-nlp/PURE)：NAACL'2021: A Frustratingly Easy Approach for Entity and Relation Extraction
+21. [ pke](https://github.com/boudinfl/pke)：Python Keyphrase Extraction module
 
 
 
@@ -1002,6 +1007,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 12. [tiler](https://github.com/nuno-faria/tiler)： 👷 Build images with images. 非深度学习
 13. [pixray](https://github.com/dribnet/pixray)：neural image generation. 生成pixel风格图像
 14. [text2art](https://github.com/mfrashad/text2art)：AI-powered Text-to-Art Generator - Text2Art.com
+15. [latent-diffusion](https://github.com/CompVis/latent-diffusion): High-Resolution Image Synthesis with Latent Diffusion Models
 
 
 
