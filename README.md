@@ -5,7 +5,7 @@
 - [Title: GitHub收集项目维护](#title-github收集项目维护)
   - [1 编程语言](#1-编程语言)
     - [Python](#python)
-      - [编程经验](#编程经验)
+      - [基础](#基础)
       - [开源项目](#开源项目)
         - [爬虫](#爬虫)
         - [其他](#其他)
@@ -19,6 +19,7 @@
     - [Julia](#julia)
     - [Java](#java)
     - [GO](#go)
+    - [RUST](#rust)
     - [数据结构与算法](#数据结构与算法)
     - [计算机科学基础](#计算机科学基础)
       - [CSAPP](#csapp)
@@ -95,7 +96,7 @@
       - [Lasagne](#lasagne)
       - [MindSpore](#mindspore)
       - [MegEngine](#megengine)
-      - [基础](#基础)
+      - [基础](#基础-1)
     - [模型优化](#模型优化)
     - [模型训练部署](#模型训练部署)
       - [部署](#部署)
@@ -141,32 +142,20 @@
 
 ### Python
 
-#### 编程经验
+#### 基础
 
 1. [one-python-craftsman](https://github.com/piglei/one-python-craftsman)：python
-
 2. [PySnooper](https://github.com/cool-RR/PySnooper)：Never use print for debugging again，debug tools
-
 3. [The Flask Mega-Tutorial](https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh)：Flask教程
-
 4. [微软教程](https://docs.microsoft.com/zh-cn/windows/python/)：在 Windows 上使用 Python 进行开发
-
 5. [realpython -- python-guide](https://github.com/realpython/python-guide)
-
 6. [pipreqs](https://github.com/bndr/pipreqs)：依赖包建立工具 
-
-7. [starlette ：The little ASGI framework that shines](https://github.com/encode/starlette)
-
+7. [starlette](https://github.com/encode/starlette): The little ASGI framework that shines  which is ideal for building async web services in Python.
 8. [fastapi](https://github.com/tiangolo/fastapi)
-
 9. [python-small-examples](https://github.com/jackzhenguo/python-small-examples)
-
 10. [pytudes](https://github.com/norvig/pytudes)：Python programs to practice or demonstrate skills.
-
 11. [python-patterns](https://github.com/faif/python-patterns)：A collection of design patterns/idioms in Python
-
 12. [python并行编程](https://python-parallel-programmning-cookbook.readthedocs.io/zh_CN/latest/)
-
 13. [C++联合编程 [微软Doc](https://docs.microsoft.com/en-us/visualstudio/python/working-with-c-cpp-python-in-visual-studio?view=vs-2019)] 
 
     - [cppyy: Automatic Python-C++ bindings](https://cppyy.readthedocs.io/en/latest/); 
@@ -174,8 +163,8 @@
     - [SWIG](http://www.swig.org/);   
     - [PyBind11](https://github.com/pybind/pybind11); 
     - [ctypes](https://docs.python.org/3/library/ctypes.html#module-ctypes)
-
 14. [scalene](https://github.com/emeryberger/scalene)：Scalene: a high-performance, high-precision CPU and memory profiler for Python
+15. [pyinstrument](https://github.com/joerick/pyinstrument): 🚴 Call stack profiler for Python. Shows you why your code is slow!
 
 #### 开源项目
 
@@ -214,8 +203,13 @@
 11. [manim](https://github.com/3b1b/manim)：Animation engine for explanatory math videos
 12. [bandit](https://github.com/PyCQA/bandit)：Bandit is a tool designed to find common security issues in Python code.
 13. [gopup](https://github.com/justinzm/gopup)：数据接口：百度、谷歌、头条、微博指数,宏观数据，利率数据，货币汇率，千里马、独角兽公司，新闻联播文字稿，影视票房数据，高校名单，疫情数据...
-14. [playwright-python](https://github.com/microsoft/playwright-python): python操作浏览器
-15. [loguru](https://github.com/Delgan/loguru): 更简洁的python log工具
+14. [bigdata_analyse](https://github.com/TurboWay/bigdata_analyse)：简短的数据分析demo
+15. [playwright-python](https://github.com/microsoft/playwright-python): python操作浏览器
+16. [loguru](https://github.com/Delgan/loguru): 更简洁的python log工具
+17. [PyWebIO](https://github.com/pywebio/PyWebIO)：Write interactive web app in script way. 用python生成前端代码
+18. [ Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer)： Create Beautiful Tkinter GUIs by Drag and Drop
+19. [moviepy](https://github.com/Zulko/moviepy)：使用python简易编辑视频
+20. [ Pillow](https://github.com/python-pillow/Pillow): Python Imaging Library.
 
 ##### 异步
 
@@ -255,8 +249,8 @@
 5. C++ 标准程序库
 6. 深入探索C++对象模型
 7. [CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings)：C++那些事
-
-   
+8. [CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines)：The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++
+9. [EffectiveModernCppChinese](https://github.com/CnTransGroup/EffectiveModernCppChinese)：《Effective Modern C++》翻译
 
 #### 开源项目
 
@@ -287,6 +281,8 @@
 20. [mlibc](https://github.com/managarm/mlibc): 可移植的C标准库
 21. [uthash](https://github.com/troydhanson/uthash)：C macros for hash tables and more
 22. [WindowsAppSDK](https://github.com/microsoft/WindowsAppSDK)：[FOR Using, NOT Reading] Windows App SDK empowers all Windows Desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet. 
+23. [backward-cpp](https://github.com/bombela/backward-cpp)：A beautiful stack trace pretty printer for C++. 优化编译器报错信息。
+24. [range-v3](https://github.com/ericniebler/range-v3)：Range library for C++14/17/20, basis for C++20's std::ranges
 
 ---
 
@@ -308,6 +304,13 @@
 1. [7days-golang](https://github.com/geektutu/7days-golang)：7 days golang apps from scratch、
 2. [GoSpark](https://github.com/zhoubolei/GoSpark)
 3. [golearn](https://github.com/sjwhitworth/golearn)：Machine Learning for Go
+
+---
+
+### RUST
+
+1. [bevy](https://github.com/bevyengine/bevy)：A refreshingly simple data-driven game engine built in Rust.
+2. [blog_os](https://github.com/phil-opp/blog_os)：Writing an OS in Rust
 
 ---
 
@@ -336,6 +339,8 @@
 8. [awesome-courses](https://github.com/prakhar1989/awesome-courses)：List of awesome university courses for learning Computer Science!
 9. [Computer-Networking-A-Top-Down-Approach-NOTES](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)：《计算机网络－自顶向下方法(原书第6版)》编程作业，Wireshark实验文档的翻译和解答
 10. [dragon-book-exercise-answers](https://github.com/fool2fish/dragon-book-exercise-answers)：编译原理（紫龙书）第2版习题答案
+11. [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)： documenting repository for learning the world of DevOps. 
+12. [Developer-Books](https://github.com/7-sevens/Developer-Books)：编程开发相关书籍整理分享
 
 #### CSAPP
 
@@ -364,10 +369,13 @@
 2. [bregman-arie / devops-exercises](https://github.com/bregman-arie/devops-exercises)：Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization
 3. [PlayWithCompiler](https://github.com/RichardGong/PlayWithCompiler)：A GeekTime course about constructing a compiler
 4. [15-minute-apps](https://github.com/learnpyqt/15-minute-apps)：15 minute (small) desktop apps built with PyQt
+5. [wyoos](https://github.com/AlgorithMan-de/wyoos)：Source codes for the "Write your own Operating System" video-series on YouTube
 
 ### 其他语言
 
 1. [purr-data](https://github.com/agraef/purr-data)：Pure Data (aka Pd) is a visual programming language.
+2. [astro](https://github.com/withastro/astro): Build fast websites, faster. 🚀🧑‍🚀✨. 快速编写简单web页面
+3. 
 
 ---
 
@@ -606,7 +614,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 ##### *  Aspect Based Sentiment Analysis
 
-1. [ABSA-PyTorch](https://github.com/songyouwei/ABSA-PyTorch)：基于方面的情感分析，使用PyTorch实现。
+1. [ABSA-PyTorch](https://github.com/songyouwei/ABSA-PyTorch)
 2. [BERT-for-RRC-ABSA](https://github.com/howardhsu/BERT-for-RRC-ABSA)：code for our NAACL 2019 paper: "BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis"
 3. [Aspect-Based-Sentiment-Analysis](https://github.com/ScalaConsultants/Aspect-Based-Sentiment-Analysis)：Aspect-Based-Sentiment-Analysis: Transformer & Explainable ML (TensorFlow)
 4. [torchMoji](https://github.com/huggingface/torchMoji)：A pyTorch implementation of the DeepMoji model: state-of-the-art deep learning model for analyzing sentiment, emotion
@@ -636,12 +644,13 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [nlg-eval](https://github.com/Maluuba/nlg-eval): 评测指标
 2. [OpenSeq2Seq](https://github.com/NVIDIA/OpenSeq2Seq)：Toolkit for efficient experimentation with Speech Recognition, Text2Speech and NLP
-3. [Magenta: Music and Art Generation with Machine Intelligence](https://github.com/tensorflow/magenta)：involves developing new deep learning and reinforcement learning algorithms for generating songs, images, drawings, and other materials.
-4. [exdeep-nmt](https://github.com/namisan/exdeep-nmt)：代码审核中
+3. [Magenta](https://github.com/tensorflow/magenta)：involves developing new deep learning and reinforcement learning algorithms for generating songs, images, drawings, and other materials.
+4. [ deepnmt](https://github.com/microsoft/deepnmt)：This PyTorch package implements Very Deep Transformers for Neural Machine Translation
 5. [EmbeddinglessNMT](https://github.com/UriSha/EmbeddinglessNMT)：The implementation of "Neural Machine Translation without Embeddings"
-6. [TransCoder](https://github.com/facebookresearch/TransCoder)：Pytorch original implementation of TransCoder in [Unsupervised Translation of Programming Languages](https://arxiv.org/pdf/2006.03511.pdf)
-7. [Sentence-VAE](https://github.com/timbmg/Sentence-VAE)：PyTorch Re-Implementation of "Generating Sentences from a Continuous Space" by Bowman et al 2015 https://arxiv.org/abs/1511.06349
-8. [Deep Generative Models for Natural Language Processing  Papers](https://github.com/FranxYao/Deep-Generative-Models-for-Natural-Language-Processing)
+6. [seq2seq-couplet](https://github.com/wb14123/seq2seq-couplet)：Play couplet with seq2seq model. 
+7. [TransCoder](https://github.com/facebookresearch/TransCoder)：Pytorch original implementation of TransCoder in [Unsupervised Translation of Programming Languages](https://arxiv.org/pdf/2006.03511.pdf)
+8. [Sentence-VAE](https://github.com/timbmg/Sentence-VAE)：PyTorch Re-Implementation of "Generating Sentences from a Continuous Space" by Bowman et al 2015 https://arxiv.org/abs/1511.06349
+9. [Deep Generative Models for Natural Language Processing  Papers](https://github.com/FranxYao/Deep-Generative-Models-for-Natural-Language-Processing)
 
 
 
@@ -831,6 +840,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 4. [tensorflow](https://github.com/tensorflow)/**[recommenders](https://github.com/tensorflow/recommenders)**: TensorFlow Recommenders is a library for building recommender system models using TensorFlow.
 5. [NEWS-RECOMMENDATION](https://github.com/wj19971997/NEWS-RECOMMENDATION)：简单demo
 6. [GrowNet](https://github.com/sbadirli/GrowNet)：Gradient Boosting Neural Networks: GrowNet
+7. [ saleor](https://github.com/saleor/saleor): A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React. 电商平台工具
 
 ---
 
@@ -856,6 +866,9 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 9. [kaldi](https://github.com/kaldi-asr/kaldi)：kaldi-asr/kaldi is the official location of the Kaldi project.
 10. [espnet](https://github.com/espnet/espnet)：End-to-End Speech Processing Toolkit
 11. [MockingBird](https://github.com/babysor/MockingBird): AI拟声: 5秒内克隆您的声音并生成任意语音内容
+12. [Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning): Clone a voice in 5 seconds to generate arbitrary speech in real-time
+
+
 
 ---
 
@@ -902,34 +915,29 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 ##### 图像识别与分类
 
 1. [图片搜索和分析](https://github.com/AKSHAYUBHAT/DeepVideoAnalytics)
-
 2. [DBoW2](https://github.com/dorian3d/DBoW2)：Enhanced hierarchical bag-of-word library for C++
+3. [face_classification](https://github.com/oarriaga/face_classification): Real-time face detection and emotion/gender classification 
+4. [人脸识别](https://github.com/ageitgey/face_recognition) ：The world's simplest facial recognition api for Python and the command line
+5. [insightface](https://github.com/deepinsight/insightface): **State-of-the-art** 2D and 3D Face Analysis Project. 
+6. [TF_FLAME](https://github.com/TimoBolkart/TF_FLAME)：Example Tensorflow code for the FLAME face model 
+7. [DeepFaceLab_Colab](https://github.com/dream80/DeepFaceLab_Colab)：[https://www.deepfaker.xyz](https://www.deepfaker.xyz/) -- NOTE：With colab you can use tesla P100 for free. Of course there are some restrictions
+8. [EasyOCR](https://github.com/JaidedAI/EasyOCR)：Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
+9. **[libfacedetection](https://github.com/ShiqiYu/libfacedetection)**：: face detection in images. The face detection speed can reach 1000FPS.
+10. [PyMatting](https://github.com/pymatting/pymatting)： A Python Library for Alpha Matting. 抠图
+11. [rembg](https://github.com/danielgatis/rembg)：Rembg is a tool to remove images background. 抠图
+12. [TransFG](https://github.com/TACJu/TransFG)：A Transformer Architecture for Fine-grained Recognition
+13. [bottleneck-transformer-pytorch](https://github.com/lucidrains/bottleneck-transformer-pytorch)：SotA visual recognition model with convolution + attention that outperforms EfficientNet and DeiT in terms of performance-computes trade-off, in Pytorch
+14. [deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)：deep learning for image processing including classification and object-detection etc.
+15. [DEKR](https://github.com/HRNet/DEKR)：This is an official implementation of our CVPR 2021 paper "Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression" (https://arxiv.org/abs/2104.02300)
+16. [mmpose](https://github.com/open-mmlab/mmpose)：OpenMMLab Pose Estimation Toolbox and Benchmark.
+17. [VNN](https://github.com/joyycom/VNN)：多种图片效果转换工具，高性能、轻量级神经网络部署框架。
+18. [chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite)：超轻量级中文ocr，支持竖排文字识别, 支持ncnn、mnn、tnn推理。
+19. [HyperLPR](https://github.com/szad670401/HyperLPR): 基于深度学习高性能中文车牌识别
+20. [fawkes](https://github.com/Shawn-Shan/fawkes): 识别合成图像
+21. [mae](https://github.com/facebookresearch/mae)： [Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377)
+22. [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) ：[A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545). CVPR 2022.
 
-3. [Real-time face detection and emotion/gender classification ](https://github.com/oarriaga/face_classification)
 
-4. [人脸识别：The world's simplest facial recognition api for Python and the command line](https://github.com/ageitgey/face_recognition)
-
-5. [TF_FLAME](https://github.com/TimoBolkart/TF_FLAME)：Example Tensorflow code for the FLAME face model 
-
-6. [DeepFaceLab_Colab](https://github.com/dream80/DeepFaceLab_Colab)：[https://www.deepfaker.xyz](https://www.deepfaker.xyz/) -- NOTE：With colab you can use tesla P100 for free. Of course there are some restrictions
-
-7. [EasyOCR](https://github.com/JaidedAI/EasyOCR)：Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
-
-8. **[libfacedetection](https://github.com/ShiqiYu/libfacedetection)**：: face detection in images. The face detection speed can reach 1000FPS.
-
-9. [抠图：PyMatting: A Python Library for Alpha Matting](https://github.com/pymatting/pymatting)
-
-10. [TransFG](https://github.com/TACJu/TransFG)：A Transformer Architecture for Fine-grained Recognition
-
-11. [bottleneck-transformer-pytorch](https://github.com/lucidrains/bottleneck-transformer-pytorch)：SotA visual recognition model with convolution + attention that outperforms EfficientNet and DeiT in terms of performance-computes trade-off, in Pytorch
-
-12. [deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)：deep learning for image processing including classification and object-detection etc.
-
-13. [DEKR](https://github.com/HRNet/DEKR)：This is an official implementation of our CVPR 2021 paper "Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression" (https://arxiv.org/abs/2104.02300)
-
-14. [mmpose](https://github.com/open-mmlab/mmpose)：OpenMMLab Pose Estimation Toolbox and Benchmark.
-
-    
 
 ##### opencv
 
@@ -957,7 +965,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 10. [ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch): Pytorch reimplementation of the Vision Transformer (An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale)
 11. [efficientnet-pytorch](https://github.com/katsura-jp/efficientnet-pytorch): PyTorch implementation of "EfficientNet", ICML 2019
 12. [efficientnet](https://github.com/qubvel/efficientnet): Implementation of EfficientNet model. Keras and TensorFlow Keras.
-13. [目标检测FCOS: Fully Convolutional One-Stage Object Detection (ICCV'19) ](https://github.com/tianzhi0549/FCOS)
+13. [FCOS](https://github.com/tianzhi0549/FCOS): Fully Convolutional One-Stage Object Detection (ICCV'19) 
 14. [image-segmentation-keras](https://github.com/divamgupta/image-segmentation-keras)：Implementation of Segnet, FCN, UNet , PSPNet and other models in Keras
 15. [YOLOF](https://github.com/chensnathan/YOLOF)：You Only Look One-level Feature (YOLOF), CVPR2021, Detectron2
 16. [Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection)：Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)
@@ -988,6 +996,12 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 6. [TensorFlow CNN for fast style transfer](https://github.com/lengstrom/fast-style-transfer)
 7. [ALAE](https://github.com/podgorskiy/ALAE):  Adversarial Latent Autoencoders
 8. [deep-daze](https://github.com/lucidrains/deep-daze)：Simple command line tool for text to image generation using OpenAI's CLIP and Siren
+9. [AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2)：The improved version of AnimeGAN. Landscape photos/videos to anime
+10. [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)：Practical Algorithms for General Image/Video Restoration.
+11. [avatarify-python](https://github.com/alievk/avatarify-python)：摄像头实时风格转换
+12. [tiler](https://github.com/nuno-faria/tiler)： 👷 Build images with images. 非深度学习
+13. [pixray](https://github.com/dribnet/pixray)：neural image generation. 生成pixel风格图像
+14. [text2art](https://github.com/mfrashad/text2art)：AI-powered Text-to-Art Generator - Text2Art.com
 
 
 
@@ -1031,7 +1045,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 3. [KEQA_WSDM19](https://github.com/xhuang31/KEQA_WSDM19)
 4. [transE](https://github.com/wuxiyu/transE)
 5. [KB2E：thunlp](https://github.com/thunlp/KB2E)
-6. [tianchi_nl2sql: 首届中文NL2SQL挑战赛决赛第3名方案+代码](https://github.com/beader/tianchi_nl2sql)
+6. [tianchi_nl2sql](https://github.com/beader/tianchi_nl2sql) : 首届中文NL2SQL挑战赛决赛第3名方案+代码
 7. [CCKS 2019 中文知识图谱问答数据集](https://biendata.com/competition/ccks_2019_6/data/)
 8. [knowledge-graph](https://github.com/kyzhouhzau/knowledge-graph)： a QA Demo based on KG! use scrapy and jena.
 9. [ONEPIECE-KG](https://github.com/mrbulb/ONEPIECE-KG)： a knowledge graph project for ONEPIECE /《海贼王》知识图谱
@@ -1041,6 +1055,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 13. [KG-demo-for-movie](https://github.com/SimmerChan/KG-demo-for-movie)：从无到有构建一个电影知识图谱，并基于该KG，开发一个简易的KBQA程序
 14. [pykg2vec](https://github.com/Sujit-O/pykg2vec)：Python library for knowledge graph embedding and representation learning.
 15. [text_to_knowledge](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/text_to_knowledge): 解语（Text to Knowledge）是首个覆盖中文全词类的知识库（百科知识树）及知识标注框架，拥有可描述所有中文词汇的词类体系、中文知识标注工具集，以及更适用于中文挖掘任务的预训练语言模型。paddlenlp子项目，没有开源。
+16. [graph-data-science](https://github.com/neo4j/graph-data-science)：Neo4j Graph Data Science library of graph algorithms.
 
 
 
@@ -1116,6 +1131,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 8. [ littleballoffur](https://github.com/benedekrozemberczki/littleballoffur)：A NetworkX extension library for graph subsampling. 
 9. [awesome-gcn](https://github.com/Jiakui/awesome-gcn)： resources for graph convolutional networks （图卷积神经网络相关资源）
 10. [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric)：Geometric Deep Learning Extension Library for PyTorch [https://pytorch-geometric.readthedocs…](https://pytorch-geometric.readthedocs.io/)
+11. [PytorchGeometricTutorial](https://github.com/AntonioLonga/PytorchGeometricTutorial)：Pytorch Geometric Tutorials
 
 #### 优化算法
 
@@ -1242,6 +1258,9 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 6. [model-optimization](https://github.com/tensorflow/model-optimization)：A toolkit to optimize ML models for deployment for Keras and TensorFlow, including quantization and pruning.
 7. [keras-tuner](https://github.com/keras-team/keras-tuner)：Hyperparameter tuning for humans
 8. [optuna](https://github.com/optuna/optuna)：A hyperparameter optimization framework
+9. [lightseq](https://github.com/bytedance/lightseq)：LightSeq: A High Performance Library for Sequence Processing and Generation
+10. [nni](https://github.com/microsoft/nni)：An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning.
+11. [AutoGluon](https://auto.gluon.ai/stable/index.html)：AutoML for Text, Image, and Tabular Data.
 
 ### 模型训练部署
 
@@ -1267,7 +1286,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 8. [model_deployment](https://github.com/balavenkatesh3322/model_deployment)：A collection of model deployment library and technique.
 
-9. [jina](https://github.com/jina-ai/jina)：An easier way to build **neural search** in the cloud
+9. [jina](https://github.com/jina-ai/jina)：An easier way to build **neural search applications ** in the cloud
 
 10. [plaidml](https://github.com/plaidml/plaidml)：PlaidML is a framework for making deep learning work everywhere.
 
@@ -1299,7 +1318,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 #### 训练
 
-4. [ray](https://github.com/ray-project/ray)：A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library
+1. [ray](https://github.com/ray-project/ray)：A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library
 2. [ml-agents](https://github.com/Unity-Technologies/ml-agents) ：：Unity Machine Learning Agents Toolkit 训练游戏AI
 3. [BytePS](https://github.com/bytedance/byteps)：A high performance and general PS framework for distributed training
 4. [Horovod](https://github.com/horovod/horovod)：The goal of Horovod is to make distributed Deep Learning fast and easy to use
@@ -1310,10 +1329,12 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 9. [trains](https://github.com/allegroai/trains)：Auto-Magical Experiment Manager & Version Control for AI 
 10. [cleverhans](https://github.com/cleverhans-lab/cleverhans)：An adversarial example library for constructing attacks, building defenses, and benchmarking both
 11. [docker-python](https://github.com/Kaggle/docker-python)：Kaggle Python docker image
-12. [distribuuuu](https://github.com/BIGBALLON/distribuuuu)：The pure and clear PyTorch Distributed Training Framework.
-13. [maggot](https://github.com/ex4sperans/maggot)：A lightweight python library that helps to keep track of numerical experiments
-14. [rigl](https://github.com/google-research/rigl)：End-to-end training of sparse deep neural networks with little-to-no performance loss.  "Making All Tickets Winners"
-15. [skweak](https://github.com/NorskRegnesentral/skweak):   A software toolkit for weak supervision applied to NLP tasks
+12. [distribuuuu](https://github.com/BIGBALLON/distribuuuu)：The pure and clear PyTorch **Distributed** Training Framework.
+13. [ColossalAI](https://github.com/hpcaitech/ColossalAI)：A Unified Deep Learning System for **Large-Scale Parallel Training**
+14. [maggot](https://github.com/ex4sperans/maggot)：A **lightweight** python library that helps to keep track of **numerical experiments**
+15. [rigl](https://github.com/google-research/rigl)：End-to-end training of sparse deep neural networks with little-to-no performance loss.  "Making All Tickets Winners"
+16. [skweak](https://github.com/NorskRegnesentral/skweak):   A software toolkit for **weak supervision** applied to **NLP** tasks
+17. [AugLy](https://github.com/facebookresearch/AugLy)：A data augmentations library for audio, image, text, and video.
 
 
 
@@ -1464,6 +1485,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 ### AutoML
 
 1. [AlphaPy](https://github.com/ScottfreeLLC/AlphaPy)：Automated Machine Learning [AutoML] with Python, scikit-learn, Keras, XGBoost, LightGBM, and CatBoost
+2. [nni](https://github.com/microsoft/nni)：An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning.
+3. [AutoGluon](https://auto.gluon.ai/stable/index.html)：AutoML for Text, Image, and Tabular Data.
 
 ### 可解释机器学习
 
@@ -1524,12 +1547,13 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 5. [C++] [Windows Terminal](https://github.com/microsoft/terminal)
 6. [awesome window manager ](https://github.com/awesomeWM/awesome)
 7. [memory-profiler](https://pypi.org/project/memory-profiler/) pip install memory-profiler
-8. **[ code-server](https://github.com/cdr/code-server)**：VS Code in the browser [https://coder.com](https://coder.com/)
+8. **[code-server](https://github.com/cdr/code-server)**：VS Code in the browser [https://coder.com](https://coder.com/)
 9. [gen_tags.vim](https://github.com/jsfaint/gen_tags.vim)：ctags增强
 10. [bat](https://github.com/sharkdp/bat)：`bat` supports syntax highlighting for a large number of programming and markup languages
 11. [records](https://github.com/kennethreitz42/records): SQL for Humans in Python. *Database support includes RedShift, Postgres, MySQL, SQLite, Oracle, and MS-SQL (drivers not included).*
 12. [miasm](https://github.com/cea-sec/miasm)：Reverse engineering framework in Python
-13. [graph-data-science](https://github.com/neo4j/graph-data-science)：Neo4j Graph Data Science library of graph algorithms.
+13. [termpair](https://github.com/cs01/termpair): 使用浏览器，远程连接服务器terminal。
+14. [asynctasks.vim](https://github.com/skywind3000/asynctasks.vim)：Modern Task System for Project Building, Testing and Deploying !!
 
 
 
@@ -1551,6 +1575,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 14. [core](https://github.com/home-assistant/core)：Open source home automation that puts local control and privacy first
 15. [wttr.in](https://github.com/chubin/wttr.in)：⛅ The right way to check the weather in command line.
 16. [typora-plugin-bilibili](https://github.com/xlzy520/typora-plugin-bilibili)：Typora粘贴图片自动上传到Bilibili图床，也可以自定义修改成任意其他图床接口。
+17. [DouZero_For_HappyDouDiZhu](https://github.com/tianqiraf/DouZero_For_HappyDouDiZhu)：基于DouZero定制AI实战欢乐斗地主
+18. [Unlock-netease-cloud-music](https://github.com/meng-chuan/Unlock-netease-cloud-music)：解锁网易云音乐客户端变灰歌曲
 
 
 
