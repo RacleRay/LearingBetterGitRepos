@@ -424,6 +424,8 @@
 9. [awesome-fast-attention](https://github.com/Separius/awesome-fast-attention): list of efficient attention modules
 10. [Synthesizer-Rethinking-Self-Attention-Transformer-Models](https://github.com/leaderj1001/Synthesizer-Rethinking-Self-Attention-Transformer-Models)  + [Synthesizer](https://github.com/10-zin/Synthesizer): Implementing SYNTHESIZER
 11. [aft-pytorch](https://github.com/rish-16/aft-pytorch)：Unofficial PyTorch implementation of the Attention Free Transformer's AFT-Full layer by Apple Inc
+12. [ x-transformers](https://github.com/lucidrains/x-transformers)：A simple but complete full-attention transformer with a set of promising experimental features from various papers
+13. [Transformers-Tutorials](https://github.com/NielsRogge/Transformers-Tutorials)：demos made with the Transformers library by HuggingFace.
 
 
 
@@ -469,18 +471,13 @@
    - https://github.com/graykode/xlnet-Pytorch
 
 19. [marge-pytorch](https://github.com/lucidrains/marge-pytorch)：Implementation of Marge, **Pre-training via Paraphrasing**, in Pytorch
-
 20. [BERT-CCPoem](https://github.com/THUNLP-AIPoet/BERT-CCPoem)：BERT-CCPoem is an BERT-based pre-trained model particularly for Chinese classical poetry
-
 21. [microsoft](https://github.com/microsoft)/**[Unicoder](https://github.com/microsoft/Unicoder)** : Unicoder model for understanding and generation. This repo provides the code for reproducing the experiments in [XGLUE: A New Benchmark Dataset for Cross-lingual Pre-training, Understanding and Generation](https://arxiv.org/abs/2004.01401) ([`leaderboard`](https://microsoft.github.io/XGLUE/)).
-
 22. [CPM-Generate](https://github.com/TsinghuaAI/CPM-Generate)：Chinese Pre-Trained Language Models (CPM-LM) Version-I
-
 23. [CPM-LM-TF2](https://github.com/qhduan/CPM-LM-TF2)：TensorFlow 2.x CPM-Generate
-
 24. [BERT-whitening](https://github.com/bojone/BERT-whitening)：简单的向量白化就可以媲美BERT flow
-
 25. [OptiPrompt](https://github.com/princeton-nlp/OptiPrompt)：NAACL'2021: Factual Probing Is [MASK]: Learning vs. Learning to Recall
+26. [R-Drop](https://github.com/dropreg/R-Drop)：R-drop: Regularized Dropout for Neural Networks. 一种loss设计
 
 
 
@@ -816,6 +813,10 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 1. [PromptPapers](https://github.com/thunlp/PromptPapers)：Must-read papers on prompt-based tuning for pre-trained language models.
 2. [autoprompt](https://github.com/ucinlp/autoprompt)：AutoPrompt: Automatic Prompt Construction for Masked Language Models.
 
+##### 19 Adaptor
+
+1. [adapter-transformers](https://github.com/Adapter-Hub/adapter-transformers)：Huggingface Transformers + Adapters = ❤️
+
 
 
 #####  19 Book and Course
@@ -904,16 +905,12 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 #### CV
 
 1. [CV-pretrained-model](https://github.com/balavenkatesh3322/CV-pretrained-model)：A collection of computer vision pre-trained models.
-
 2. [腾讯优图开源项目](https://github.com/TencentYoutuResearch)
-
 3. [Dlib](https://github.com/davisking/dlib)：making real world machine learning and data analysis applications in C++
-
 4. [mediapipe](https://github.com/google/mediapipe): Cross-platform, customizable ML solutions for live and streaming media. Google.
-
 5. [Convolution arithmetic卷积算法可视化解释](https://github.com/vdumoulin/conv_arithmetic)
-
 6. [cnn-explainer](https://github.com/poloclub/cnn-explainer)：可视化cnn训练学习
+7. [pytorch-image-models](https://github.com/rwightman/pytorch-image-models)：PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more. **【NEW】**
 
 
 
@@ -1164,21 +1161,21 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 1. [Effective TensorFlow](https://github.com/vahidk/EffectiveTensorflow)
 2. [简明TF2](https://tf.wiki/zh_hans/)   [tensorflow2中文教程](https://github.com/czy36mengfei/tensorflow2_tutorials_chinese)
 3. [eat_tensorflow2_in_30_days](https://github.com/lyhue1991/eat_tensorflow2_in_30_days)
-4. [various deep learning architectures, models, and tips](https://github.com/rasbt/deeplearning-models)
+4. [deeplearning-models](https://github.com/rasbt/deeplearning-models): various deep learning architectures, models, and tips
 5. [TensorFlow实战书codes](https://github.com/caicloud/tensorflow-tutorial)
 6. [Deep Learning with Python Keras](https://github.com/fchollet/deep-learning-with-python-notebooks)
 7. [Hands-on Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml)
 8. [Neural Machine Translation (seq2seq) Tutorial](https://github.com/tensorflow/nmt)
-9. [TFLearn: Deep learning library featuring a higher-level API for TensorFlow.](https://github.com/tflearn/tflearn)
-10. [Tensor2Tensor：deep learning models and datasets designed to make deep learning more accessible and accelerate ML research](https://github.com/tensorflow/tensor2tensor)
-11. [Sonnet： is a library built on top of TensorFlow for building complex neural networks.](https://github.com/deepmind/sonnet)
+9. [TFLearn](https://github.com/tflearn/tflearn): Deep learning library featuring a higher-level API for TensorFlow.
+10. [Tensor2Tensor](https://github.com/tensorflow/tensor2tensor)：deep learning models and datasets designed to make deep learning more accessible and accelerate ML research
+11. [Sonnet](https://github.com/deepmind/sonnet)： is a library built on top of TensorFlow for building complex neural networks.
 12. [KDD2019 Deep Learning for NLP with Tensorflow hands-on](https://github.com/tensorflow/workshops/tree/master/kdd2019)
 13. [TensorFlow Tutorial and Examples for Beginners (support TF v1 & v2)](https://github.com/aymericdamien/TensorFlow-Examples)
 14. [简单粗暴 TensorFlow 2.0](https://github.com/snowkylin/tensorflow-handbook)
-15. [ TensorFlow for Deep Learning Research. ](https://github.com/chiphuyen/stanford-tensorflow-tutorials)  [课件](https://web.stanford.edu/class/cs20si/2017/syllabus.html)
-16. **[ tensor2tensor](https://github.com/tensorflow/tensor2tensor)**
+15. [TensorFlow for Deep Learning Research. ](https://github.com/chiphuyen/stanford-tensorflow-tutorials)  [课件](https://web.stanford.edu/class/cs20si/2017/syllabus.html)
 17. [tensorpack](https://github.com/tensorpack/tensorpack)：A Neural Net Training Interface on TensorFlow, with focus on speed + flexibility
 18. [larq](https://github.com/larq/larq)：An Open-Source Library for Training Binarized Neural Networks
+18. [addons](https://github.com/tensorflow/addons)：Useful extra functionality for TensorFlow 2.x maintained by SIG-addons.
 19. [keras-cosine-annealing](https://github.com/4uiiurz1/keras-cosine-annealing)
 
 ##### C++
