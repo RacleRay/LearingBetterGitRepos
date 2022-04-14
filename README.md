@@ -211,6 +211,7 @@
 18. [ Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer)： Create Beautiful Tkinter GUIs by Drag and Drop
 19. [moviepy](https://github.com/Zulko/moviepy)：使用python简易编辑视频
 20. [ Pillow](https://github.com/python-pillow/Pillow): Python Imaging Library.
+21. [tinydb](https://github.com/msiemens/tinydb)：a lightweight document oriented database/
 
 ##### 异步
 
@@ -266,26 +267,29 @@
 2. [json](https://github.com/nlohmann/json)：C++ 的 JSON 库
 3. [awesome-c-cn](https://github.com/jobbole/awesome-c-cn)：C 资源大全中文版，包括构建系统、编译器、数据库、加密、初中高的教程/指南、书籍、库
 4. [fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser)
-5. [godot](https://github.com/godotengine/godot)：Godot Engine – Multi-platform 2D and 3D game engine
-6. [simhash](https://github.com/yanyiwu/simhash)：中文文档计算出对应的 simhash 值。simhash 是谷歌用来进行文本去重的算法（[详见 simhash 算法原理及实现](http://yanyiwu.com/work/2014/01/30/simhash-shi-xian-xiang-jie.html)）
-7. [ltp](https://github.com/HIT-SCIR/ltp)：语言技术平台（Language Technology Platform，LTP）是哈工大社会计算与信息检索研究中心历时十年开发的一整套中文语言处理系统
-8. [Snake](https://github.com/stevennl/Snake)：贪吃蛇游戏 AI 版
-9. [vnote](https://github.com/tamlok/vnote)：Markdown 编辑软件
-11. [taichi](https://github.com/taichi-dev/taichi)：太极是一种用于计算机图形应用的高性能编程语言
-12. [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail)：Sourcetrail - free and open-source interactive source explorer，代码结构可视化
-13. [keepassx](https://github.com/keepassx/keepassx)： a cross platform port of the windows application “Keepass Password Safe”.
-14. [wwsearch](https://github.com/Tencent/wwsearch)：腾讯全文搜索引擎
-15. [workflow](https://github.com/sogou/workflow): C++ Parallel Computing and Asynchronous Networking Engine
-16. [drogon](https://github.com/an-tao/drogon)：Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows
-17. [openFrameworks](https://github.com/openframeworks/openFrameworks)：openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
-18. [TinyML](https://github.com/BurnellLiu/TinyML)：精简的C++ 机器学习库
-19. [Catch2](https://github.com/catchorg/Catch2)：A modern, C++-native, header-only, test framework for unit-tests
-20. [flashlight](https://github.com/flashlight/flashlight): A C++ standalone library for machine learning
-20. [mlibc](https://github.com/managarm/mlibc): 可移植的C标准库
-21. [uthash](https://github.com/troydhanson/uthash)：C macros for hash tables and more
-22. [WindowsAppSDK](https://github.com/microsoft/WindowsAppSDK)：[FOR Using, NOT Reading] Windows App SDK empowers all Windows Desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet. 
-23. [backward-cpp](https://github.com/bombela/backward-cpp)：A beautiful stack trace pretty printer for C++. 优化编译器报错信息。
-24. [range-v3](https://github.com/ericniebler/range-v3)：Range library for C++14/17/20, basis for C++20's std::ranges
+5. [TinyWebServer](https://github.com/qinguoyi/TinyWebServer)：Linux下C++轻量级Web服务器
+6. [ TinyWeb](https://github.com/GeneralSandman/TinyWeb):  web server in C++11.
+7. [MyTinySTL](https://github.com/Alinshans/MyTinySTL)：tiny STL in C++11
+8. [godot](https://github.com/godotengine/godot)：Godot Engine – Multi-platform 2D and 3D game engine
+9. [simhash](https://github.com/yanyiwu/simhash)：中文文档计算出对应的 simhash 值。simhash 是谷歌用来进行文本去重的算法（[详见 simhash 算法原理及实现](http://yanyiwu.com/work/2014/01/30/simhash-shi-xian-xiang-jie.html)）
+10. [ltp](https://github.com/HIT-SCIR/ltp)：语言技术平台（Language Technology Platform，LTP）是哈工大社会计算与信息检索研究中心历时十年开发的一整套中文语言处理系统
+11. [Snake](https://github.com/stevennl/Snake)：贪吃蛇游戏 AI 版
+12. [vnote](https://github.com/tamlok/vnote)：Markdown 编辑软件
+13. [taichi](https://github.com/taichi-dev/taichi)：太极是一种用于计算机图形应用的高性能编程语言
+14. [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail)：Sourcetrail - free and open-source interactive source explorer，代码结构可视化
+15. [keepassx](https://github.com/keepassx/keepassx)： a cross platform port of the windows application “Keepass Password Safe”.
+16. [wwsearch](https://github.com/Tencent/wwsearch)：腾讯全文搜索引擎
+17. [workflow](https://github.com/sogou/workflow): C++ Parallel Computing and Asynchronous Networking Engine
+18. [drogon](https://github.com/an-tao/drogon)：Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows
+19. [openFrameworks](https://github.com/openframeworks/openFrameworks)：openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
+20. [TinyML](https://github.com/BurnellLiu/TinyML)：精简的C++ 机器学习库
+21. [Catch2](https://github.com/catchorg/Catch2)：A modern, C++-native, header-only, test framework for unit-tests
+22. [flashlight](https://github.com/flashlight/flashlight): A C++ standalone library for machine learning
+23. [mlibc](https://github.com/managarm/mlibc): 可移植的C标准库
+24. [uthash](https://github.com/troydhanson/uthash)：C macros for hash tables and more
+25. [WindowsAppSDK](https://github.com/microsoft/WindowsAppSDK)：[FOR Using, NOT Reading] Windows App SDK empowers all Windows Desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet. 
+26. [backward-cpp](https://github.com/bombela/backward-cpp)：A beautiful stack trace pretty printer for C++. 优化编译器报错信息。
+27. [range-v3](https://github.com/ericniebler/range-v3)：Range library for C++14/17/20, basis for C++20's std::ranges
 
 ---
 
@@ -411,7 +415,7 @@
 
 
 
-##### Transformer
+##### 1 Transformer
 
 1. [delight](https://github.com/sacmehta/delight)：DeLighT: Very Deep and Light-Weight Transformers. [DeFINE (ICLR'20)](https://openreview.net/pdf?id=rJeXS04FPH) and [DeLighT (preprint)](https://arxiv.org/pdf/2008.00623.pdf).
 2. [Transformer-Clinic](https://github.com/LiyuanLucasLiu/Transformer-Clinic)：Understanding the Difficulty of Training Transformers
@@ -481,7 +485,7 @@
 
 
 
-##### * 其他语言模型
+##### 3 其他语言模型
 
 1. T5： https://github.com/google-research/text-to-text-transfer-transformer   [中文博客](https://mp.weixin.qq.com/s?__biz=MjM5ODkzMzMwMQ==&mid=2650411701&idx=2&sn=f253b2cde92e0be27e4cdb010f8f957a&chksm=becd94ef89ba1df9c417810e83fe2b06686b5f43f550d9335e7b4ebcccb99678d0fbe7b90910&scene=21#wechat_redirect)
 
@@ -507,16 +511,18 @@
 
 12. [NeZha_Chinese_PyTorch](https://github.com/lonePatient/NeZha_Chinese_PyTorch)：pytorch版NEZHA，适配transformers
 
+13. [luke](https://github.com/studio-ousia/luke)：LUKE -- Language Understanding with Knowledge-based Embeddings
+
     
 
-##### 3 CRF、LAN
+##### 4 CRF、LAN
 
 1. label-attention inference  [paper](https://arxiv.org/abs/1908.08676)
 2. [pytorch-struct](https://github.com/harvardnlp/pytorch-struct)：A library of tested, GPU implementations of core structured prediction algorithms for deep learning applications. [概率图模型]
 
 
 
-##### * CLUE项目合辑（NLP）
+##### 5 CLUE项目合辑（NLP）
 
 CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
@@ -533,7 +539,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### * BERT Applications
+##### 6 BERT Applications
 
 1. [rasa_chatbot_cn](https://github.com/GaoQ1/rasa_chatbot_cn):基于最新版本rasa搭建的对话系统
 2. [Bert-Chinese-Text-Classification-Pytorch](https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch):使用Bert，ERNIE，进行中文文本分类
@@ -552,7 +558,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### * NER
+##### 7 NER
 
 1. [spert](https://github.com/markus-eberts/spert)：PyTorch code for SpERT: "Span-based Entity and Relation Transformer". For a description of the model and experiments, see our paper: https://arxiv.org/abs/1909.07755 (accepted at ECAI 2020).
 2. [mrc-for-flat-nested-ner](https://github.com/pranciskus/mrc-for-flat-nested-ner)：The code for "A Unified MRC Framework for Named Entity Recognition"
@@ -568,7 +574,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### * ELMo And Others
+##### 8 ELMo And Others
 
 1. [bilm-tf](https://github.com/allenai/bilm-tf)：Tensorflow implementation，allen ai
 2. [预训练模型](https://allennlp.org/elmo)
@@ -577,7 +583,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### 4 相似度匹配
+##### 9 相似度匹配
 
 1. [cail2019](https://github.com/padeoe/cail2019)：法研杯2019相似案例匹配第二名解决方案（附数据集和文档）
 2. [StarSpace](https://github.com/facebookresearch/StarSpace)：Learning embeddings for classification, retrieval and ranking.
@@ -592,7 +598,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### * 文本分类
+##### 10 文本分类
 
 1. [text_classification](https://github.com/brightmart/text_classification)：all kinds of text classification models and more with deep learning
 2. [Chinese-Text-Classification-Pytorch](https://github.com/649453932/Chinese-Text-Classification-Pytorch)：中文文本分类，TextCNN，TextRNN，FastText，TextRCNN，BiLSTM_Attention，DPCNN，Transformer，基于pytorch，开箱即用
@@ -612,7 +618,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### *  Aspect Based Sentiment Analysis
+##### 11  Aspect Based Sentiment Analysis
 
 1. [ABSA-PyTorch](https://github.com/songyouwei/ABSA-PyTorch)
 2. [BERT-for-RRC-ABSA](https://github.com/howardhsu/BERT-for-RRC-ABSA)：code for our NAACL 2019 paper: "BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis"
@@ -622,7 +628,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### 5 文本摘要
+##### 12 文本摘要
 
 1. [textsum](https://github.com/tensorflow/models/tree/master/research/textsum)：Sequence-to-Sequence with Attention Model for Text Summarization.
 2. [sumy](https://github.com/miso-belica/sumy)：Module for automatic summarization of text documents and HTML pages.
@@ -641,7 +647,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### 6 seq2seq
+##### 13 seq2seq
 
 1. [nlg-eval](https://github.com/Maluuba/nlg-eval): 评测指标
 2. [OpenSeq2Seq](https://github.com/NVIDIA/OpenSeq2Seq)：Toolkit for efficient experimentation with Speech Recognition, Text2Speech and NLP
@@ -655,7 +661,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### * QA
+##### 14 QA
 
 1. **[qa_match](https://github.com/wuba/qa_match)**：A simple effective ToolKit for short text matching
 2. [QA-Survey](https://github.com/BDBC-KG-NLP/QA-Survey)：对问答系统的调研。
@@ -666,7 +672,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### 7 ModelZoo
+##### 15 ModelZoo
 
 1. [Gathers machine learning and Tensorflow deep learning models for NLP problems](https://github.com/huseinzol05/NLP-Models-Tensorflow)
 2. [MatchZoo 是一个通用的文本匹配工具包](https://github.com/NTMC-Community/MatchZoo): deep text matching models
@@ -678,7 +684,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### 8 开源包
+##### 16 开源包
 
 1. [nematus](https://github.com/EdinburghNLP/nematus)：Open-Source Neural Machine Translation in Tensorflow
 2. [Gluon-NLP](https://github.com/dmlc/gluon-nlp)
@@ -689,12 +695,12 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 7. [结巴中文分词](https://github.com/fxsjy/jieba)
 8. [lda2vec](https://github.com/cemoody/lda2vec): Tools for interpreting natural language
 9. [复旦 fastNLP](https://github.com/fastnlp/fastNLP)：: A Modularized and Extensible NLP Framework. Currently still in incubation.
-10. [fast text： representation and classification.](https://github.com/facebookresearch/fastText)
+10. [fast text](https://github.com/facebookresearch/fastText)： representation and classification.
 11. [autotuning for fastText](https://ai.facebook.com/blog/fasttext-blog-post-open-source-in-brief/)
 12. [HanLP](https://github.com/hankcs/HanLP)
 13. [pkuseg多领域中文分词工具](https://github.com/lancopku/pkuseg-python)：pkuseg简单易用，支持细分领域分词，有效提升了分词准确度
 14. [An open-source neural machine translation toolkit 清华](https://github.com/THUNLP-MT/THUMT/tree/d4cb62c215d846093e5357aa17b286506b2df1af)
-15. [Neural Modules: a toolkit for conversational AI](https://github.com/NVIDIA/NeMo)
+15. [Neural Modules](https://github.com/NVIDIA/NeMo): a toolkit for conversational AI
 16. [stanza](https://github.com/stanfordnlp/stanza) ： Official Stanford NLP Python Library for Many Human Languages  [Doc](https://readthedocs.org/projects/stanza/)
 17. [StarSpace](https://github.com/facebookresearch/StarSpace)：Learning embeddings for classification, retrieval and ranking.
 18. [BigARTM](http://docs.bigartm.org/en/stable/index.html)：topic model
@@ -714,7 +720,6 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 32. [UDA_pytorch](https://github.com/SanghunYun/UDA_pytorch)：UDA(Unsupervised Data Augmentation) implemented by pytorch
 33. [PaddleNLP](https://github.com/PaddlePaddle/PaddleNLP)：An NLP library with Awesome pre-trained Transformer models
 34. [mars](https://github.com/mars-project/mars)：a tensor-based unified framework for large-scale data computation which scales Numpy, pandas, Scikit-learn and Python functions.
-35. [TextBlob](https://github.com/sloria/TextBlob): Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation...
 36. [knlp](https://github.com/DukeEnglish/knlp)：类似 snownlp 和 textblob，调用方便，提供基础算法的训练和推理的脚本，各种nlp任务的评估方法以及评估数据集，提供深度学习，面向中文开发，且功能很基础，适合于二次改造。
 37. [skweak](https://github.com/NorskRegnesentral/skweak):   A software toolkit for weak supervision applied to NLP tasks
 38. [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning): The easiest way to use deep metric learning in your application. 可直接使用的 NTXENT loss (InfoNCE) ，SupContrast loss等对比学习损失。
@@ -723,7 +728,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### 9 其他model
+##### 17 其他model
 
 1. [show-attend-and-tell](https://github.com/yunjey/show-attend-and-tell)
 2. [Retrieval-Based Conversational Model in Tensorflow](https://github.com/dennybritz/chatbot-retrieval)
@@ -732,7 +737,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### 10 关系抽取
+##### 18 关系抽取
 
 1. [Snowball](https://github.com/davidsbatista/Snowball)：Snowball: Extracting Relations from Large Plain-Text Collections
 2. [OpenNRE](https://github.com/thunlp/OpenNRE)： relation extraction models.
@@ -758,7 +763,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### 11 蒸馏
+##### 19 蒸馏
 
 1. [TextBrewer](https://github.com/airaria/TextBrewer)：A PyTorch-based knowledge distillation toolkit for natural language processing
 2. [KD_Lib](https://github.com/SforAiDl/KD_Lib)：A Pytorch Knowledge Distillation library for benchmarking and extending works in the domains of Knowledge Distillation, Pruning, and Quantization.
@@ -767,7 +772,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 
 
-##### 12 对话
+##### 20 对话
 
 1. [DeepPavlov](https://github.com/deepmipt/DeepPavlov)：An open source library for deep learning end-to-end dialog systems and chatbots.
 2. [ConvLab-2](https://github.com/thu-coai/ConvLab-2)：ConvLab-2: An Open-Source Toolkit for Building, Evaluating, and Diagnosing Dialogue Systems
@@ -775,66 +780,81 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 4. [nezha_gpt_dialog](https://github.com/bojone/nezha_gpt_dialog)
 5. [DialoGPT](https://github.com/microsoft/DialoGPT)：Large-scale pretraining for dialogue
 6. [CDial-GPT](https://github.com/thu-coai/CDial-GPT)：A Large-scale Chinese Short-Text Conversation Dataset and Chinese pre-training dialog models
-7. 【工具】[mirai](https://github.com/mamoe/mirai)：高效率 QQ 机器人框架 / High-performance bot framework for Tencent QQ
+7. [mirai](https://github.com/mamoe/mirai)：高效率 QQ 机器人框架 / High-performance bot framework for Tencent QQ
 8. [unit-dmkit](https://github.com/baidu/unit-dmkit): DMKit作为UNIT的开源对话管理模块，可以无缝对接UNIT的理解能力，并赋予开发者多状态的复杂对话流程管理能力，还可以低成本对接外部知识库，迅速丰富话术信息量
 9. [chat](https://github.com/Decalogue/chat)：基于自然语言理解与机器学习的聊天机器人，支持多用户并发及自定义多轮对话。对知识图谱以及 KBQA 感兴趣，想从0开始构建自己的知识图谱
 10. [SMP2018](https://github.com/wangle1218/SMP2018)：SMP2018中文人机对话技术评测（ECDT）
 11. [ GPT2-chitchat](https://github.com/yangjianxin1/GPT2-chitchat)：GPT2 for Chinese chitchat/用于中文闲聊的GPT2模型(实现了DialoGPT的MMI思想)
 12. [百度对话系统](https://github.com/baidu/Dialogue)
-13. [Rasa开源机器学习框架，用于自动化基于文本和语音的对话](https://github.com/RasaHQ/rasa)
-14. [对话系统：sharing, training and evaluating dialogue models across many tasks.](https://github.com/facebookresearch/ParlAI)
+13. [Rasa](https://github.com/RasaHQ/rasa)：开源机器学习框架，用于自动化基于文本和语音的对话
+14. [对话系统](https://github.com/facebookresearch/ParlAI)：sharing, training and evaluating dialogue models across many tasks.
+15. [ Task-Oriented-Dialogue-Research-Progress-Survey](https://github.com/AtmaHou/Task-Oriented-Dialogue-Research-Progress-Survey)
+16. [MetaDialog](https://github.com/AtmaHou/MetaDialog)：Platform for few-shot natural language processing: Text Classification, Sequene Labeling.
 
 
 
-##### 13 指代消解
+##### 21 意图与槽位填充
+
+1. [ FewShotMultiLabel](https://github.com/AtmaHou/FewShotMultiLabel)：AAAI2021 paper: Few-Shot Learning for Multi-label Intent Detection.
+2. [FewShotTagging](https://github.com/AtmaHou/FewShotTagging)：ACL2020 paper: Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network
+
+
+
+##### 22 指代消解
 
 1. [hobbs](https://github.com/cmward/hobbs)：Implementation of Hobbs' algorithm for coreference resolution in python
 
-##### 14 主题
+##### 23 主题
 
 1. [microsoft / LightLDA](https://github.com/microsoft/LightLDA)
 
-##### 15 自动机
+##### 24 自动机
 
 1. [automata](https://github.com/caleb531/automata)：A Python library for simulating finite automata, pushdown automata, and Turing machines
 
-##### 16 阅读理解
+##### 25 阅读理解
 
 1. [SDNet](https://github.com/microsoft/SDNet)
-2. [luke](https://github.com/studio-ousia/luke)：LUKE -- Language Understanding with Knowledge-based Embeddings
 3. [SogouMRCToolkit](https://github.com/sogou/SogouMRCToolkit)： fast and efficient development of modern machine comprehension models, including both published models and original prototypes
 
-##### 17 数据增强
+##### 26 数据增强
 
 1. [Cutoff](https://github.com/dinghanshen/Cutoff)：Cutoff data augmentation approach for NLP
 
-##### 18 Prompt
+##### 27 Prompt
 
 1. [PromptPapers](https://github.com/thunlp/PromptPapers)：Must-read papers on prompt-based tuning for pre-trained language models.
 2. [autoprompt](https://github.com/ucinlp/autoprompt)：AutoPrompt: Automatic Prompt Construction for Masked Language Models.
+3. [P-tuning-v2](https://github.com/THUDM/P-tuning-v2)：ACL 2022 paper "P-tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Across Scales and Tasks"
 
-##### 19 Adaptor
+##### 28 Adaptor
 
 1. [adapter-transformers](https://github.com/Adapter-Hub/adapter-transformers)：Huggingface Transformers + Adapters = ❤️
 
 
 
-#####  19 Book and Course
+#####  29 Book and Course
 
    1. [Natural Language Processing with PyTorch](https://github.com/joosthub/PyTorchNLPBook)
    2. [Course materials for Georgia Tech CS 4650 and 7650, "Natural Language"](https://github.com/jacobeisenstein/gt-nlp-class)
-   3. [MTBook](https://github.com/NiuTrans/MTBook)：《机器翻译：统计建模与深度学习方法》肖桐 朱靖波 著
+   3. [MTBook](https://github.com/NiuTrans/MTBook)：《机器翻译：统计建模与深度学习方法》
 
-##### 20 可视化
+
+
+##### 30 可视化
 
 1. [Text Visualization Browser](https://textvis.lnu.se/)
 
-##### 21 最新研究进展
+
+
+##### 31 最新研究进展
 
    1. [track the progress in Natural Language Processing (NLP)](https://github.com/sebastianruder/NLP-progress)
    2. [Repository to show how NLP can tacke real problem.](https://github.com/makcedward/nlp)
    3. [Leaderboards-for-Multi-Turn-Response-Selection](https://github.com/JasonForJoy/Leaderboards-for-Multi-Turn-Response-Selection)：provide the reader with a quick overview of benchmark datasets and the state-of-the-art studies on this task, which serves as a stepping stone for further research.
    4. **[awesome-papers](https://github.com/huggingface/awesome-papers)**：Papers & presentation materials from Hugging Face's internal science day
+
+
 
 ---
 
@@ -957,23 +977,24 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [Recent Advances in Deep Learning for Object Detection](https://arxiv.org/abs/1908.03673v1)
 2. [pytorch-YOLOv4](https://github.com/Tianxiaomo/pytorch-YOLOv4)：PyTorch ,ONNX and TensorRT implementation of YOLOv4
-3. [yolov5](https://github.com/ultralytics/yolov5)：YOLOv5 in PyTorch > ONNX > CoreML > iOS
-4. [deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)：A paper list of object detection using deep learning.
-5. [deepdetect](https://github.com/jolibrain/deepdetect)：Deep Learning API and Server in C++11 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE
-6. [ mmdetection](https://github.com/open-mmlab/mmdetection)：OpenMMLab Detection Toolbox and Benchmark
-7. [FaceBoxes.PyTorch](https://github.com/zisianw/FaceBoxes.PyTorch)：A PyTorch Implementation of FaceBoxes
-8. [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)：OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation
-9. [ Surface-Defect-Detection](https://github.com/Charmve/Surface-Defect-Detection)：open source dataset and important critical papers in the field of surface defect research
-10. [ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch): Pytorch reimplementation of the Vision Transformer (An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale)
-11. [efficientnet-pytorch](https://github.com/katsura-jp/efficientnet-pytorch): PyTorch implementation of "EfficientNet", ICML 2019
-12. [efficientnet](https://github.com/qubvel/efficientnet): Implementation of EfficientNet model. Keras and TensorFlow Keras.
-13. [FCOS](https://github.com/tianzhi0549/FCOS): Fully Convolutional One-Stage Object Detection (ICCV'19) 
-14. [image-segmentation-keras](https://github.com/divamgupta/image-segmentation-keras)：Implementation of Segnet, FCN, UNet , PSPNet and other models in Keras
-15. [YOLOF](https://github.com/chensnathan/YOLOF)：You Only Look One-level Feature (YOLOF), CVPR2021, Detectron2
-16. [Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection)：Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)
-17. [LSPS](https://github.com/masabdi/LSPS)：Source code for "3D Hand Pose Estimation using Simulation and Partial-Supervision with a Shared Latent Space"
-18. [nanodet](https://github.com/RangiLyu/nanodet): ⚡Super fast and lightweight anchor-free object detection model. 🔥Only 980 KB(int8) / 1.8MB (fp16) and run 97FPS on cellphone🔥
-19. [U-2-Net](https://github.com/xuebinqin/U-2-Net)：paper in Pattern Recognition 2020: "U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection."
+3. [tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite)：YOLOv4, YOLOv4-tiny, YOLOv3, YOLOv3-tiny Implemented in Tensorflow 2.0, Android. Convert YOLO v4 .weights tensorflow, tensorrt and tflite
+4. [yolov5](https://github.com/ultralytics/yolov5)：YOLOv5 in PyTorch > ONNX > CoreML > iOS
+5. [deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)：A paper list of object detection using deep learning.
+6. [deepdetect](https://github.com/jolibrain/deepdetect)：Deep Learning API and Server in C++11 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE
+7. [ mmdetection](https://github.com/open-mmlab/mmdetection)：OpenMMLab Detection Toolbox and Benchmark
+8. [FaceBoxes.PyTorch](https://github.com/zisianw/FaceBoxes.PyTorch)：A PyTorch Implementation of FaceBoxes
+9. [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)：OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation
+10. [ Surface-Defect-Detection](https://github.com/Charmve/Surface-Defect-Detection)：open source dataset and important critical papers in the field of surface defect research
+11. [ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch): Pytorch reimplementation of the Vision Transformer (An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale)
+12. [efficientnet-pytorch](https://github.com/katsura-jp/efficientnet-pytorch): PyTorch implementation of "EfficientNet", ICML 2019
+13. [efficientnet](https://github.com/qubvel/efficientnet): Implementation of EfficientNet model. Keras and TensorFlow Keras.
+14. [FCOS](https://github.com/tianzhi0549/FCOS): Fully Convolutional One-Stage Object Detection (ICCV'19) 
+15. [image-segmentation-keras](https://github.com/divamgupta/image-segmentation-keras)：Implementation of Segnet, FCN, UNet , PSPNet and other models in Keras
+16. [YOLOF](https://github.com/chensnathan/YOLOF)：You Only Look One-level Feature (YOLOF), CVPR2021, Detectron2
+17. [Ultra-Fast-Lane-Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection)：Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)
+18. [LSPS](https://github.com/masabdi/LSPS)：Source code for "3D Hand Pose Estimation using Simulation and Partial-Supervision with a Shared Latent Space"
+19. [nanodet](https://github.com/RangiLyu/nanodet): ⚡Super fast and lightweight anchor-free object detection model. 🔥Only 980 KB(int8) / 1.8MB (fp16) and run 97FPS on cellphone🔥
+20. [U-2-Net](https://github.com/xuebinqin/U-2-Net)：paper in Pattern Recognition 2020: "U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection."
 
 
 
@@ -1319,6 +1340,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 23. [NLPStreamlit](https://github.com/RamVegiraju/NLPStreamlit)：简易部署 Sentiment Analysis, Named Entity Recognition (NER), and Text Summarization 等网页应用。
 
+24. [TinyNeuralNetwork](https://github.com/alibaba/TinyNeuralNetwork)：compression framework.
+
 #### 训练
 
 1. [ray](https://github.com/ray-project/ray)：A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library
@@ -1557,6 +1580,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 12. [miasm](https://github.com/cea-sec/miasm)：Reverse engineering framework in Python
 13. [termpair](https://github.com/cs01/termpair): 使用浏览器，远程连接服务器terminal。
 14. [asynctasks.vim](https://github.com/skywind3000/asynctasks.vim)：Modern Task System for Project Building, Testing and Deploying !!
+15. [TencentOS-tiny](https://github.com/OpenAtomFoundation/TencentOS-tiny)：物联网终端操作系统
 
 
 
