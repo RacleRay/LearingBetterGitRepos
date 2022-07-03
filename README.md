@@ -186,8 +186,36 @@
 13. [examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers)：一些非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、豆瓣、QQ等网站
 14. [PythonCrawler](https://github.com/yhangf/PythonCrawler)：用python编写的爬虫项目集合
 15. [crawler-py](https://github.com/abbeyokgo/crawler-py)：分享一些爬虫脚本
-16. [playwright-python](https://github.com/microsoft/playwright-python)：Python version of the Playwright testing and automation library.
-17. [python-cheatsheet](https://github.com/gto76/python-cheatsheet)
+
+1. 
+
+##### 异步
+
+1. [celery](https://github.com/celery/celery)：Distributed Task Queue (development branch)【master-worker模式】【轻量级】
+
+##### 字符串搜索
+
+1. [pyahocorasick](https://github.com/WojciechMula/pyahocorasick)：**pyahocorasick** is a fast and memory efficient library for exact or approximate multi-pattern string search meaning that you can find multiple key strings occurrences at once in some input text. 
+   - AC自动机：[link](https://xueyouluo.github.io/Aho-Corasick-algorithm/) [link](https://racleray.github.io/2021/02/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E4%BB%8EKMP%E5%88%B0AC%E8%87%AA%E5%8A%A8%E6%9C%BA/)
+2. [ahocorasick-python](https://github.com/xizhicode/ahocorasick-python)：AC自动机python的实现，并进行了优化
+3. [ahocorapy](https://github.com/abusix/ahocorapy): Pure python Aho-Corasick library.
+4. [acora](https://github.com/scoder/acora): Fast multi-keyword search engine for text strings.
+5. [datrie](https://github.com/pytries/datrie)：Fast, efficiently stored Trie for Python. Uses libdatrie. [pypi](http://pypi.python.org/pypi/datrie/)
+
+##### 工具库
+
+1. [rich](https://github.com/willmcgugan/rich)：Rich is a Python library for rich text and beautiful formatting in the terminal.
+2. [apscheduler](https://github.com/agronholm/apscheduler)：Task scheduling library for Python
+3. [jupytext](https://github.com/mwouts/jupytext)：Jupyter Notebooks as Markdown Documents, Julia, Python or R scripts
+4. [nbdev](https://github.com/fastai/nbdev)：Create delightful python projects using Jupyter Notebooks
+5. [python-wechaty-getting-started](https://github.com/wechaty/python-wechaty-getting-started)：Python Wechaty Starter Project Template that Works Out-of-the-Box。Wechaty is a RPA SDK for Wechat **Individual** Account that can help you create a chatbot in 9 lines of Python.
+6. [python-wechaty](https://github.com/wechaty/python-wechaty)
+7. [sqlfluff](https://github.com/sqlfluff/sqlfluff): A SQL linter and auto-formatter
+8. [pyenv](https://github.com/pyenv/pyenv)：Python version management
+
+##### GUI
+
+1. [DearPyGui](https://github.com/hoffstadt/DearPyGui): A fast and powerful Graphical User Interface Toolkit
 
 ##### 其他
 
@@ -208,37 +236,20 @@
 15. [playwright-python](https://github.com/microsoft/playwright-python): python操作浏览器
 16. [loguru](https://github.com/Delgan/loguru): 更简洁的python log工具
 17. [PyWebIO](https://github.com/pywebio/PyWebIO)：Write interactive web app in script way. 用python生成前端代码
-18. [ Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer)： Create Beautiful Tkinter GUIs by Drag and Drop
+18. [Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer)： Create Beautiful Tkinter GUIs by Drag and Drop
 19. [moviepy](https://github.com/Zulko/moviepy)：使用python简易编辑视频
-20. [ Pillow](https://github.com/python-pillow/Pillow): Python Imaging Library.
-21. [tinydb](https://github.com/msiemens/tinydb)：a lightweight document oriented database/
+20. [playwright-python](https://github.com/microsoft/playwright-python)：Python version of the Playwright testing and automation library.
+21. [python-cheatsheet](https://github.com/gto76/python-cheatsheet)
+22. [Pillow](https://github.com/python-pillow/Pillow): Python Imaging Library.
+23. [tinydb](https://github.com/msiemens/tinydb)：a lightweight document oriented database.
+24. [Handright](https://github.com/Gsllchb/Handright)：模拟手写汉字
+25. [WantWords](https://github.com/thunlp/WantWords)：根据输入表达，输出同义的词
+26. [memray](https://github.com/bloomberg/memray)：memory profiler for Python
+27. [docker-py](https://github.com/docker/docker-py)：使用python创建docker
+28. [pikepdf](https://github.com/pikepdf/pikepdf)：编辑PDF
+29. 
 
-##### 异步
 
-1. [celery](https://github.com/celery/celery)：Distributed Task Queue (development branch)【master-worker模式】【轻量级】
-
-##### 字符串搜索
-
-1. [pyahocorasick](https://github.com/WojciechMula/pyahocorasick)：**pyahocorasick** is a fast and memory efficient library for exact or approximate multi-pattern string search meaning that you can find multiple key strings occurrences at once in some input text. 
-   - AC自动机：[link](https://xueyouluo.github.io/Aho-Corasick-algorithm/) [link](https://racleray.github.io/2021/02/27/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D%E4%BB%8EKMP%E5%88%B0AC%E8%87%AA%E5%8A%A8%E6%9C%BA/)
-2. [ahocorasick-python](https://github.com/xizhicode/ahocorasick-python)：AC自动机python的实现，并进行了优化
-3. [ahocorapy](https://github.com/abusix/ahocorapy): Pure python Aho-Corasick library.
-4. [acora](https://github.com/scoder/acora): Fast multi-keyword search engine for text strings.
-5. [datrie](https://github.com/pytries/datrie)：Fast, efficiently stored Trie for Python. Uses libdatrie. [pypi](http://pypi.python.org/pypi/datrie/)
-
-##### 工具API
-
-1. [python-wechaty-getting-started](https://github.com/wechaty/python-wechaty-getting-started)：Python Wechaty Starter Project Template that Works Out-of-the-Box。Wechaty is a RPA SDK for Wechat **Individual** Account that can help you create a chatbot in 9 lines of Python.
-2. [python-wechaty](https://github.com/wechaty/python-wechaty)
-
-##### 工具库
-
-1. [rich](https://github.com/willmcgugan/rich)：Rich is a Python library for rich text and beautiful formatting in the terminal.
-2. [apscheduler](https://github.com/agronholm/apscheduler)：Task scheduling library for Python
-3. [jupytext](https://github.com/mwouts/jupytext)：Jupyter Notebooks as Markdown Documents, Julia, Python or R scripts
-4. [nbdev](https://github.com/fastai/nbdev)：Create delightful python projects using Jupyter Notebooks
-
-</details>
 
 ---
 
@@ -246,15 +257,14 @@
 
 #### 编程书籍
 
-1. Essential C++ (有c基础）
-2. C++ Primer第四版 (内容很全）
-3. Effective C++
-4. More Effective C++(较深一些)
-5. C++ 标准程序库
-6. 深入探索C++对象模型
 7. [CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings)：C++那些事
 8. [CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines)：The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++
 9. [EffectiveModernCppChinese](https://github.com/CnTransGroup/EffectiveModernCppChinese)：《Effective Modern C++》翻译
+4. [Cpp_Primer_Practice](https://github.com/applenob/Cpp_Primer_Practice)：C++ Primer 笔记和课后练习答案
+5. [TCP-IP-NetworkNote](https://github.com/riba2534/TCP-IP-NetworkNote)：《TCP/IP网络编程》(韩-尹圣雨)学习笔记
+6. [rCore-Tutorial-Book-v3](https://github.com/rcore-os/rCore-Tutorial-Book-v3)：清华操作系统课rCore
+7. [tensorflow-internals](https://github.com/horance-liu/tensorflow-internals)：TensorFlow kernel and implementation mechanism.
+8. [cpp-game-engine-book](https://github.com/ThisisGame/cpp-game-engine-book): 从零编写游戏引擎教程
 
 #### 开源项目
 
@@ -268,7 +278,7 @@
 3. [awesome-c-cn](https://github.com/jobbole/awesome-c-cn)：C 资源大全中文版，包括构建系统、编译器、数据库、加密、初中高的教程/指南、书籍、库
 4. [fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser)
 5. [TinyWebServer](https://github.com/qinguoyi/TinyWebServer)：Linux下C++轻量级Web服务器
-6. [ TinyWeb](https://github.com/GeneralSandman/TinyWeb):  web server in C++11.
+6. [TinyWeb](https://github.com/GeneralSandman/TinyWeb):  web server in C++11.
 7. [MyTinySTL](https://github.com/Alinshans/MyTinySTL)：tiny STL in C++11
 8. [godot](https://github.com/godotengine/godot)：Godot Engine – Multi-platform 2D and 3D game engine
 9. [simhash](https://github.com/yanyiwu/simhash)：中文文档计算出对应的 simhash 值。simhash 是谷歌用来进行文本去重的算法（[详见 simhash 算法原理及实现](http://yanyiwu.com/work/2014/01/30/simhash-shi-xian-xiang-jie.html)）
@@ -290,6 +300,10 @@
 25. [WindowsAppSDK](https://github.com/microsoft/WindowsAppSDK)：[FOR Using, NOT Reading] Windows App SDK empowers all Windows Desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet. 
 26. [backward-cpp](https://github.com/bombela/backward-cpp)：A beautiful stack trace pretty printer for C++. 优化编译器报错信息。
 27. [range-v3](https://github.com/ericniebler/range-v3)：Range library for C++14/17/20, basis for C++20's std::ranges
+28. [async_simple](https://github.com/alibaba/async_simple): 轻量级C++异步框架
+29. [folly](https://github.com/facebook/folly): An open-source C++ library developed and used at Facebook.
+30. [cocoyaxi](https://github.com/idealvin/cocoyaxi)：A go-style coroutine library in C++11
+31. 
 
 ---
 
@@ -318,6 +332,7 @@
 
 1. [bevy](https://github.com/bevyengine/bevy)：A refreshingly simple data-driven game engine built in Rust.
 2. [blog_os](https://github.com/phil-opp/blog_os)：Writing an OS in Rust
+3. [mdBook](https://github.com/rust-lang/mdBook)：Create book from markdown files. 
 
 ---
 
@@ -377,12 +392,27 @@
 3. [PlayWithCompiler](https://github.com/RichardGong/PlayWithCompiler)：A GeekTime course about constructing a compiler
 4. [15-minute-apps](https://github.com/learnpyqt/15-minute-apps)：15 minute (small) desktop apps built with PyQt
 5. [wyoos](https://github.com/AlgorithMan-de/wyoos)：Source codes for the "Write your own Operating System" video-series on YouTube
+6. [SerenityOS](https://github.com/SerenityOS/serenity)：复古OS，较大的项目
+
+
+
+### IoT
+
+1. [IoT-For-Beginners](https://github.com/microsoft/IoT-For-Beginners): 24 Lessons
+
+2. 
+
+   
+
+   
+
+
 
 ### 其他语言
 
 1. [purr-data](https://github.com/agraef/purr-data)：Pure Data (aka Pd) is a visual programming language.
 2. [astro](https://github.com/withastro/astro): Build fast websites, faster. 🚀🧑‍🚀✨. 快速编写简单web页面
-3. 
+3. [开源软件指南 | Open Source Guides](https://opensource.guide/zh-hans/)：Github开源贡献指南
 
 ---
 
@@ -390,14 +420,14 @@
 
 ### Colab神器
 
-1. [colabcode](https://github.com/abhishekkrthakur/colabcode): Run VSCode (codeserver) on Google Colab or Kaggle Notebooks.  !!! 注意 访问时，使用 https 协议 ！！！ python extention 使用 2020.5.86806 版本，最新版本不能debug 和 选择 解释器。
+1. [colabcode](https://github.com/abhishekkrthakur/colabcode): Run VSCode (codeserver) on Google Colab or Kaggle Notebooks.  访问时，使用 https 协议 ！ python extention 使用 2020.5.86806 版本，最新版本不能debug 和 选择 解释器。
 
 ### 损失函数
 
 1. [self-adj-dice](https://github.com/fursovia/self-adj-dice)：Implementation of Self-adjusting Dice Loss from "Dice Loss for Data-imbalanced NLP Tasks" paper
 2. [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)：label-smooth, amsoftmax, focal-loss, triplet-loss, lovasz-softmax ...
 
-### 分类资源
+### 资源
 
 - [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) ：Implementations/tutorials of deep learning papers with side-by-side notes; including transformers (original, xl, switch, feedback), optimizers(adam, radam, adabelief), gans(dcgan, cyclegan, stylegan2), reinforcement learning (ppo, dqn), capsnet, sketch-rnn, etc.
 - [awesome-deep-trading](https://github.com/cbailes/awesome-deep-trading)
@@ -412,6 +442,7 @@
 - [EasyTransfer](https://github.com/alibaba/EasyTransfer)：EasyTransfer is designed to make the development of transfer learning in NLP applications easier.
 - [google-research / language](https://github.com/google-research/language)：Shared repository for open-sourced projects from the Google AI Language team.
 - [HuggingFace Bert Model Download Site](https://huggingface.co/models?filter=zh)
+- [悟道中文语言模型资源](https://wudaoai.cn/model/)
 
 
 
@@ -469,7 +500,7 @@
 
 17. [unilm](https://github.com/microsoft/unilm)：UniLM - Unified Language Model Pre-training / Pre-trained models for natural language understanding (NLU) and generation (NLG) tasks
 
-18. #####  XLnet
+18. XLnet
 
    - https://github.com/zihangdai/xlnet
    - https://github.com/graykode/xlnet-Pytorch
@@ -482,6 +513,7 @@
 24. [BERT-whitening](https://github.com/bojone/BERT-whitening)：简单的向量白化就可以媲美BERT flow
 25. [OptiPrompt](https://github.com/princeton-nlp/OptiPrompt)：NAACL'2021: Factual Probing Is [MASK]: Learning vs. Learning to Recall
 26. [R-Drop](https://github.com/dropreg/R-Drop)：R-drop: Regularized Dropout for Neural Networks. 一种loss设计
+27. [悟道中文语言模型资源](https://wudaoai.cn/model/)
 
 
 
@@ -784,18 +816,18 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 8. [unit-dmkit](https://github.com/baidu/unit-dmkit): DMKit作为UNIT的开源对话管理模块，可以无缝对接UNIT的理解能力，并赋予开发者多状态的复杂对话流程管理能力，还可以低成本对接外部知识库，迅速丰富话术信息量
 9. [chat](https://github.com/Decalogue/chat)：基于自然语言理解与机器学习的聊天机器人，支持多用户并发及自定义多轮对话。对知识图谱以及 KBQA 感兴趣，想从0开始构建自己的知识图谱
 10. [SMP2018](https://github.com/wangle1218/SMP2018)：SMP2018中文人机对话技术评测（ECDT）
-11. [ GPT2-chitchat](https://github.com/yangjianxin1/GPT2-chitchat)：GPT2 for Chinese chitchat/用于中文闲聊的GPT2模型(实现了DialoGPT的MMI思想)
+11. [GPT2-chitchat](https://github.com/yangjianxin1/GPT2-chitchat)：GPT2 for Chinese chitchat/用于中文闲聊的GPT2模型(实现了DialoGPT的MMI思想)
 12. [百度对话系统](https://github.com/baidu/Dialogue)
 13. [Rasa](https://github.com/RasaHQ/rasa)：开源机器学习框架，用于自动化基于文本和语音的对话
-14. [对话系统](https://github.com/facebookresearch/ParlAI)：sharing, training and evaluating dialogue models across many tasks.
-15. [ Task-Oriented-Dialogue-Research-Progress-Survey](https://github.com/AtmaHou/Task-Oriented-Dialogue-Research-Progress-Survey)
+14. [ParlAI](https://github.com/facebookresearch/ParlAI)：sharing, training and evaluating dialogue models across many tasks.
+15. [Task-Oriented-Dialogue-Research-Progress-Survey](https://github.com/AtmaHou/Task-Oriented-Dialogue-Research-Progress-Survey)
 16. [MetaDialog](https://github.com/AtmaHou/MetaDialog)：Platform for few-shot natural language processing: Text Classification, Sequene Labeling.
 
 
 
 ##### 21 意图与槽位填充
 
-1. [ FewShotMultiLabel](https://github.com/AtmaHou/FewShotMultiLabel)：AAAI2021 paper: Few-Shot Learning for Multi-label Intent Detection.
+1. [FewShotMultiLabel](https://github.com/AtmaHou/FewShotMultiLabel)：AAAI2021 paper: Few-Shot Learning for Multi-label Intent Detection.
 2. [FewShotTagging](https://github.com/AtmaHou/FewShotTagging)：ACL2020 paper: Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network
 
 
@@ -825,7 +857,10 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [PromptPapers](https://github.com/thunlp/PromptPapers)：Must-read papers on prompt-based tuning for pre-trained language models.
 2. [autoprompt](https://github.com/ucinlp/autoprompt)：AutoPrompt: Automatic Prompt Construction for Masked Language Models.
-3. [P-tuning-v2](https://github.com/THUDM/P-tuning-v2)：ACL 2022 paper "P-tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Across Scales and Tasks"
+3. [P-tuning](https://github.com/BAAI-WuDao/P-tuning)：CPM(Chinese PL)模型的 fine-tune 代码仓库，可以用于模型 fine-tune 的多机多卡训练/测试。
+4. [P-tuning-v2](https://github.com/THUDM/P-tuning-v2)：ACL 2022 paper "P-tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Across Scales and Tasks"
+5. [OpenPrompt](https://github.com/thunlp/OpenPrompt)：An Open-Source Framework for Prompt-Learning
+6. [iPrompt](https://github.com/BAAI-WuDao/iPrompt)：Controllable Generation from Pre-trained Language Models via Inverse Prompting
 
 ##### 28 Adaptor
 
@@ -958,6 +993,9 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 20. [fawkes](https://github.com/Shawn-Shan/fawkes): 识别合成图像
 21. [mae](https://github.com/facebookresearch/mae)： [Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377)
 22. [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) ：[A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545). CVPR 2022.
+23. [ResNeSt](https://github.com/zhanghang1989/ResNeSt): significantly boosts the performance of downstream models such as Mask R-CNN, Cascade R-CNN and DeepLabV3.
+24. [Res2Net](https://github.com/Res2Net/Res2Net-PretrainedModels): Multi-scale Backbone Architecture
+25. [CSWin-Transformer](https://github.com/microsoft/CSWin-Transformer)：Vision Transformer Backbone with Cross-Shaped, CVPR 2022
 
 
 
@@ -1026,6 +1064,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 13. [pixray](https://github.com/dribnet/pixray)：neural image generation. 生成pixel风格图像
 14. [text2art](https://github.com/mfrashad/text2art)：AI-powered Text-to-Art Generator - Text2Art.com
 15. [latent-diffusion](https://github.com/CompVis/latent-diffusion): High-Resolution Image Synthesis with Latent Diffusion Models
+16. [dalle-mini](https://github.com/borisdayma/dalle-mini): Generate images from a text prompt
 
 
 
@@ -1037,6 +1076,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 4. [albumentations](https://github.com/albumentations-team/albumentations): Fast image augmentation library and easy to use wrapper around other libraries
 5. [imgaug](https://github.com/aleju/imgaug)：Image augmentation for machine learning experiments.
 6. [AugLy](https://github.com/facebookresearch/AugLy)：A data augmentations library for audio, image, text, and video.
+7. [ttach](https://github.com/qubvel/ttach)：Test Time Augmentation with PyTorch
 
 
 
@@ -1278,6 +1318,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 2. [hyperopt / hyperopt](https://github.com/hyperopt/hyperopt)：超参数调整
 3. [hyperparameter_hunter](https://github.com/HunterMcGushion/hyperparameter_hunter)：Automatically save and learn from Experiment results, leading to long-term, persistent optimization that remembers all your tests.
 4. [microsoft / DeepSpeed](https://github.com/microsoft/DeepSpeed)：library that makes distributed training easy, efficient, and effective.
+   - [TDS](https://github.com/BAAI-WuDao/TDS): A plug-in of Microsoft DeepSpeed to fix the bug of DeepSpeed pipeline
 5. [apex](https://github.com/NVIDIA/apex)：A PyTorch Extension: Tools for easy mixed precision and distributed training in Pytorch
 6. [model-optimization](https://github.com/tensorflow/model-optimization)：A toolkit to optimize ML models for deployment for Keras and TensorFlow, including quantization and pruning.
 7. [keras-tuner](https://github.com/keras-team/keras-tuner)：Hyperparameter tuning for humans
@@ -1285,6 +1326,9 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 9. [lightseq](https://github.com/bytedance/lightseq)：LightSeq: A High Performance Library for Sequence Processing and Generation
 10. [nni](https://github.com/microsoft/nni)：An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning.
 11. [AutoGluon](https://auto.gluon.ai/stable/index.html)：AutoML for Text, Image, and Tabular Data.
+12. [BMInf](https://github.com/OpenBMB/BMInf)：Efficient Inference for Big Models
+13. [InfMoE](https://github.com/BAAI-WuDao/InfMoE): Inference framework for MoE(Mixture of Experts) layers based on TensorRT with Python binding
+14. [fastmoe](https://github.com/BAAI-WuDao/fastmoe): A fast MoE impl for PyTorch
 
 ### 模型训练部署
 
@@ -1342,6 +1386,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 24. [TinyNeuralNetwork](https://github.com/alibaba/TinyNeuralNetwork)：compression framework.
 
+25. [nonebot2](https://github.com/nonebot/nonebot2): 跨平台 Python 异步聊天机器人框架
+
 #### 训练
 
 1. [ray](https://github.com/ray-project/ray)：A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library
@@ -1361,6 +1407,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 15. [rigl](https://github.com/google-research/rigl)：End-to-end training of sparse deep neural networks with little-to-no performance loss.  "Making All Tickets Winners"
 16. [skweak](https://github.com/NorskRegnesentral/skweak):   A software toolkit for **weak supervision** applied to **NLP** tasks
 17. [AugLy](https://github.com/facebookresearch/AugLy)：A data augmentations library for audio, image, text, and video.
+18. [pytorch-balanced-sampler](https://github.com/khornlund/pytorch-balanced-sampler): under/over sample according to a chosen parameter alpha, in order to create a balanced training distribution. 
+19. [pytorch-balanced-batch](https://github.com/galatolofederico/pytorch-balanced-batch)
 
 
 
@@ -1397,6 +1445,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 14. [google-research / language](https://github.com/google-research/language)：Shared repository for open-sourced projects from the Google AI Language team.
 15. [awesome-relation-extraction](https://github.com/roomylee/awesome-relation-extraction)：A curated list of awesome resources dedicated to Relation Extraction
 16. [awesome-grounding](https://github.com/TheShadow29/awesome-grounding)：A curated list of research papers in grounding.
+17. [awesome-automl-papers](https://github.com/hibayesian/awesome-automl-papers)：automated machine learning papers, articles, tutorials, slides and projects
 
 ---
 
@@ -1443,6 +1492,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 18. [GPy](https://github.com/SheffieldML/GPy)：Gaussian processes framework in python
 19. [mlens](https://github.com/flennerhag/mlens)：ML-Ensemble – high performance ensemble learning
 21. [Kats](https://github.com/facebookresearch/Kats)：[时序]analyze time series data, a lightweight, easy-to-use, generalizable, and extendable framework to perform time series analysis
+16. [modin](https://github.com/modin-project/modin): 比pandas更快，且接口基本相同
 
 #### 聚类
 
@@ -1604,6 +1654,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 16. [typora-plugin-bilibili](https://github.com/xlzy520/typora-plugin-bilibili)：Typora粘贴图片自动上传到Bilibili图床，也可以自定义修改成任意其他图床接口。
 17. [DouZero_For_HappyDouDiZhu](https://github.com/tianqiraf/DouZero_For_HappyDouDiZhu)：基于DouZero定制AI实战欢乐斗地主
 18. [Unlock-netease-cloud-music](https://github.com/meng-chuan/Unlock-netease-cloud-music)：解锁网易云音乐客户端变灰歌曲
+19. [FileCentipede](https://github.com/filecxx/FileCentipede)：下载工具
 
 
 
