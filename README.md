@@ -175,22 +175,36 @@
 ##### 爬虫
 
 1. [收集各种爬虫 （默认爬虫语言为 python）](https://github.com/facert/awesome-spider)
-2. [lazynlp](https://github.com/chiphuyen/lazynlp)：Library to scrape and clean web pages to create massive datasets.
-3. [WeiboSpider](https://github.com/nghuyong/WeiboSpider): This is a sina weibo spider built by scrapy
-4. [ weibospider](https://github.com/SpiderClub/weibospider)：A distributed crawler for weibo, building with celery and requests.
-5. [webspider](https://github.com/JustForFunnnn/webspider)：数据库用的是`MySQL`, 主要用到的库是`celery`和`requests`，并实现了定时任务，出错重试，日志记录，自动更改`Cookies`等的功能
-6. [scrapyscript](https://github.com/jschnurr/scrapyscript)：Run a Scrapy spider programmatically from a script or a Celery task
-7. [pspider](https://github.com/zhao94254/pspider)：一个简单的分布式爬虫框架
-8. [taoyoulue_spider](https://github.com/runtangr/taoyoulue_spider)：基于mongodb存储，redis缓存，celery 实现的分布式爬虫。
-9. [DeadPool](https://github.com/Ryuchen/DeadPool)：使用celery作为主体框架的爬虫应用，能够灵活的添加爬虫任务，并且同时运行多站点的爬虫工作
-10. [python-bloomfilter](https://github.com/jaybaird/python-bloomfilter)：Scalable Bloom Filter implemented in Python
-11. [learn_python3_spider](https://github.com/wistbean/learn_python3_spider)：python爬虫教程系列、从0到1学习python爬虫，包括浏览器抓包，手机APP抓包
-12. [pyspider](https://github.com/binux/pyspider)：A Powerful Spider(Web Crawler) System in Python.
-13. [examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers)：一些非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、豆瓣、QQ等网站
-14. [PythonCrawler](https://github.com/yhangf/PythonCrawler)：用python编写的爬虫项目集合
-15. [crawler-py](https://github.com/abbeyokgo/crawler-py)：分享一些爬虫脚本
 
-1. 
+2. [lazynlp](https://github.com/chiphuyen/lazynlp)：Library to scrape and clean web pages to create massive datasets.
+
+3. [WeiboSpider](https://github.com/nghuyong/WeiboSpider): This is a sina weibo spider built by scrapy
+
+4. [ weibospider](https://github.com/SpiderClub/weibospider)：A distributed crawler for weibo, building with celery and requests.
+
+5. [webspider](https://github.com/JustForFunnnn/webspider)：数据库用的是`MySQL`, 主要用到的库是`celery`和`requests`，并实现了定时任务，出错重试，日志记录，自动更改`Cookies`等的功能
+
+6. [scrapyscript](https://github.com/jschnurr/scrapyscript)：Run a Scrapy spider programmatically from a script or a Celery task
+
+7. [pspider](https://github.com/zhao94254/pspider)：一个简单的分布式爬虫框架
+
+8. [taoyoulue_spider](https://github.com/runtangr/taoyoulue_spider)：基于mongodb存储，redis缓存，celery 实现的分布式爬虫。
+
+9. [DeadPool](https://github.com/Ryuchen/DeadPool)：使用celery作为主体框架的爬虫应用，能够灵活的添加爬虫任务，并且同时运行多站点的爬虫工作
+
+10. [python-bloomfilter](https://github.com/jaybaird/python-bloomfilter)：Scalable Bloom Filter implemented in Python
+
+11. [learn_python3_spider](https://github.com/wistbean/learn_python3_spider)：python爬虫教程系列、从0到1学习python爬虫，包括浏览器抓包，手机APP抓包
+
+12. [pyspider](https://github.com/binux/pyspider)：A Powerful Spider(Web Crawler) System in Python.
+
+13. [examples-of-web-crawlers](https://github.com/shengqiangzhang/examples-of-web-crawlers)：一些非常有趣的python爬虫例子,对新手比较友好,主要爬取淘宝、天猫、微信、豆瓣、QQ等网站
+
+14. [PythonCrawler](https://github.com/yhangf/PythonCrawler)：用python编写的爬虫项目集合
+
+15. [MechanicalSoup](https://github.com/MechanicalSoup/MechanicalSoup): A Python library for automating interaction with websites
+
+    
 
 ##### 异步
 
@@ -215,6 +229,11 @@
 6. [python-wechaty](https://github.com/wechaty/python-wechaty)
 7. [sqlfluff](https://github.com/sqlfluff/sqlfluff): A SQL linter and auto-formatter
 8. [pyenv](https://github.com/pyenv/pyenv)：Python version management
+9. [py-spy](https://github.com/benfred/py-spy): Python 程序实时性能分析工具
+10. [rocketry](https://github.com/Miksus/rocketry)：Modern scheduling library for Python
+11. [reloadium](https://github.com/reloadware/reloadium)：Advanced Hot Reloading & Profiling for Python
+12. [schedule](https://github.com/dbader/schedule)：Python job scheduling for humans.
+13. [pdf2docx](https://github.com/dothinking/pdf2docx): converting pdf to docx.
 
 ##### GUI
 
@@ -250,7 +269,10 @@
 26. [memray](https://github.com/bloomberg/memray)：memory profiler for Python
 27. [docker-py](https://github.com/docker/docker-py)：使用python创建docker
 28. [pikepdf](https://github.com/pikepdf/pikepdf)：编辑PDF
-29. 
+29. [kopf](https://github.com/nolar/kopf): 用 Python 轻松完成，需要条件判断、事件触发等复杂的 k8s 操作。
+30. [matrix-webcam](https://github.com/joschuck/matrix-webcam)：Take your video conference from within the matrix.
+31. [latexify_py](https://github.com/google/latexify_py)：A library to generate LaTeX expression from Python code.
+32. [Games](https://github.com/CharlesPikachu/Games)：Create interesting games by pure python.
 
 
 
@@ -260,14 +282,15 @@
 
 #### 编程书籍
 
-7. [CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings)：C++那些事
-8. [CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines)：The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++
-9. [EffectiveModernCppChinese](https://github.com/CnTransGroup/EffectiveModernCppChinese)：《Effective Modern C++》翻译
+1. [CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings)：C++那些事
+2. [CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines)：The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++
+3. [EffectiveModernCppChinese](https://github.com/CnTransGroup/EffectiveModernCppChinese)：《Effective Modern C++》翻译
 4. [Cpp_Primer_Practice](https://github.com/applenob/Cpp_Primer_Practice)：C++ Primer 笔记和课后练习答案
 5. [TCP-IP-NetworkNote](https://github.com/riba2534/TCP-IP-NetworkNote)：《TCP/IP网络编程》(韩-尹圣雨)学习笔记
 6. [rCore-Tutorial-Book-v3](https://github.com/rcore-os/rCore-Tutorial-Book-v3)：清华操作系统课rCore
 7. [tensorflow-internals](https://github.com/horance-liu/tensorflow-internals)：TensorFlow kernel and implementation mechanism.
 8. [cpp-game-engine-book](https://github.com/ThisisGame/cpp-game-engine-book): 从零编写游戏引擎教程
+9. [patterns-of-distributed-systems](https://github.com/dreamhead/patterns-of-distributed-systems)：《Patterns of Distributed Systems》中文版
 
 #### 开源项目
 
@@ -306,7 +329,9 @@
 28. [async_simple](https://github.com/alibaba/async_simple): 轻量级C++异步框架
 29. [folly](https://github.com/facebook/folly): An open-source C++ library developed and used at Facebook.
 30. [cocoyaxi](https://github.com/idealvin/cocoyaxi)：A go-style coroutine library in C++11
-31. 
+31. [30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer)：自制C++服务器
+32. [craftinginterpreters](https://github.com/munificent/craftinginterpreters)：Crafting Interpreters
+33. [aseprite](https://github.com/aseprite/aseprite)：Animated sprite editor & pixel art tool
 
 ---
 
@@ -351,6 +376,7 @@
 8. [leetcode_company_wise_questions](https://github.com/MysteryVaibhav/leetcode_company_wise_questions) ：按公司分类的题目列表
 9. [ands](https://github.com/nbro/ands)：Algorithms and data structures for educational, demonstrational and experimental purposes.
 10. [Algorithms_in_C](https://thealgorithms.github.io/C/)
+11. [hello-algo](https://github.com/krahets/hello-algo)：动画图解、能运行、可提问的数据结构与算法入门书。提供 Java, C++, Python, Go, JS, TS, C# 多语言代码实现。
 
 ### 计算机科学基础
 
@@ -376,9 +402,9 @@
 #### 系统设计
 
 - **[system-design-primer](https://github.com/donnemartin/system-design-primer)**： Learn how to design large-scale systems.
-
 - [Distributed system resources](https://github.com/ty4z2008/Qix/blob/master/ds.md)：分布式资料列表
 - [Database system resources](https://github.com/ty4z2008/Qix/blob/master/db.md)：数据库系统资料列表
+- [system-design](https://github.com/karanpratapsingh/system-design): Learn how to design systems at scale and prepare for system design interviews
 
 #### 架构技能树
 
@@ -402,12 +428,8 @@
 ### IoT
 
 1. [IoT-For-Beginners](https://github.com/microsoft/IoT-For-Beginners): 24 Lessons
-
-2. 
-
-   
-
-   
+2. [TencentOS-tiny](https://github.com/OpenAtomFoundation/TencentOS-tiny): 物联网终端操作系统
+3. [micropython](https://github.com/micropython/micropython): 可运行在单片机上的 Python
 
 
 
@@ -931,6 +953,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 10. [espnet](https://github.com/espnet/espnet)：End-to-End Speech Processing Toolkit
 11. [MockingBird](https://github.com/babysor/MockingBird): AI拟声: 5秒内克隆您的声音并生成任意语音内容
 12. [Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning): Clone a voice in 5 seconds to generate arbitrary speech in real-time
+13. [whisper](https://github.com/openai/whisper)：Speech Recognition via Large-Scale Weak Supervision
+14. 
 
 
 
@@ -1047,6 +1071,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [microsoft](https://github.com/microsoft)/[psi](https://github.com/microsoft/psi)：an open, extensible framework for development and research of multimodal, integrative-AI systems.  【C#】
 2. [ClipBERT](https://github.com/jayleicn/ClipBERT)：an efficient framework for end-to-end learning for image-text and video-text tasks.
+3. [stable-diffusion](https://github.com/CompVis/stable-diffusion)：A latent text-to-image diffusion model.
+4. [motion-diffusion-model](https://github.com/GuyTevet/motion-diffusion-model)："Human Motion Diffusion Model"
 
 
 
@@ -1068,6 +1094,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 14. [text2art](https://github.com/mfrashad/text2art)：AI-powered Text-to-Art Generator - Text2Art.com
 15. [latent-diffusion](https://github.com/CompVis/latent-diffusion): High-Resolution Image Synthesis with Latent Diffusion Models
 16. [dalle-mini](https://github.com/borisdayma/dalle-mini): Generate images from a text prompt
+17. [paper2gui](https://github.com/Baiyuetribe/paper2gui): 简单方便的使用前沿人工智能技术
+18. [style2paints](https://github.com/lllyasviel/style2paints)：sketch + style = paints 🎨
 
 
 
@@ -1391,6 +1419,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 25. [nonebot2](https://github.com/nonebot/nonebot2): 跨平台 Python 异步聊天机器人框架
 
+26. [gradio](https://github.com/gradio-app/gradio): 用 Python 为模型创建演示界面。Create UIs for your machine learning model in Python in 3 minutes.
+
 #### 训练
 
 1. [ray](https://github.com/ray-project/ray)：A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library
@@ -1473,6 +1503,10 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 ## 3 机器学习
 
 1. [awesome-mlops](https://github.com/visenger/awesome-mlops): A curated list of references for MLOps, 机器学习开发周期教程、视频、博客
+
+2. [Elements-of-Mathematics](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics)：从加减乘除到机器学习
+
+3. [The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra)：Graphic notes on Gilbert Strang's "Linear Algebra for Everyone"
 
    
 
@@ -1634,6 +1668,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 13. [termpair](https://github.com/cs01/termpair): 使用浏览器，远程连接服务器terminal。
 14. [asynctasks.vim](https://github.com/skywind3000/asynctasks.vim)：Modern Task System for Project Building, Testing and Deploying !!
 15. [TencentOS-tiny](https://github.com/OpenAtomFoundation/TencentOS-tiny)：物联网终端操作系统
+16. [nginx-tutorial](https://github.com/dunwu/nginx-tutorial)：Nginx 极简教程
 
 
 
@@ -1721,10 +1756,12 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 ### 标注工具
 
-1. [**LabelMeAnnotationTool**](https://github.com/CSAILVision/LabelMeAnnotationTool)
+1. [LabelMeAnnotationTool](https://github.com/CSAILVision/LabelMeAnnotationTool)
 2. [Image Polygonal Annotation with Python](https://github.com/wkentaro/labelme)
 3. [LabelImg is a graphical image annotation tool and label object bounding boxes in images](https://github.com/tzutalin/labelImg)
 4. [ChineseAnnotator](https://github.com/t-web/ChineseAnnotator)：中文自然语言处理 (NLP) 标注工具
+5. [label-studio](https://github.com/heartexlabs/label-studio): a multi-type data labeling and annotation tool with standardized output format.
+6. [doccano](https://github.com/doccano/doccano)：Open source annotation tool for machine learning practitioners
 
 
 
