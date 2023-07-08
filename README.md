@@ -169,6 +169,7 @@
     - [ctypes](https://docs.python.org/3/library/ctypes.html#module-ctypes)
 14. [scalene](https://github.com/emeryberger/scalene)：Scalene: a high-performance, high-precision CPU and memory profiler for Python
 15. [pyinstrument](https://github.com/joerick/pyinstrument): 🚴 Call stack profiler for Python. Shows you why your code is slow!
+16. [devguide](https://github.com/python/devguide): The Python developer's guide
 
 #### 开源项目
 
@@ -274,6 +275,12 @@
 30. [matrix-webcam](https://github.com/joschuck/matrix-webcam)：Take your video conference from within the matrix.
 31. [latexify_py](https://github.com/google/latexify_py)：A library to generate LaTeX expression from Python code.
 32. [Games](https://github.com/CharlesPikachu/Games)：Create interesting games by pure python.
+33. [FileCodeBox](https://github.com/vastsa/FileCodeBox): 匿名口令分享文本，文件，像拿快递一样取文件
+34. [python-systemd-tutorial](https://github.com/torfsen/python-systemd-tutorial): A tutorial for writing a systemd service in Python
+35. [bandit](https://github.com/PyCQA/bandit): find common security issues in Python code.
+36. [Django-Styleguide](https://github.com/HackSoftware/Django-Styleguide): Django styleguide used in HackSoft projects
+37. [dataset](https://github.com/pudo/dataset)：Easy-to-use data handling for SQL data.
+38. [bar_chart_race](https://github.com/dexplo/bar_chart_race): Create animated bar chart races in Python with matplotlib
 
 
 
@@ -292,6 +299,8 @@
 7. [tensorflow-internals](https://github.com/horance-liu/tensorflow-internals)：TensorFlow kernel and implementation mechanism.
 8. [cpp-game-engine-book](https://github.com/ThisisGame/cpp-game-engine-book): 从零编写游戏引擎教程
 9. [patterns-of-distributed-systems](https://github.com/dreamhead/patterns-of-distributed-systems)：《Patterns of Distributed Systems》中文版
+10. [PPHC](https://github.com/johnlui/PPHC)：《高并发的哲学原理》开源图书（CC BY-NC-ND）
+11. [modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features)：A cheatsheet of modern C++ language and library features.
 
 #### 开源项目
 
@@ -301,40 +310,56 @@
    [Tinyhttpd](https://github.com/EZLippi/Tinyhttpd/blob/master/httpd.c)： http server
    [nginx](http://nginx.org/)： 静态服务器
    [Redis](https://redis.io/download)： redis高速缓存  较难
-2. [json](https://github.com/nlohmann/json)：C++ 的 JSON 库
-3. [awesome-c-cn](https://github.com/jobbole/awesome-c-cn)：C 资源大全中文版，包括构建系统、编译器、数据库、加密、初中高的教程/指南、书籍、库
-4. [fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser)
-5. [TinyWebServer](https://github.com/qinguoyi/TinyWebServer)：Linux下C++轻量级Web服务器
-6. [TinyWeb](https://github.com/GeneralSandman/TinyWeb):  web server in C++11.
-7. [MyTinySTL](https://github.com/Alinshans/MyTinySTL)：tiny STL in C++11
-8. [godot](https://github.com/godotengine/godot)：Godot Engine – Multi-platform 2D and 3D game engine
-9. [simhash](https://github.com/yanyiwu/simhash)：中文文档计算出对应的 simhash 值。simhash 是谷歌用来进行文本去重的算法（[详见 simhash 算法原理及实现](http://yanyiwu.com/work/2014/01/30/simhash-shi-xian-xiang-jie.html)）
-10. [ltp](https://github.com/HIT-SCIR/ltp)：语言技术平台（Language Technology Platform，LTP）是哈工大社会计算与信息检索研究中心历时十年开发的一整套中文语言处理系统
-11. [Snake](https://github.com/stevennl/Snake)：贪吃蛇游戏 AI 版
-12. [vnote](https://github.com/tamlok/vnote)：Markdown 编辑软件
-13. [taichi](https://github.com/taichi-dev/taichi)：太极是一种用于计算机图形应用的高性能编程语言
-14. [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail)：Sourcetrail - free and open-source interactive source explorer，代码结构可视化
-15. [keepassx](https://github.com/keepassx/keepassx)： a cross platform port of the windows application “Keepass Password Safe”.
-16. [wwsearch](https://github.com/Tencent/wwsearch)：腾讯全文搜索引擎
-17. [workflow](https://github.com/sogou/workflow): C++ Parallel Computing and Asynchronous Networking Engine
-18. [drogon](https://github.com/an-tao/drogon)：Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows
-19. [openFrameworks](https://github.com/openframeworks/openFrameworks)：openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
-20. [TinyML](https://github.com/BurnellLiu/TinyML)：精简的C++ 机器学习库
-21. [Catch2](https://github.com/catchorg/Catch2)：A modern, C++-native, header-only, test framework for unit-tests
-22. [flashlight](https://github.com/flashlight/flashlight): A C++ standalone library for machine learning
-23. [mlibc](https://github.com/managarm/mlibc): 可移植的C标准库
-24. [uthash](https://github.com/troydhanson/uthash)：C macros for hash tables and more
-25. [WindowsAppSDK](https://github.com/microsoft/WindowsAppSDK)：[FOR Using, NOT Reading] Windows App SDK empowers all Windows Desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet. 
-26. [backward-cpp](https://github.com/bombela/backward-cpp)：A beautiful stack trace pretty printer for C++. 优化编译器报错信息。
-27. [range-v3](https://github.com/ericniebler/range-v3)：Range library for C++14/17/20, basis for C++20's std::ranges
-28. [async_simple](https://github.com/alibaba/async_simple): 轻量级C++异步框架
-29. [folly](https://github.com/facebook/folly): An open-source C++ library developed and used at Facebook.
-30. [cocoyaxi](https://github.com/idealvin/cocoyaxi)：A go-style coroutine library in C++11
-31. [30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer)：自制C++服务器
-32. [craftinginterpreters](https://github.com/munificent/craftinginterpreters)：Crafting Interpreters
-33. [aseprite](https://github.com/aseprite/aseprite)：Animated sprite editor & pixel art tool
-34. [co_context](https://github.com/Codesire-Deng/co_context)：C++协程框架
-35. 
+2. [sudoku](https://github.com/mayerui/sudoku)：C++实现的跨平台数独游戏
+3. [json](https://github.com/nlohmann/json)：C++ 的 JSON 库
+4. [awesome-c-cn](https://github.com/jobbole/awesome-c-cn)：C 资源大全中文版，包括构建系统、编译器、数据库、加密、初中高的教程/指南、书籍、库
+5. [fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser)
+6. [TinyWebServer](https://github.com/qinguoyi/TinyWebServer)：Linux下C++轻量级Web服务器
+7. [TinyWeb](https://github.com/GeneralSandman/TinyWeb):  web server in C++11.
+8. [MyTinySTL](https://github.com/Alinshans/MyTinySTL)：tiny STL in C++11
+9. [godot](https://github.com/godotengine/godot)：Godot Engine – Multi-platform 2D and 3D game engine
+10. [simhash](https://github.com/yanyiwu/simhash)：中文文档计算出对应的 simhash 值。simhash 是谷歌用来进行文本去重的算法（[详见 simhash 算法原理及实现](http://yanyiwu.com/work/2014/01/30/simhash-shi-xian-xiang-jie.html)）
+11. [ltp](https://github.com/HIT-SCIR/ltp)：语言技术平台（Language Technology Platform，LTP）是哈工大社会计算与信息检索研究中心历时十年开发的一整套中文语言处理系统
+12. [Snake](https://github.com/stevennl/Snake)：贪吃蛇游戏 AI 版
+13. [vnote](https://github.com/tamlok/vnote)：Markdown 编辑软件
+14. [taichi](https://github.com/taichi-dev/taichi)：太极是一种用于计算机图形应用的高性能编程语言
+15. [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail)：Sourcetrail - free and open-source interactive source explorer，代码结构可视化
+16. [keepassx](https://github.com/keepassx/keepassx)： a cross platform port of the windows application “Keepass Password Safe”.
+17. [wwsearch](https://github.com/Tencent/wwsearch)：腾讯全文搜索引擎
+18. [workflow](https://github.com/sogou/workflow): C++ Parallel Computing and Asynchronous Networking Engine
+19. [drogon](https://github.com/an-tao/drogon)：Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows
+20. [openFrameworks](https://github.com/openframeworks/openFrameworks)：openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
+21. [TinyML](https://github.com/BurnellLiu/TinyML)：精简的C++ 机器学习库
+22. [Catch2](https://github.com/catchorg/Catch2)：A modern, C++-native, header-only, test framework for unit-tests
+23. [flashlight](https://github.com/flashlight/flashlight): A C++ standalone library for machine learning
+24. [mlibc](https://github.com/managarm/mlibc): 可移植的C标准库
+25. [uthash](https://github.com/troydhanson/uthash)：C macros for hash tables and more
+26. [WindowsAppSDK](https://github.com/microsoft/WindowsAppSDK)：[FOR Using, NOT Reading] Windows App SDK empowers all Windows Desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet. 
+27. [backward-cpp](https://github.com/bombela/backward-cpp)：A beautiful stack trace pretty printer for C++. 优化编译器报错信息。
+28. [range-v3](https://github.com/ericniebler/range-v3)：Range library for C++14/17/20, basis for C++20's std::ranges
+29. [async_simple](https://github.com/alibaba/async_simple): 轻量级C++异步框架
+30. [folly](https://github.com/facebook/folly): An open-source C++ library developed and used at Facebook.
+31. [cocoyaxi](https://github.com/idealvin/cocoyaxi)：A go-style coroutine library in C++11
+32. [30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer)：自制C++服务器
+33. [craftinginterpreters](https://github.com/munificent/craftinginterpreters)：Crafting Interpreters
+34. [aseprite](https://github.com/aseprite/aseprite)：Animated sprite editor & pixel art tool
+35. [co_context](https://github.com/Codesire-Deng/co_context)：C++协程框架
+36. [cpp-httplib](https://github.com/yhirose/cpp-httplib): A C++ header-only HTTP/HTTPS server and client library
+37. [yalantinglibs](https://github.com/alibaba/yalantinglibs): A collection of C++20 libraries, include async_simple, coro_rpc and struct_pack
+38. [FSHistory](https://github.com/s-macke/FSHistory)： Play and Enjoy the History of Microsoft Flight Simulator
+39. [luce](https://github.com/Pang-GJ/luce)：C++20协程net，基于epoll，可以方便地使用await语法
+40. [doctest](https://github.com/doctest/doctest)：The fastest feature-rich C++11/14/17/20/23 single-header testing framework
+41. [rr](https://github.com/rr-debugger/rr): Record and Replay Debug Framework
+42. [dragonfly](https://github.com/dragonflydb/dragonfly): A modern replacement for Redis and Memcached
+43. [krita](https://github.com/KDE/krita): 开源绘画软件
+44. [brpc](https://github.com/apache/brpc)：百度开源的 RPC 框架
+45. [async_simple](https://github.com/alibaba/async_simple)：阿里开源的轻量级 C++ 异步框架
+46. [rocksdb](https://github.com/facebook/rocksdb)：基于 levelDB 开发，使用 C++ 编写的高性能键值存储引擎
+47. [vcpkg](https://github.com/microsoft/vcpkg)：微软开源的 C/C++ 包管理工具
+48. [srpc](https://github.com/sogou/srpc)：基于 C++ Workflow 的高性能 RPC 框架
+49. [libqalculate](https://github.com/Qalculate/libqalculate)：使用 C++ 编写的多功能计算器桌面应用、库和 CLI 程序
+50. [spdlog](https://github.com/gabime/spdlog)： C++ 日志库
+51. [indicators](https://github.com/p-ranav/indicators)： C++ 编写的进度条库
 
 ---
 
@@ -413,6 +438,8 @@
 
 **[architect-awesome](https://github.com/xingshaocheng/architect-awesome)**
 
+[GameDevMind](https://github.com/gonglei007/GameDevMind)
+
 
 
 ***
@@ -433,6 +460,9 @@
 1. [IoT-For-Beginners](https://github.com/microsoft/IoT-For-Beginners): 24 Lessons
 2. [TencentOS-tiny](https://github.com/OpenAtomFoundation/TencentOS-tiny): 物联网终端操作系统
 3. [micropython](https://github.com/micropython/micropython): 可运行在单片机上的 Python
+4. [rpi4-osdev](https://github.com/isometimes/rpi4-osdev)：Tutorial: Writing a "bare metal" operating system for Raspberry Pi 4
+5. [Awesome IoT](https://github.com/phodal/awesome-iot)
+6. [Awesome-Embedded](https://github.com/nhivp/Awesome-Embedded)
 
 
 
@@ -459,6 +489,8 @@
 
 - [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) ：Implementations/tutorials of deep learning papers with side-by-side notes; including transformers (original, xl, switch, feedback), optimizers(adam, radam, adabelief), gans(dcgan, cyclegan, stylegan2), reinforcement learning (ppo, dqn), capsnet, sketch-rnn, etc.
 - [awesome-deep-trading](https://github.com/cbailes/awesome-deep-trading)
+- [ML-Papers-Explained](https://github.com/dair-ai/ML-Papers-Explained)：Explanation to key concepts in ML
+- [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
 
 
 
@@ -851,6 +883,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 14. [ParlAI](https://github.com/facebookresearch/ParlAI)：sharing, training and evaluating dialogue models across many tasks.
 15. [Task-Oriented-Dialogue-Research-Progress-Survey](https://github.com/AtmaHou/Task-Oriented-Dialogue-Research-Progress-Survey)
 16. [MetaDialog](https://github.com/AtmaHou/MetaDialog)：Platform for few-shot natural language processing: Text Classification, Sequene Labeling.
+17. [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)：开源双语对话语言模型
 
 
 
@@ -922,6 +955,15 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 ---
 
+#### ChatGPT
+
+1. [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
+2. [ChatGPT Prompt Generator](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator)
+
+
+
+---
+
 #### 推荐系统
 
 1. **[faiss](https://github.com/facebookresearch/faiss)**：A library for efficient similarity search and clustering of dense vectors.  -- Linux
@@ -958,7 +1000,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 11. [MockingBird](https://github.com/babysor/MockingBird): AI拟声: 5秒内克隆您的声音并生成任意语音内容
 12. [Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning): Clone a voice in 5 seconds to generate arbitrary speech in real-time
 13. [whisper](https://github.com/openai/whisper)：Speech Recognition via Large-Scale Weak Supervision
-14. 
+14. [bark](https://github.com/suno-ai/bark): Text-Prompted Generative Audio Model
 
 
 
@@ -1064,6 +1106,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 18. [LSPS](https://github.com/masabdi/LSPS)：Source code for "3D Hand Pose Estimation using Simulation and Partial-Supervision with a Shared Latent Space"
 19. [nanodet](https://github.com/RangiLyu/nanodet): ⚡Super fast and lightweight anchor-free object detection model. 🔥Only 980 KB(int8) / 1.8MB (fp16) and run 97FPS on cellphone🔥
 20. [U-2-Net](https://github.com/xuebinqin/U-2-Net)：paper in Pattern Recognition 2020: "U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection."
+21. [segment-anything](https://github.com/facebookresearch/segment-anything): running inference with the SegmentAnything Model (SAM)
+22. [AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings)
 
 
 
@@ -1077,6 +1121,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 2. [ClipBERT](https://github.com/jayleicn/ClipBERT)：an efficient framework for end-to-end learning for image-text and video-text tasks.
 3. [stable-diffusion](https://github.com/CompVis/stable-diffusion)：A latent text-to-image diffusion model.
 4. [motion-diffusion-model](https://github.com/GuyTevet/motion-diffusion-model)："Human Motion Diffusion Model"
+5. [Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP): Chinese version of CLIP which achieves Chinese cross-modal retrieval and representation generation.
+6. [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)：web UI
 
 
 
@@ -1242,6 +1288,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 ### 框架实践
 
+**[tuning_playbook](https://github.com/google-research/tuning_playbook)**： A playbook for systematically maximizing the performance of deep learning models.
+
 1. [DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples)：Deep Learning Examples
 2. [jax](https://github.com/google/jax)：Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU
 3. **[PyCandle](https://github.com/johnny-richards/PyCandle)**：A numpy and cpu based neural network tool. For those who intend to learn more about the details of how a neural network works.
@@ -1251,6 +1299,8 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 7. [best-of-ml-python](https://github.com/ml-tooling/best-of-ml-python)：🏆 A ranked list of awesome machine learning Python libraries.
 8. [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)：label-smooth, amsoftmax, focal-loss, triplet-loss, lovasz-softmax ...
 9. [pytorch-optimizer](https://github.com/jettify/pytorch-optimizer)：torch-optimizer -- collection of optimizers for Pytorch
+10. [prefect](https://github.com/PrefectHQ/prefect): The easiest way to coordinate your dataflow
+11. [KuiperInfer](https://github.com/zjhellofss/KuiperInfer): 一个推理库的实现, A DIY deep learning inference framework.
 
 #### Tensorflow
 
@@ -1424,6 +1474,10 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 25. [nonebot2](https://github.com/nonebot/nonebot2): 跨平台 Python 异步聊天机器人框架
 
 26. [gradio](https://github.com/gradio-app/gradio): 用 Python 为模型创建演示界面。Create UIs for your machine learning model in Python in 3 minutes.
+
+27. [cog](https://github.com/replicate/cog)：Containers for machine learning
+
+28. [mercury](https://github.com/mljar/mercury): Build Web Apps in Jupyter Notebook with Python only
 
 #### 训练
 
@@ -1643,6 +1697,19 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 ## 5 开源工具
 
+
+
+[ChatGPT](https://github.com/lencx/ChatGPT): 🔮 ChatGPT Desktop Application
+
+[ChatGPT - Poe](https://poe.com/ChatGPT)：在线免费chatgpt
+
+### 字体
+
+1. [Nerd Fonts Website](https://www.nerdfonts.com/font-downloads)  [nerd-fonts github](https://github.com/ryanoasis/nerd-fonts)
+2. [powerline/fonts](https://github.com/powerline/fonts)
+
+
+
 ### 可视化
 
 1. [Tool for visualizing attention in the Transformer model](https://github.com/jessevig/bertviz)
@@ -1673,6 +1740,13 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 14. [asynctasks.vim](https://github.com/skywind3000/asynctasks.vim)：Modern Task System for Project Building, Testing and Deploying !!
 15. [TencentOS-tiny](https://github.com/OpenAtomFoundation/TencentOS-tiny)：物联网终端操作系统
 16. [nginx-tutorial](https://github.com/dunwu/nginx-tutorial)：Nginx 极简教程
+17. [cockpit](https://github.com/cockpit-project/cockpit): a web-based graphical interface for servers.
+18. [changedetection.io](https://github.com/dgtlmoon/changedetection.io): self-hosted free open source website change detection, monitor and notification service.
+19. [Ripes](https://github.com/mortbopet/Ripes): A graphical processor simulator and assembly editor for the RISC-V ISA
+20. [gitui](https://github.com/extrawurst/gitui): Blazing 💥 fast terminal-ui for git
+21. [ecapture](https://github.com/gojue/ecapture): capture SSL/TLS text content without CA cert using eBPF. 
+22. [Bottles](https://github.com/bottlesdevs/Bottles)：Run Windows software and games on Linux
+23. [ansible](https://github.com/ansible/ansible)： Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. 
 
 
 
@@ -1697,6 +1771,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 17. [DouZero_For_HappyDouDiZhu](https://github.com/tianqiraf/DouZero_For_HappyDouDiZhu)：基于DouZero定制AI实战欢乐斗地主
 18. [Unlock-netease-cloud-music](https://github.com/meng-chuan/Unlock-netease-cloud-music)：解锁网易云音乐客户端变灰歌曲
 19. [FileCentipede](https://github.com/filecxx/FileCentipede)：下载工具
+20. [organicmaps](https://github.com/organicmaps/organicmaps)：🍃 Organic Maps is a free Android & iOS offline maps app for travelers, tourists, hikers, and cyclists.
 
 
 
