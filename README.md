@@ -360,6 +360,7 @@
 49. [libqalculate](https://github.com/Qalculate/libqalculate)：使用 C++ 编写的多功能计算器桌面应用、库和 CLI 程序
 50. [spdlog](https://github.com/gabime/spdlog)： C++ 日志库
 51. [indicators](https://github.com/p-ranav/indicators)： C++ 编写的进度条库
+52. [workspace](https://github.com/CodingHanYa/workspace)：基于C++11的轻量级异步执行框架，支持：通用任务异步并发执行、优先级任务调度、自适应动态线程池、高效静态线程池、异常处理机制等。
 
 ---
 
