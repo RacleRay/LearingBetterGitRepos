@@ -2,140 +2,156 @@
 
 <!-- TOC -->
 
-- [Title: GitHub收集项目维护](#title-github收集项目维护)
-  - [1 编程语言](#1-编程语言)
-    - [Python](#python)
-      - [基础](#基础)
-      - [开源项目](#开源项目)
-        - [爬虫](#爬虫)
-        - [异步](#异步)
-        - [字符串搜索](#字符串搜索)
-        - [工具库](#工具库)
-        - [GUI](#gui)
-        - [其他](#其他)
-    - [C++](#c)
-      - [编程书籍](#编程书籍)
-      - [开源项目](#开源项目-1)
-    - [Julia](#julia)
-    - [Java](#java)
-    - [GO](#go)
-    - [RUST](#rust)
-    - [数据结构与算法](#数据结构与算法)
-    - [计算机科学基础](#计算机科学基础)
-      - [CSAPP](#csapp)
-      - [系统设计](#系统设计)
-      - [架构技能树](#架构技能树)
-    - [自己动手写项目](#自己动手写项目)
-    - [IoT](#iot)
-    - [其他语言](#其他语言)
-  - [2 深度学习](#2-深度学习)
-    - [Colab神器](#colab神器)
-    - [损失函数](#损失函数)
-    - [资源](#资源)
-      - [NLP](#nlp)
-        - [1 Transformer](#1-transformer)
-        - [2 预训练模型](#2-预训练模型)
-        - [3 其他语言模型](#3-其他语言模型)
-        - [4 CRF、LAN](#4-crflan)
-        - [5 CLUE项目合辑（NLP）](#5-clue项目合辑nlp)
-        - [6 BERT Applications](#6-bert-applications)
-        - [7 NER](#7-ner)
-        - [8 ELMo And Others](#8-elmo-and-others)
-        - [9 相似度匹配](#9-相似度匹配)
-        - [10 文本分类](#10-文本分类)
-        - [11  Aspect Based Sentiment Analysis](#11--aspect-based-sentiment-analysis)
-        - [12 文本摘要](#12-文本摘要)
-        - [13 seq2seq](#13-seq2seq)
-        - [14 QA](#14-qa)
-        - [15 ModelZoo](#15-modelzoo)
-        - [16 开源包](#16-开源包)
-        - [17 其他model](#17-其他model)
-        - [18 关系抽取](#18-关系抽取)
-        - [19 蒸馏](#19-蒸馏)
-        - [20 对话](#20-对话)
-        - [21 意图与槽位填充](#21-意图与槽位填充)
-        - [22 指代消解](#22-指代消解)
-        - [23 主题](#23-主题)
-        - [24 自动机](#24-自动机)
-        - [25 阅读理解](#25-阅读理解)
-        - [26 数据增强](#26-数据增强)
-        - [27 Prompt](#27-prompt)
-        - [28 Adaptor](#28-adaptor)
-        - [29 Book and Course](#29-book-and-course)
-        - [30 可视化](#30-可视化)
-        - [31 最新研究进展](#31-最新研究进展)
-      - [推荐系统](#推荐系统)
-      - [相似性](#相似性)
-      - [语音](#语音)
-      - [GAN](#gan)
-      - [CV](#cv)
-        - [图像识别与分类](#图像识别与分类)
-        - [opencv](#opencv)
-        - [openvino](#openvino)
-        - [目标检测](#目标检测)
-        - [医疗](#医疗)
-        - [多模态](#多模态)
-        - [图像高清化/风格转换/老化照片处理](#图像高清化风格转换老化照片处理)
-        - [数据增强](#数据增强)
-      - [Reinforcement Learning](#reinforcement-learning)
-      - [知识图谱](#知识图谱)
-      - [深度贝叶斯/概率](#深度贝叶斯概率)
-      - [Capsule Net](#capsule-net)
-      - [自动驾驶](#自动驾驶)
-      - [机器人](#机器人)
-      - [Contrastive Learning](#contrastive-learning)
-      - [Adversarial Attack](#adversarial-attack)
-      - [Multi-Task Learning](#multi-task-learning)
-      - [联邦学习](#联邦学习)
-      - [图网络](#图网络)
-      - [优化算法](#优化算法)
-    - [框架实践](#框架实践)
-      - [Tensorflow](#tensorflow)
-        - [C++](#c-1)
-      - [Pytorch](#pytorch)
-      - [MxNet](#mxnet)
-      - [Spark](#spark)
-      - [Ray](#ray)
-      - [Lasagne](#lasagne)
-      - [MindSpore](#mindspore)
-      - [MegEngine](#megengine)
-      - [基础](#基础-1)
-    - [模型优化](#模型优化)
-    - [模型训练部署](#模型训练部署)
-      - [部署](#部署)
-      - [训练](#训练)
-    - [Transfer Learning](#transfer-learning)
-    - [多任务](#多任务)
-    - [Awesome](#awesome)
-    - [会议资源](#会议资源)
-    - [项目idea](#项目idea)
-  - [3 机器学习](#3-机器学习)
-    - [开源工具](#开源工具)
-      - [算法包](#算法包)
-      - [聚类](#聚类)
-      - [特征](#特征)
-      - [科学计算](#科学计算)
-    - [GPU加速](#gpu加速)
-    - [算法实现](#算法实现)
-    - [安全机器学习](#安全机器学习)
-    - [AutoML](#automl)
-    - [可解释机器学习](#可解释机器学习)
-    - [实用资料/调参工具](#实用资料调参工具)
-  - [4 比赛方案](#4-比赛方案)
-    - [比赛信息](#比赛信息)
-  - [5 开源工具](#5-开源工具)
-    - [可视化](#可视化)
-    - [系统工具](#系统工具)
-    - [小项目](#小项目)
-    - [底层编译架构](#底层编译架构)
-    - [并行计算](#并行计算)
-    - [测试工具](#测试工具)
-  - [6 数据集](#6-数据集)
-    - [工具包](#工具包)
-    - [NLP](#nlp-1)
-    - [标注工具](#标注工具)
-    - [图书](#图书)
-  - [7 Blogs + 面经](#7-blogs--面经)
+- [Title: GitHub收集项目维护](#title-github%E6%94%B6%E9%9B%86%E9%A1%B9%E7%9B%AE%E7%BB%B4%E6%8A%A4)
+    - [编程语言](#%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80)
+        - [Python](#python)
+            - [基础](#%E5%9F%BA%E7%A1%80)
+            - [开源项目](#%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE)
+                - [爬虫](#%E7%88%AC%E8%99%AB)
+                - [异步](#%E5%BC%82%E6%AD%A5)
+                - [字符串搜索](#%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%90%9C%E7%B4%A2)
+                - [工具库](#%E5%B7%A5%E5%85%B7%E5%BA%93)
+                - [Log](#log)
+                - [GUI](#gui)
+                - [数据库](#%E6%95%B0%E6%8D%AE%E5%BA%93)
+                - [其他](#%E5%85%B6%E4%BB%96)
+        - [C++](#c)
+            - [文档资料](#%E6%96%87%E6%A1%A3%E8%B5%84%E6%96%99)
+            - [开发工具](#%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7)
+            - [Debug](#debug)
+            - [日志](#%E6%97%A5%E5%BF%97)
+            - [服务器](#%E6%9C%8D%E5%8A%A1%E5%99%A8)
+            - [并发](#%E5%B9%B6%E5%8F%91)
+            - [测试](#%E6%B5%8B%E8%AF%95)
+            - [数据库](#%E6%95%B0%E6%8D%AE%E5%BA%93)
+            - [小游戏](#%E5%B0%8F%E6%B8%B8%E6%88%8F)
+            - [序列化](#%E5%BA%8F%E5%88%97%E5%8C%96)
+            - [算法](#%E7%AE%97%E6%B3%95)
+            - [语言](#%E8%AF%AD%E8%A8%80)
+            - [引擎](#%E5%BC%95%E6%93%8E)
+            - [实用工具](#%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7)
+        - [Julia](#julia)
+        - [Java](#java)
+        - [GO](#go)
+        - [RUST](#rust)
+        - [数据结构与算法](#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
+        - [计算机科学基础](#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E5%9F%BA%E7%A1%80)
+            - [CSAPP](#csapp)
+            - [系统设计](#%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1)
+            - [架构技能树](#%E6%9E%B6%E6%9E%84%E6%8A%80%E8%83%BD%E6%A0%91)
+        - [自己动手写项目](#%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E5%86%99%E9%A1%B9%E7%9B%AE)
+        - [IoT](#iot)
+        - [其他语言](#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80)
+    - [深度学习](#%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0)
+        - [Colab神器](#colab%E7%A5%9E%E5%99%A8)
+        - [损失函数](#%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0)
+        - [资源](#%E8%B5%84%E6%BA%90)
+            - [NLP](#nlp)
+                - [Transformer](#transformer)
+                - [预训练模型](#%E9%A2%84%E8%AE%AD%E7%BB%83%E6%A8%A1%E5%9E%8B)
+                - [其他语言模型](#%E5%85%B6%E4%BB%96%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B)
+                - [CRF、LAN](#crflan)
+                - [CLUE项目合辑（NLP）](#clue%E9%A1%B9%E7%9B%AE%E5%90%88%E8%BE%91nlp)
+                - [BERT Applications](#bert-applications)
+                - [NER](#ner)
+                - [ELMo And Others](#elmo-and-others)
+                - [相似度匹配](#%E7%9B%B8%E4%BC%BC%E5%BA%A6%E5%8C%B9%E9%85%8D)
+                - [文本分类](#%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB)
+                - [Aspect Based Sentiment Analysis](#aspect-based-sentiment-analysis)
+                - [文本摘要](#%E6%96%87%E6%9C%AC%E6%91%98%E8%A6%81)
+                - [seq2seq](#seq2seq)
+                - [QA](#qa)
+                - [ModelZoo](#modelzoo)
+                - [开源包](#%E5%BC%80%E6%BA%90%E5%8C%85)
+                - [其他model](#%E5%85%B6%E4%BB%96model)
+                - [关系抽取](#%E5%85%B3%E7%B3%BB%E6%8A%BD%E5%8F%96)
+                - [蒸馏](#%E8%92%B8%E9%A6%8F)
+                - [对话](#%E5%AF%B9%E8%AF%9D)
+                - [意图与槽位填充](#%E6%84%8F%E5%9B%BE%E4%B8%8E%E6%A7%BD%E4%BD%8D%E5%A1%AB%E5%85%85)
+                - [指代消解](#%E6%8C%87%E4%BB%A3%E6%B6%88%E8%A7%A3)
+                - [主题](#%E4%B8%BB%E9%A2%98)
+                - [自动机](#%E8%87%AA%E5%8A%A8%E6%9C%BA)
+                - [阅读理解](#%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3)
+                - [数据增强](#%E6%95%B0%E6%8D%AE%E5%A2%9E%E5%BC%BA)
+                - [Prompt](#prompt)
+                - [Adaptor](#adaptor)
+                - [Book and Course](#book-and-course)
+                - [可视化](#%E5%8F%AF%E8%A7%86%E5%8C%96)
+                - [最新研究进展](#%E6%9C%80%E6%96%B0%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95)
+            - [ChatGPT](#chatgpt)
+            - [推荐系统](#%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F)
+            - [相似性](#%E7%9B%B8%E4%BC%BC%E6%80%A7)
+            - [语音](#%E8%AF%AD%E9%9F%B3)
+            - [GAN](#gan)
+            - [CV](#cv)
+                - [图像识别与分类](#%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB%E4%B8%8E%E5%88%86%E7%B1%BB)
+                - [opencv](#opencv)
+                - [openvino](#openvino)
+                - [目标检测](#%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B)
+                - [医疗](#%E5%8C%BB%E7%96%97)
+                - [多模态](#%E5%A4%9A%E6%A8%A1%E6%80%81)
+                - [图像高清化/风格转换/老化照片处理](#%E5%9B%BE%E5%83%8F%E9%AB%98%E6%B8%85%E5%8C%96%E9%A3%8E%E6%A0%BC%E8%BD%AC%E6%8D%A2%E8%80%81%E5%8C%96%E7%85%A7%E7%89%87%E5%A4%84%E7%90%86)
+                - [数据增强](#%E6%95%B0%E6%8D%AE%E5%A2%9E%E5%BC%BA)
+            - [Reinforcement Learning](#reinforcement-learning)
+            - [知识图谱](#%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1)
+            - [深度贝叶斯/概率](#%E6%B7%B1%E5%BA%A6%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%A6%82%E7%8E%87)
+            - [Capsule Net](#capsule-net)
+            - [自动驾驶](#%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6)
+            - [机器人](#%E6%9C%BA%E5%99%A8%E4%BA%BA)
+            - [Contrastive Learning](#contrastive-learning)
+            - [Adversarial Attack](#adversarial-attack)
+            - [Multi-Task Learning](#multi-task-learning)
+            - [联邦学习](#%E8%81%94%E9%82%A6%E5%AD%A6%E4%B9%A0)
+            - [图网络](#%E5%9B%BE%E7%BD%91%E7%BB%9C)
+            - [优化算法](#%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95)
+        - [框架实践](#%E6%A1%86%E6%9E%B6%E5%AE%9E%E8%B7%B5)
+            - [Tensorflow](#tensorflow)
+                - [C++](#c)
+            - [Pytorch](#pytorch)
+            - [MxNet](#mxnet)
+            - [Spark](#spark)
+            - [Ray](#ray)
+            - [Lasagne](#lasagne)
+            - [MindSpore](#mindspore)
+            - [MegEngine](#megengine)
+            - [基础](#%E5%9F%BA%E7%A1%80)
+        - [模型优化](#%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96)
+        - [模型训练部署](#%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E9%83%A8%E7%BD%B2)
+            - [部署](#%E9%83%A8%E7%BD%B2)
+            - [训练](#%E8%AE%AD%E7%BB%83)
+        - [Transfer Learning](#transfer-learning)
+        - [多任务](#%E5%A4%9A%E4%BB%BB%E5%8A%A1)
+        - [Awesome](#awesome)
+        - [会议资源](#%E4%BC%9A%E8%AE%AE%E8%B5%84%E6%BA%90)
+        - [项目idea](#%E9%A1%B9%E7%9B%AEidea)
+    - [机器学习](#%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)
+        - [开源工具](#%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7)
+            - [算法包](#%E7%AE%97%E6%B3%95%E5%8C%85)
+            - [聚类](#%E8%81%9A%E7%B1%BB)
+            - [特征](#%E7%89%B9%E5%BE%81)
+            - [科学计算](#%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97)
+        - [GPU加速](#gpu%E5%8A%A0%E9%80%9F)
+        - [算法实现](#%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0)
+        - [安全机器学习](#%E5%AE%89%E5%85%A8%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)
+        - [AutoML](#automl)
+        - [可解释机器学习](#%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)
+        - [实用资料/调参工具](#%E5%AE%9E%E7%94%A8%E8%B5%84%E6%96%99%E8%B0%83%E5%8F%82%E5%B7%A5%E5%85%B7)
+    - [比赛方案](#%E6%AF%94%E8%B5%9B%E6%96%B9%E6%A1%88)
+        - [比赛信息](#%E6%AF%94%E8%B5%9B%E4%BF%A1%E6%81%AF)
+    - [开源工具](#%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7)
+        - [字体](#%E5%AD%97%E4%BD%93)
+        - [可视化](#%E5%8F%AF%E8%A7%86%E5%8C%96)
+        - [系统工具](#%E7%B3%BB%E7%BB%9F%E5%B7%A5%E5%85%B7)
+        - [小项目](#%E5%B0%8F%E9%A1%B9%E7%9B%AE)
+        - [底层编译架构](#%E5%BA%95%E5%B1%82%E7%BC%96%E8%AF%91%E6%9E%B6%E6%9E%84)
+        - [并行计算](#%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97)
+        - [测试工具](#%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7)
+    - [数据集](#%E6%95%B0%E6%8D%AE%E9%9B%86)
+        - [工具包](#%E5%B7%A5%E5%85%B7%E5%8C%85)
+        - [NLP](#nlp)
+        - [标注工具](#%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7)
+        - [图书](#%E5%9B%BE%E4%B9%A6)
+    - [Blogs + 面经](#blogs--%E9%9D%A2%E7%BB%8F)
 
 <!-- /TOC -->
 
@@ -170,6 +186,8 @@
 14. [scalene](https://github.com/emeryberger/scalene)：Scalene: a high-performance, high-precision CPU and memory profiler for Python
 15. [pyinstrument](https://github.com/joerick/pyinstrument): 🚴 Call stack profiler for Python. Shows you why your code is slow!
 16. [devguide](https://github.com/python/devguide): The Python developer's guide
+17. [python-cheatsheet](https://github.com/gto76/python-cheatsheet)
+18. [python-systemd-tutorial](https://github.com/torfsen/python-systemd-tutorial): A tutorial for writing a systemd service in Python
 
 #### 开源项目
 
@@ -205,8 +223,6 @@
 
 15. [MechanicalSoup](https://github.com/MechanicalSoup/MechanicalSoup): A Python library for automating interaction with websites
 
-    
-
 ##### 异步
 
 1. [celery](https://github.com/celery/celery)：Distributed Task Queue (development branch)【master-worker模式】【轻量级】
@@ -235,11 +251,25 @@
 11. [reloadium](https://github.com/reloadware/reloadium)：Advanced Hot Reloading & Profiling for Python
 12. [schedule](https://github.com/dbader/schedule)：Python job scheduling for humans.
 13. [pdf2docx](https://github.com/dothinking/pdf2docx): converting pdf to docx.
-14. [textract](https://github.com/deanmalmgren/textract)：文字提取工具
+14. [Supervisor](https://github.com/Supervisor/supervisor)：是实际企业常用的一款 Linux/Unix 系统下的一个进程管理工具
+15. [bandit](https://github.com/PyCQA/bandit)：Bandit is a tool designed to find common security issues in Python code.
+16. [Pillow](https://github.com/python-pillow/Pillow): Python Imaging Library.
+17. [memray](https://github.com/bloomberg/memray)：memory profiler for Python
+
+##### Log
+
+1. [loguru](https://github.com/Delgan/loguru): 更简洁的python log工具
 
 ##### GUI
 
 1. [DearPyGui](https://github.com/hoffstadt/DearPyGui): A fast and powerful Graphical User Interface Toolkit
+1. [Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer)： Create Beautiful Tkinter GUIs by Drag and Drop
+
+##### 数据库
+
+1. [learndb-py](https://github.com/spandanb/learndb-py)：Learn database internals by implementing it from scratch.
+2. [tinydb](https://github.com/msiemens/tinydb)：a lightweight document oriented database.
+3. [dataset](https://github.com/pudo/dataset)：Easy-to-use data handling for SQL data.
 
 ##### 其他
 
@@ -248,39 +278,29 @@
 3. [listen1](https://github.com/listen1)：Listen 1 让你用一个网页就能听到多个网站的在线音乐，支持各种平台
 4. [beijing_bus](https://github.com/wong2/beijing_bus)：北京实时公交，可以显示查询的公交到达某站还需多久
 5. [tushare](https://github.com/waditu/tushare)：TuShare 是一个免费、开源的 Python 财经数据接口包，[TuShare 文档](http://tushare.org/index.html) 
-6. [Supervisor](https://github.com/Supervisor/supervisor)：是实际企业常用的一款 Linux/Unix 系统下的一个进程管理工具
-7. [**pyecharts**](https://github.com/pyecharts/pyecharts)：pyecharts是一个由 Echarts+Python 实现的一个用于生成 Echarts 图表的类库
-8. [FeelUOwn](https://github.com/cosven/FeelUOwn)：FeelUOwn 是一个用Python写的，面向Linux/macOS平台的开源音乐播放器
-9. [**superset**](https://github.com/apache/incubator-superset)：superset是一个实际企业级开发项目，由 airbnb用 Python开发的数据探索
-10. [**Spug**](https://github.com/openspug/spug)：Spug 是一款使用 Python+Flask+Vue+Element 组件开发的开源运维管理系统
+6. [pyecharts](https://github.com/pyecharts/pyecharts)：pyecharts是一个由 Echarts+Python 实现的一个用于生成 Echarts 图表的类库
+7. [FeelUOwn](https://github.com/cosven/FeelUOwn)：FeelUOwn 是一个用Python写的，面向Linux/macOS平台的开源音乐播放器
+8. [superset](https://github.com/apache/incubator-superset)：superset是一个实际企业级开发项目，由 airbnb用 Python开发的数据探索
+9. [Spug](https://github.com/openspug/spug)：Spug 是一款使用 Python+Flask+Vue+Element 组件开发的开源运维管理系统
+10. [textract](https://github.com/deanmalmgren/textract)：文字提取工具
 11. [manim](https://github.com/3b1b/manim)：Animation engine for explanatory math videos
-12. [bandit](https://github.com/PyCQA/bandit)：Bandit is a tool designed to find common security issues in Python code.
-13. [gopup](https://github.com/justinzm/gopup)：数据接口：百度、谷歌、头条、微博指数,宏观数据，利率数据，货币汇率，千里马、独角兽公司，新闻联播文字稿，影视票房数据，高校名单，疫情数据...
-14. [bigdata_analyse](https://github.com/TurboWay/bigdata_analyse)：简短的数据分析demo
-15. [playwright-python](https://github.com/microsoft/playwright-python): python操作浏览器
-16. [loguru](https://github.com/Delgan/loguru): 更简洁的python log工具
-17. [PyWebIO](https://github.com/pywebio/PyWebIO)：Write interactive web app in script way. 用python生成前端代码
-18. [Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer)： Create Beautiful Tkinter GUIs by Drag and Drop
-19. [moviepy](https://github.com/Zulko/moviepy)：使用python简易编辑视频
-20. [playwright-python](https://github.com/microsoft/playwright-python)：Python version of the Playwright testing and automation library.
-21. [python-cheatsheet](https://github.com/gto76/python-cheatsheet)
-22. [Pillow](https://github.com/python-pillow/Pillow): Python Imaging Library.
-23. [tinydb](https://github.com/msiemens/tinydb)：a lightweight document oriented database.
-24. [Handright](https://github.com/Gsllchb/Handright)：模拟手写汉字
-25. [WantWords](https://github.com/thunlp/WantWords)：根据输入表达，输出同义的词
-26. [memray](https://github.com/bloomberg/memray)：memory profiler for Python
-27. [docker-py](https://github.com/docker/docker-py)：使用python创建docker
-28. [pikepdf](https://github.com/pikepdf/pikepdf)：编辑PDF
-29. [kopf](https://github.com/nolar/kopf): 用 Python 轻松完成，需要条件判断、事件触发等复杂的 k8s 操作。
-30. [matrix-webcam](https://github.com/joschuck/matrix-webcam)：Take your video conference from within the matrix.
-31. [latexify_py](https://github.com/google/latexify_py)：A library to generate LaTeX expression from Python code.
-32. [Games](https://github.com/CharlesPikachu/Games)：Create interesting games by pure python.
-33. [FileCodeBox](https://github.com/vastsa/FileCodeBox): 匿名口令分享文本，文件，像拿快递一样取文件
-34. [python-systemd-tutorial](https://github.com/torfsen/python-systemd-tutorial): A tutorial for writing a systemd service in Python
-35. [bandit](https://github.com/PyCQA/bandit): find common security issues in Python code.
-36. [Django-Styleguide](https://github.com/HackSoftware/Django-Styleguide): Django styleguide used in HackSoft projects
-37. [dataset](https://github.com/pudo/dataset)：Easy-to-use data handling for SQL data.
-38. [bar_chart_race](https://github.com/dexplo/bar_chart_race): Create animated bar chart races in Python with matplotlib
+12. [gopup](https://github.com/justinzm/gopup)：数据接口：百度、谷歌、头条、微博指数,宏观数据，利率数据，货币汇率，千里马、独角兽公司，新闻联播文字稿，影视票房数据，高校名单，疫情数据...
+13. [bigdata_analyse](https://github.com/TurboWay/bigdata_analyse)：简短的数据分析demo
+14. [playwright-python](https://github.com/microsoft/playwright-python): python操作浏览器
+15. [PyWebIO](https://github.com/pywebio/PyWebIO)：Write interactive web app in script way. 用python生成前端代码
+16. [moviepy](https://github.com/Zulko/moviepy)：使用python简易编辑视频
+17. [playwright-python](https://github.com/microsoft/playwright-python)：Python version of the Playwright testing and automation library.
+18. [Handright](https://github.com/Gsllchb/Handright)：模拟手写汉字
+19. [WantWords](https://github.com/thunlp/WantWords)：根据输入表达，输出同义的词
+20. [docker-py](https://github.com/docker/docker-py)：使用python创建docker
+21. [pikepdf](https://github.com/pikepdf/pikepdf)：编辑PDF
+22. [kopf](https://github.com/nolar/kopf): 用 Python 轻松完成，需要条件判断、事件触发等复杂的 k8s 操作。
+23. [matrix-webcam](https://github.com/joschuck/matrix-webcam)：Take your video conference from within the matrix.
+24. [latexify_py](https://github.com/google/latexify_py)：A library to generate LaTeX expression from Python code.
+25. [Games](https://github.com/CharlesPikachu/Games)：Create interesting games by pure python.
+26. [FileCodeBox](https://github.com/vastsa/FileCodeBox): 匿名口令分享文本，文件，像拿快递一样取文件
+27. [Django-Styleguide](https://github.com/HackSoftware/Django-Styleguide): Django styleguide used in HackSoft projects
+28. [bar_chart_race](https://github.com/dexplo/bar_chart_race): Create animated bar chart races in Python with matplotlib
 
 
 
@@ -288,7 +308,7 @@
 
 ### C++
 
-#### 编程书籍
+#### 文档资料
 
 1. [CPlusPlusThings](https://github.com/Light-City/CPlusPlusThings)：C++那些事
 2. [CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines)：The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++
@@ -301,66 +321,105 @@
 9. [patterns-of-distributed-systems](https://github.com/dreamhead/patterns-of-distributed-systems)：《Patterns of Distributed Systems》中文版
 10. [PPHC](https://github.com/johnlui/PPHC)：《高并发的哲学原理》开源图书（CC BY-NC-ND）
 11. [modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features)：A cheatsheet of modern C++ language and library features.
+12. [awesome-c-cn](https://github.com/jobbole/awesome-c-cn)：C 资源大全中文版，包括构建系统、编译器、数据库、加密、初中高的教程/指南、书籍、库
 
-#### 开源项目
+#### 开发工具
+
+1. [openFrameworks](https://github.com/openframeworks/openFrameworks)：openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
+2. [folly](https://github.com/facebook/folly): An open-source C++ library developed and used at Facebook.
+3. [mlibc](https://github.com/managarm/mlibc): 可移植的C标准库
+4. [util-linux](https://github.com/util-linux/util-linux)
+5. [MyTinySTL](https://github.com/Alinshans/MyTinySTL )： stl
+6. [WindowsAppSDK](https://github.com/microsoft/WindowsAppSDK) ：Windows App SDK empowers all Windows Desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet. 
+7. [range-v3](https://github.com/ericniebler/range-v3)：Range library for C++14/17/20, basis for C++20's std::ranges
+8. [vcpkg](https://github.com/microsoft/vcpkg)：微软开源的 C/C++ 包管理工具
+9. [libqalculate](https://github.com/Qalculate/libqalculate)：使用 C++ 编写的多功能计算器桌面应用、库和 CLI 程序
+10. [indicators](https://github.com/p-ranav/indicators)： C++ 编写的进度条库
+
+#### Debug
+
+1. [rr](https://github.com/rr-debugger/rr): Record and Replay Debug Framework
+2. [backward-cpp](https://github.com/bombela/backward-cpp)：A beautiful stack trace pretty printer for C++. 优化编译器报错信息
+3. [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail)：Sourcetrail - free and open-source interactive source explorer，代码结构可视化
+
+#### 日志
+
+1. [spdlog](https://github.com/gabime/spdlog)： C++ 日志库
+
+#### 服务器
+
+1. [oatpp](https://github.com/oatpp/oatpp)： web框架
+2. [nginx](http://nginx.org/)： 静态服务器
+3. [Redis](https://redis.io/download)
+4. [Tinyhttpd](https://github.com/EZLippi/Tinyhttpd/blob/master/httpd.c)： http server
+5. [TinyWebServer](https://github.com/qinguoyi/TinyWebServer)：Linux下C++轻量级Web服务器
+6. [TinyWeb](https://github.com/GeneralSandman/TinyWeb):  web server in C++11.
+7. [30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer)：自制C++服务器
+8. [drogon](https://github.com/an-tao/drogon)：Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows
+9. [cpp-httplib](https://github.com/yhirose/cpp-httplib): A C++ header-only HTTP/HTTPS server and client library
+10. [yalantinglibs](https://github.com/alibaba/yalantinglibs): A collection of C++20 libraries, include async_simple, coro_rpc and struct_pack
+11. [dragonfly](https://github.com/dragonflydb/dragonfly): A modern replacement for Redis and Memcached
+12. [brpc](https://github.com/apache/brpc)：百度开源的 RPC 框架
+13. [srpc](https://github.com/sogou/srpc)：基于 C++ Workflow 的高性能 RPC 框架
+
+#### 并发
+
+1. [async_simple](https://github.com/alibaba/async_simple): 轻量级C++异步框架
+2. [workflow](https://github.com/sogou/workflow): C++ Parallel Computing and Asynchronous Networking Engine
+3. [cocoyaxi](https://github.com/idealvin/cocoyaxi)：A go-style coroutine library in C++11
+4. [co_context](https://github.com/Codesire-Deng/co_context)：C++协程框架
+5. [luce](https://github.com/Pang-GJ/luce)：C++20协程net，基于epoll，可以方便地使用await语法
+6. [workspace](https://github.com/CodingHanYa/workspace)：基于C++11的轻量级异步执行框架，支持：通用任务异步并发执行、优先级任务调度、自适应动态线程池、高效静态线程池、异常处理机制等。
+7. [handy](https://github.com/yedf2/handy): 简洁易用的C++11网络库 / 支持单机千万并发连接 / a simple C++11 network server framework
+8. [coroutine](https://github.com/cloudwu/coroutine): A asymmetric coroutine library for C.
+
+#### 测试
+
+1. [Catch2](https://github.com/catchorg/Catch2)：A modern, C++-native, header-only, test framework for unit-tests
+2. [doctest](https://github.com/doctest/doctest)：The fastest feature-rich C++11/14/17/20/23 single-header testing framework
+
+#### 数据库
+
+1. [rocksdb](https://github.com/facebook/rocksdb)：基于 levelDB 开发，使用 C++ 编写的高性能键值存储引擎
+
+#### 小游戏
+
+1. [sudoku](https://github.com/mayerui/sudoku)：C++实现的跨平台数独游戏
+2. [Snake](https://github.com/stevennl/Snake)：贪吃蛇游戏 AI 版
+3. [FSHistory](https://github.com/s-macke/FSHistory)： Play and Enjoy the History of Microsoft Flight Simulator
+
+#### 序列化
 
 1. [cjson](https://sourceforge.net/projects/cjson/)
-   [MyTinySTL](https://github.com/Alinshans/MyTinySTL )： stl
-   [oatpp](https://github.com/oatpp/oatpp)： web框架
-   [Tinyhttpd](https://github.com/EZLippi/Tinyhttpd/blob/master/httpd.c)： http server
-   [nginx](http://nginx.org/)： 静态服务器
-   [Redis](https://redis.io/download)： redis高速缓存  较难
-2. [sudoku](https://github.com/mayerui/sudoku)：C++实现的跨平台数独游戏
-3. [json](https://github.com/nlohmann/json)：C++ 的 JSON 库
-4. [awesome-c-cn](https://github.com/jobbole/awesome-c-cn)：C 资源大全中文版，包括构建系统、编译器、数据库、加密、初中高的教程/指南、书籍、库
-5. [fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser)
-6. [TinyWebServer](https://github.com/qinguoyi/TinyWebServer)：Linux下C++轻量级Web服务器
-7. [TinyWeb](https://github.com/GeneralSandman/TinyWeb):  web server in C++11.
-8. [MyTinySTL](https://github.com/Alinshans/MyTinySTL)：tiny STL in C++11
-9. [godot](https://github.com/godotengine/godot)：Godot Engine – Multi-platform 2D and 3D game engine
-10. [simhash](https://github.com/yanyiwu/simhash)：中文文档计算出对应的 simhash 值。simhash 是谷歌用来进行文本去重的算法（[详见 simhash 算法原理及实现](http://yanyiwu.com/work/2014/01/30/simhash-shi-xian-xiang-jie.html)）
-11. [ltp](https://github.com/HIT-SCIR/ltp)：语言技术平台（Language Technology Platform，LTP）是哈工大社会计算与信息检索研究中心历时十年开发的一整套中文语言处理系统
-12. [Snake](https://github.com/stevennl/Snake)：贪吃蛇游戏 AI 版
-13. [vnote](https://github.com/tamlok/vnote)：Markdown 编辑软件
-14. [taichi](https://github.com/taichi-dev/taichi)：太极是一种用于计算机图形应用的高性能编程语言
-15. [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail)：Sourcetrail - free and open-source interactive source explorer，代码结构可视化
-16. [keepassx](https://github.com/keepassx/keepassx)： a cross platform port of the windows application “Keepass Password Safe”.
-17. [wwsearch](https://github.com/Tencent/wwsearch)：腾讯全文搜索引擎
-18. [workflow](https://github.com/sogou/workflow): C++ Parallel Computing and Asynchronous Networking Engine
-19. [drogon](https://github.com/an-tao/drogon)：Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows
-20. [openFrameworks](https://github.com/openframeworks/openFrameworks)：openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
-21. [TinyML](https://github.com/BurnellLiu/TinyML)：精简的C++ 机器学习库
-22. [Catch2](https://github.com/catchorg/Catch2)：A modern, C++-native, header-only, test framework for unit-tests
-23. [flashlight](https://github.com/flashlight/flashlight): A C++ standalone library for machine learning
-24. [mlibc](https://github.com/managarm/mlibc): 可移植的C标准库
-25. [uthash](https://github.com/troydhanson/uthash)：C macros for hash tables and more
-26. [WindowsAppSDK](https://github.com/microsoft/WindowsAppSDK)：[FOR Using, NOT Reading] Windows App SDK empowers all Windows Desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet. 
-27. [backward-cpp](https://github.com/bombela/backward-cpp)：A beautiful stack trace pretty printer for C++. 优化编译器报错信息。
-28. [range-v3](https://github.com/ericniebler/range-v3)：Range library for C++14/17/20, basis for C++20's std::ranges
-29. [async_simple](https://github.com/alibaba/async_simple): 轻量级C++异步框架
-30. [folly](https://github.com/facebook/folly): An open-source C++ library developed and used at Facebook.
-31. [cocoyaxi](https://github.com/idealvin/cocoyaxi)：A go-style coroutine library in C++11
-32. [30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer)：自制C++服务器
-33. [craftinginterpreters](https://github.com/munificent/craftinginterpreters)：Crafting Interpreters
-34. [aseprite](https://github.com/aseprite/aseprite)：Animated sprite editor & pixel art tool
-35. [co_context](https://github.com/Codesire-Deng/co_context)：C++协程框架
-36. [cpp-httplib](https://github.com/yhirose/cpp-httplib): A C++ header-only HTTP/HTTPS server and client library
-37. [yalantinglibs](https://github.com/alibaba/yalantinglibs): A collection of C++20 libraries, include async_simple, coro_rpc and struct_pack
-38. [FSHistory](https://github.com/s-macke/FSHistory)： Play and Enjoy the History of Microsoft Flight Simulator
-39. [luce](https://github.com/Pang-GJ/luce)：C++20协程net，基于epoll，可以方便地使用await语法
-40. [doctest](https://github.com/doctest/doctest)：The fastest feature-rich C++11/14/17/20/23 single-header testing framework
-41. [rr](https://github.com/rr-debugger/rr): Record and Replay Debug Framework
-42. [dragonfly](https://github.com/dragonflydb/dragonfly): A modern replacement for Redis and Memcached
-43. [krita](https://github.com/KDE/krita): 开源绘画软件
-44. [brpc](https://github.com/apache/brpc)：百度开源的 RPC 框架
-45. [async_simple](https://github.com/alibaba/async_simple)：阿里开源的轻量级 C++ 异步框架
-46. [rocksdb](https://github.com/facebook/rocksdb)：基于 levelDB 开发，使用 C++ 编写的高性能键值存储引擎
-47. [vcpkg](https://github.com/microsoft/vcpkg)：微软开源的 C/C++ 包管理工具
-48. [srpc](https://github.com/sogou/srpc)：基于 C++ Workflow 的高性能 RPC 框架
-49. [libqalculate](https://github.com/Qalculate/libqalculate)：使用 C++ 编写的多功能计算器桌面应用、库和 CLI 程序
-50. [spdlog](https://github.com/gabime/spdlog)： C++ 日志库
-51. [indicators](https://github.com/p-ranav/indicators)： C++ 编写的进度条库
-52. [workspace](https://github.com/CodingHanYa/workspace)：基于C++11的轻量级异步执行框架，支持：通用任务异步并发执行、优先级任务调度、自适应动态线程池、高效静态线程池、异常处理机制等。
+2. [json](https://github.com/nlohmann/json)：C++ 的 JSON 库
+3. [fast-cpp-csv-parser](https://github.com/ben-strasser/fast-cpp-csv-parser)
+
+#### 算法
+
+1. [simhash](https://github.com/yanyiwu/simhash)：中文文档计算出对应的 simhash 值。simhash 是谷歌用来进行文本去重的算法（[详见 simhash 算法原理及实现](http://yanyiwu.com/work/2014/01/30/simhash-shi-xian-xiang-jie.html)）
+2. [ltp](https://github.com/HIT-SCIR/ltp)：语言技术平台（Language Technology Platform，LTP）是哈工大社会计算与信息检索研究中心历时十年开发的一整套中文语言处理系统
+3. [TinyML](https://github.com/BurnellLiu/TinyML)：精简的C++ 机器学习库
+4. [flashlight](https://github.com/flashlight/flashlight): A C++ standalone library for machine learning
+5. [uthash](https://github.com/troydhanson/uthash)：C macros for hash tables and more
+6. [wwsearch](https://github.com/Tencent/wwsearch)：腾讯全文搜索引擎
+
+#### 语言
+
+1. [taichi](https://github.com/taichi-dev/taichi)：太极是一种用于计算机图形应用的高性能编程语言
+2. [craftinginterpreters](https://github.com/munificent/craftinginterpreters)：Crafting Interpreters
+
+#### 引擎
+
+1. [godot](https://github.com/godotengine/godot)：Godot Engine – Multi-platform 2D and 3D game engine
+
+#### 实用工具
+
+1. [aseprite](https://github.com/aseprite/aseprite)：Animated sprite editor & pixel art tool
+2. [krita](https://github.com/KDE/krita): 开源绘画软件
+3. [vnote](https://github.com/tamlok/vnote)：Markdown 编辑软件
+4. [keepassx](https://github.com/keepassx/keepassx)： a cross platform port of the windows application “Keepass Password Safe”.
+
+
 
 ---
 
