@@ -362,6 +362,25 @@
 12. [brpc](https://github.com/apache/brpc)：百度开源的 RPC 框架
 13. [srpc](https://github.com/sogou/srpc)：基于 C++ Workflow 的高性能 RPC 框架
 
+##### C 
+
+1. [mongoose](https://github.com/cesanta/mongoose): Embedded Web Server
+2. [C-Web-Server](https://github.com/bloominstituteoftechnology/C-Web-Server): A simple webserver written in C
+3. [Server](https://github.com/liangdong/Server): build a Async Server.
+4. [socket-server](https://github.com/cloudwu/socket-server): socket server examples.
+5. [freeradius-server](https://github.com/FreeRADIUS/freeradius-server): A multi-protocol policy server.
+6. [civetweb](https://github.com/civetweb/civetweb): Embedded C/C++ web server
+7. [pure-ftpd](https://github.com/jedisct1/pure-ftpd): Pure FTP server
+8. [tiny-web-server](https://github.com/shenfeng/tiny-web-server): tiny web server in C
+9. [wsServer](https://github.com/Theldus/wsServer): a tiny WebSocket server library written in C
+
+media server
+
+1. [nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module): NGINX-based Media Streaming Server
+2. [media-server](https://github.com/ireader/media-server): RTSP/RTP/RTMP/FLV/HLS/MPEG-TS/MPEG-PS/MPEG-DASH/MP4/fMP4/MKV/WebM
+
+
+
 #### 并发
 
 1. [async_simple](https://github.com/alibaba/async_simple): 轻量级C++异步框架
