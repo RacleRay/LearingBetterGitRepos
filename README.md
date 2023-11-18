@@ -326,15 +326,17 @@
 #### 开发工具
 
 1. [openFrameworks](https://github.com/openframeworks/openFrameworks)：openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
-2. [folly](https://github.com/facebook/folly): An open-source C++ library developed and used at Facebook.
-3. [mlibc](https://github.com/managarm/mlibc): 可移植的C标准库
-4. [util-linux](https://github.com/util-linux/util-linux)
-5. [MyTinySTL](https://github.com/Alinshans/MyTinySTL )： stl
-6. [WindowsAppSDK](https://github.com/microsoft/WindowsAppSDK) ：Windows App SDK empowers all Windows Desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet. 
-7. [range-v3](https://github.com/ericniebler/range-v3)：Range library for C++14/17/20, basis for C++20's std::ranges
-8. [vcpkg](https://github.com/microsoft/vcpkg)：微软开源的 C/C++ 包管理工具
-9. [libqalculate](https://github.com/Qalculate/libqalculate)：使用 C++ 编写的多功能计算器桌面应用、库和 CLI 程序
-10. [indicators](https://github.com/p-ranav/indicators)： C++ 编写的进度条库
+2. [plywood](https://github.com/arc80/plywood) : A multimedia development kit for C++ 
+3. [folly](https://github.com/facebook/folly): An open-source C++ library developed and used at Facebook.
+4. [mlibc](https://github.com/managarm/mlibc): 可移植的C标准库
+5. [util-linux](https://github.com/util-linux/util-linux)
+6. [MyTinySTL](https://github.com/Alinshans/MyTinySTL )： stl
+7. [WindowsAppSDK](https://github.com/microsoft/WindowsAppSDK) ：Windows App SDK empowers all Windows Desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet. 
+8. [range-v3](https://github.com/ericniebler/range-v3)：Range library for C++14/17/20, basis for C++20's std::ranges
+9. [vcpkg](https://github.com/microsoft/vcpkg)：微软开源的 C/C++ 包管理工具
+10. [libqalculate](https://github.com/Qalculate/libqalculate)：使用 C++ 编写的多功能计算器桌面应用、库和 CLI 程序
+11. [indicators](https://github.com/p-ranav/indicators)： C++ 编写的进度条库
+12. [Crow](https://github.com/CrowCpp/Crow)：A Fast and Easy to use microframework for the web.
 
 #### Debug
 
@@ -348,33 +350,43 @@
 
 #### 服务器
 
-1. [oatpp](https://github.com/oatpp/oatpp)： web框架
+1. [oatpp](https://github.com/oatpp/oatpp)： Light and powerful C++ web framework for highly scalable and resource-efficient web application. 
 2. [nginx](http://nginx.org/)： 静态服务器
-3. [Redis](https://redis.io/download)
-4. [Tinyhttpd](https://github.com/EZLippi/Tinyhttpd/blob/master/httpd.c)： http server
-5. [TinyWebServer](https://github.com/qinguoyi/TinyWebServer)：Linux下C++轻量级Web服务器
-6. [TinyWeb](https://github.com/GeneralSandman/TinyWeb):  web server in C++11.
-7. [30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer)：自制C++服务器
-8. [drogon](https://github.com/an-tao/drogon)：Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows
-9. [cpp-httplib](https://github.com/yhirose/cpp-httplib): A C++ header-only HTTP/HTTPS server and client library
-10. [yalantinglibs](https://github.com/alibaba/yalantinglibs): A collection of C++20 libraries, include async_simple, coro_rpc and struct_pack
-11. [dragonfly](https://github.com/dragonflydb/dragonfly): A modern replacement for Redis and Memcached
-12. [brpc](https://github.com/apache/brpc)：百度开源的 RPC 框架
-13. [srpc](https://github.com/sogou/srpc)：基于 C++ Workflow 的高性能 RPC 框架
+3. [fasthttp (Go)](https://github.com/valyala/fasthttp)：Fast HTTP package for Go.
+4. [Redis](https://redis.io/download)
+5. [f-stack](https://github.com/F-Stack/f-stack): F-Stack is an user space network development kit with high performance based on DPDK, FreeBSD TCP/IP stack and coroutine API.
+6. [wrk](https://github.com/wg/wrk): Modern HTTP benchmarking tool
+
+##### C++
+
+1. [TinyWebServer](https://github.com/qinguoyi/TinyWebServer)：Linux下C++轻量级Web服务器
+2. [TinyWeb](https://github.com/GeneralSandman/TinyWeb):  web server in C++11.
+3. [30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer)：自制C++服务器
+4. [drogon](https://github.com/an-tao/drogon)：Drogon: A C++14/17 based HTTP web application framework running on Linux/macOS/Unix/Windows
+5. [cpp-httplib](https://github.com/yhirose/cpp-httplib): A C++ header-only HTTP/HTTPS server and client library
+6. [yalantinglibs](https://github.com/alibaba/yalantinglibs): A collection of C++20 libraries, include async_simple, coro_rpc and struct_pack
+7. [dragonfly](https://github.com/dragonflydb/dragonfly): A modern replacement for Redis and Memcached
+8. [brpc](https://github.com/apache/brpc)：百度开源的 RPC 框架
+9. [srpc](https://github.com/sogou/srpc)：基于 C++ Workflow 的高性能 RPC 框架
+10. [Server](https://github.com/liangdong/Server): build a Async Server.
+11. [WebServer](https://github.com/linyacool/WebServer)：A C++ High Performance Web Server
+12. [WebServer](https://github.com/markparticle/WebServer)：Epoll与线程池实现多线程的Reactor Server
+13. [TKeed](https://github.com/linw7/TKeed)：High Performance HTTP WebServer
 
 ##### C 
 
 1. [mongoose](https://github.com/cesanta/mongoose): Embedded Web Server
-2. [C-Web-Server](https://github.com/bloominstituteoftechnology/C-Web-Server): A simple webserver written in C
-3. [Server](https://github.com/liangdong/Server): build a Async Server.
+2. [Tinyhttpd](https://github.com/EZLippi/Tinyhttpd/blob/master/httpd.c)： http server
+3. [C-Web-Server](https://github.com/bloominstituteoftechnology/C-Web-Server): A simple webserver written in C
 4. [socket-server](https://github.com/cloudwu/socket-server): socket server examples.
 5. [freeradius-server](https://github.com/FreeRADIUS/freeradius-server): A multi-protocol policy server.
 6. [civetweb](https://github.com/civetweb/civetweb): Embedded C/C++ web server
 7. [pure-ftpd](https://github.com/jedisct1/pure-ftpd): Pure FTP server
 8. [tiny-web-server](https://github.com/shenfeng/tiny-web-server): tiny web server in C
 9. [wsServer](https://github.com/Theldus/wsServer): a tiny WebSocket server library written in C
+10. [chat_room](https://github.com/fujie-xiyou/chat_room)：多人聊天工具
 
-media server
+##### media server
 
 1. [nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module): NGINX-based Media Streaming Server
 2. [media-server](https://github.com/ireader/media-server): RTSP/RTP/RTMP/FLV/HLS/MPEG-TS/MPEG-PS/MPEG-DASH/MP4/fMP4/MKV/WebM
@@ -391,6 +403,17 @@ media server
 6. [workspace](https://github.com/CodingHanYa/workspace)：基于C++11的轻量级异步执行框架，支持：通用任务异步并发执行、优先级任务调度、自适应动态线程池、高效静态线程池、异常处理机制等。
 7. [handy](https://github.com/yedf2/handy): 简洁易用的C++11网络库 / 支持单机千万并发连接 / a simple C++11 network server framework
 8. [coroutine](https://github.com/cloudwu/coroutine): A asymmetric coroutine library for C.
+
+#### 编码
+
+1. [utf8.h](https://github.com/sheredom/utf8.h)：single header utf8 string functions for C and C++
+2. [utf8proc](https://github.com/JuliaStrings/utf8proc)：a clean C library for processing UTF-8 Unicode data
+3. [utf8](https://github.com/haipome/utf8)：A simple utf8 decode/encode lib in c
+4. [gbk-utf8](https://github.com/lytsing/gbk-utf8)：GBK to UTF-8,vice versa.
+5. [conversion_gbk_utf8](https://github.com/qq1134993111/conversion_gbk_utf8): C++11 gbk和utf8编码的相互转换收集
+6. [qqee_clib](https://github.com/MissingWorld/qqee_clib)：跨平台C语言基础库，适配任意ANSI_C编译器
+
+
 
 #### 测试
 
@@ -1038,6 +1061,12 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
 2. [ChatGPT Prompt Generator](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator)
+
+
+
+#### 生成式AI
+
+1. [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)：Get Started Building with Generative AI
 
 
 
