@@ -423,6 +423,7 @@
 #### 数据库
 
 1. [rocksdb](https://github.com/facebook/rocksdb)：基于 levelDB 开发，使用 C++ 编写的高性能键值存储引擎
+1. [KeyDB](https://github.com/Snapchat/KeyDB)：A Multithreaded Fork of Redis
 
 #### 小游戏
 
@@ -491,6 +492,8 @@
 1. [bevy](https://github.com/bevyengine/bevy)：A refreshingly simple data-driven game engine built in Rust.
 2. [blog_os](https://github.com/phil-opp/blog_os)：Writing an OS in Rust
 3. [mdBook](https://github.com/rust-lang/mdBook)：Create book from markdown files. 
+4. [rust-blog](https://github.com/pretzelhammer/rust-blog)：Educational blog posts for Rust beginners
+5. 
 
 ---
 
@@ -582,10 +585,20 @@
 
 1. [colabcode](https://github.com/abhishekkrthakur/colabcode): Run VSCode (codeserver) on Google Colab or Kaggle Notebooks.  访问时，使用 https 协议 ！ python extention 使用 2020.5.86806 版本，最新版本不能debug 和 选择 解释器。
 
+
+
 ### 损失函数
 
 1. [self-adj-dice](https://github.com/fursovia/self-adj-dice)：Implementation of Self-adjusting Dice Loss from "Dice Loss for Data-imbalanced NLP Tasks" paper
 2. [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)：label-smooth, amsoftmax, focal-loss, triplet-loss, lovasz-softmax ...
+
+
+
+### AI 系统
+
+1. [DeepLearningSystem](https://github.com/chenzomi12/DeepLearningSystem)：Deep Learning System core principles introduction.
+
+
 
 ### 资源
 
@@ -1177,6 +1190,7 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 23. [ResNeSt](https://github.com/zhanghang1989/ResNeSt): significantly boosts the performance of downstream models such as Mask R-CNN, Cascade R-CNN and DeepLabV3.
 24. [Res2Net](https://github.com/Res2Net/Res2Net-PretrainedModels): Multi-scale Backbone Architecture
 25. [CSWin-Transformer](https://github.com/microsoft/CSWin-Transformer)：Vision Transformer Backbone with Cross-Shaped, CVPR 2022
+26. [deepface](https://github.com/serengil/deepface)：A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python
 
 
 
