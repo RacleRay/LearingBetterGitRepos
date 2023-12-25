@@ -21,7 +21,11 @@
             - [Debug](#debug)
             - [日志](#%E6%97%A5%E5%BF%97)
             - [服务器](#%E6%9C%8D%E5%8A%A1%E5%99%A8)
+                - [C++](#c)
+                - [C](#c)
+                - [media server](#media-server)
             - [并发](#%E5%B9%B6%E5%8F%91)
+            - [编码](#%E7%BC%96%E7%A0%81)
             - [测试](#%E6%B5%8B%E8%AF%95)
             - [数据库](#%E6%95%B0%E6%8D%AE%E5%BA%93)
             - [小游戏](#%E5%B0%8F%E6%B8%B8%E6%88%8F)
@@ -45,6 +49,7 @@
     - [深度学习](#%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0)
         - [Colab神器](#colab%E7%A5%9E%E5%99%A8)
         - [损失函数](#%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0)
+        - [AI 系统](#ai-%E7%B3%BB%E7%BB%9F)
         - [资源](#%E8%B5%84%E6%BA%90)
             - [NLP](#nlp)
                 - [Transformer](#transformer)
@@ -79,6 +84,7 @@
                 - [可视化](#%E5%8F%AF%E8%A7%86%E5%8C%96)
                 - [最新研究进展](#%E6%9C%80%E6%96%B0%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95)
             - [ChatGPT](#chatgpt)
+            - [生成式AI](#%E7%94%9F%E6%88%90%E5%BC%8Fai)
             - [推荐系统](#%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F)
             - [相似性](#%E7%9B%B8%E4%BC%BC%E6%80%A7)
             - [语音](#%E8%AF%AD%E9%9F%B3)
@@ -118,6 +124,8 @@
         - [模型优化](#%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96)
         - [模型训练部署](#%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83%E9%83%A8%E7%BD%B2)
             - [部署](#%E9%83%A8%E7%BD%B2)
+            - [机器学习编译](#%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%BC%96%E8%AF%91)
+            - [CUDA](#cuda)
             - [训练](#%E8%AE%AD%E7%BB%83)
         - [Transfer Learning](#transfer-learning)
         - [多任务](#%E5%A4%9A%E4%BB%BB%E5%8A%A1)
@@ -356,6 +364,8 @@
 4. [Redis](https://redis.io/download)
 5. [f-stack](https://github.com/F-Stack/f-stack): F-Stack is an user space network development kit with high performance based on DPDK, FreeBSD TCP/IP stack and coroutine API.
 6. [wrk](https://github.com/wg/wrk): Modern HTTP benchmarking tool
+7. [sylar-from-scratch](https://github.com/zhongluqiang/sylar-from-scratch): 从零开始重写sylar C++高性能分布式服务器框架
+8. [sylar](https://github.com/sylar-yin/sylar): C++高性能分布式服务器框架,webserver,websocket server
 
 ##### C++
 
@@ -390,6 +400,7 @@
 
 1. [nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module): NGINX-based Media Streaming Server
 2. [media-server](https://github.com/ireader/media-server): RTSP/RTP/RTMP/FLV/HLS/MPEG-TS/MPEG-PS/MPEG-DASH/MP4/fMP4/MKV/WebM
+3. [ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit)：一个基于C++11的高性能运营级流媒体服务框架
 
 
 
@@ -397,12 +408,19 @@
 
 1. [async_simple](https://github.com/alibaba/async_simple): 轻量级C++异步框架
 2. [workflow](https://github.com/sogou/workflow): C++ Parallel Computing and Asynchronous Networking Engine
-3. [cocoyaxi](https://github.com/idealvin/cocoyaxi)：A go-style coroutine library in C++11
-4. [co_context](https://github.com/Codesire-Deng/co_context)：C++协程框架
-5. [luce](https://github.com/Pang-GJ/luce)：C++20协程net，基于epoll，可以方便地使用await语法
-6. [workspace](https://github.com/CodingHanYa/workspace)：基于C++11的轻量级异步执行框架，支持：通用任务异步并发执行、优先级任务调度、自适应动态线程池、高效静态线程池、异常处理机制等。
-7. [handy](https://github.com/yedf2/handy): 简洁易用的C++11网络库 / 支持单机千万并发连接 / a simple C++11 network server framework
-8. [coroutine](https://github.com/cloudwu/coroutine): A asymmetric coroutine library for C.
+3. [libgo](https://github.com/yyzybb537/libgo)：Go-style concurrency in C++11
+4. [coost](https://github.com/idealvin/coost)：A tiny boost library in C++11.
+5. [libaco](https://github.com/hnes/libaco)：A blazing fast and lightweight C asymmetric coroutine library
+
+for basic learn: 
+
+1. [luce](https://github.com/Pang-GJ/luce)：C++20协程net，基于epoll，可以方便地使用await语法
+2. [co_context](https://github.com/Codesire-Deng/co_context)：C++协程框架
+3. [workspace](https://github.com/CodingHanYa/workspace)：基于C++11的轻量级异步执行框架，支持：通用任务异步并发执行、优先级任务调度、自适应动态线程池、高效静态线程池、异常处理机制等。
+4. [handy](https://github.com/yedf2/handy): 简洁易用的C++11网络库 / 支持单机千万并发连接 / a simple C++11 network server framework
+5. [coroutine](https://github.com/cloudwu/coroutine): A asymmetric coroutine library for C.
+
+
 
 #### 编码
 
@@ -1165,32 +1183,31 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 ##### 图像识别与分类
 
-1. [图片搜索和分析](https://github.com/AKSHAYUBHAT/DeepVideoAnalytics)
-2. [DBoW2](https://github.com/dorian3d/DBoW2)：Enhanced hierarchical bag-of-word library for C++
-3. [face_classification](https://github.com/oarriaga/face_classification): Real-time face detection and emotion/gender classification 
-4. [人脸识别](https://github.com/ageitgey/face_recognition) ：The world's simplest facial recognition api for Python and the command line
-5. [insightface](https://github.com/deepinsight/insightface): **State-of-the-art** 2D and 3D Face Analysis Project. 
-6. [TF_FLAME](https://github.com/TimoBolkart/TF_FLAME)：Example Tensorflow code for the FLAME face model 
-7. [DeepFaceLab_Colab](https://github.com/dream80/DeepFaceLab_Colab)：[https://www.deepfaker.xyz](https://www.deepfaker.xyz/) -- NOTE：With colab you can use tesla P100 for free. Of course there are some restrictions
-8. [EasyOCR](https://github.com/JaidedAI/EasyOCR)：Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
-9. **[libfacedetection](https://github.com/ShiqiYu/libfacedetection)**：: face detection in images. The face detection speed can reach 1000FPS.
-10. [PyMatting](https://github.com/pymatting/pymatting)： A Python Library for Alpha Matting. 抠图
-11. [rembg](https://github.com/danielgatis/rembg)：Rembg is a tool to remove images background. 抠图
-12. [TransFG](https://github.com/TACJu/TransFG)：A Transformer Architecture for Fine-grained Recognition
-13. [bottleneck-transformer-pytorch](https://github.com/lucidrains/bottleneck-transformer-pytorch)：SotA visual recognition model with convolution + attention that outperforms EfficientNet and DeiT in terms of performance-computes trade-off, in Pytorch
-14. [deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)：deep learning for image processing including classification and object-detection etc.
-15. [DEKR](https://github.com/HRNet/DEKR)：This is an official implementation of our CVPR 2021 paper "Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression" (https://arxiv.org/abs/2104.02300)
-16. [mmpose](https://github.com/open-mmlab/mmpose)：OpenMMLab Pose Estimation Toolbox and Benchmark.
-17. [VNN](https://github.com/joyycom/VNN)：多种图片效果转换工具，高性能、轻量级神经网络部署框架。
-18. [chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite)：超轻量级中文ocr，支持竖排文字识别, 支持ncnn、mnn、tnn推理。
-19. [HyperLPR](https://github.com/szad670401/HyperLPR): 基于深度学习高性能中文车牌识别
-20. [fawkes](https://github.com/Shawn-Shan/fawkes): 识别合成图像
-21. [mae](https://github.com/facebookresearch/mae)： [Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377)
-22. [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) ：[A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545). CVPR 2022.
-23. [ResNeSt](https://github.com/zhanghang1989/ResNeSt): significantly boosts the performance of downstream models such as Mask R-CNN, Cascade R-CNN and DeepLabV3.
-24. [Res2Net](https://github.com/Res2Net/Res2Net-PretrainedModels): Multi-scale Backbone Architecture
-25. [CSWin-Transformer](https://github.com/microsoft/CSWin-Transformer)：Vision Transformer Backbone with Cross-Shaped, CVPR 2022
-26. [deepface](https://github.com/serengil/deepface)：A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python
+1. [DBoW2](https://github.com/dorian3d/DBoW2)：Enhanced hierarchical bag-of-word library for C++
+2. [face_classification](https://github.com/oarriaga/face_classification): Real-time face detection and emotion/gender classification 
+3. [人脸识别](https://github.com/ageitgey/face_recognition) ：The world's simplest facial recognition api for Python and the command line
+4. [insightface](https://github.com/deepinsight/insightface): **State-of-the-art** 2D and 3D Face Analysis Project. 
+5. [TF_FLAME](https://github.com/TimoBolkart/TF_FLAME)：Example Tensorflow code for the FLAME face model 
+6. [DeepFaceLab_Colab](https://github.com/dream80/DeepFaceLab_Colab)：[https://www.deepfaker.xyz](https://www.deepfaker.xyz/) -- NOTE：With colab you can use tesla P100 for free. Of course there are some restrictions
+7. [EasyOCR](https://github.com/JaidedAI/EasyOCR)：Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
+8. **[libfacedetection](https://github.com/ShiqiYu/libfacedetection)**：: face detection in images. The face detection speed can reach 1000FPS.
+9. [PyMatting](https://github.com/pymatting/pymatting)： A Python Library for Alpha Matting. 抠图
+10. [rembg](https://github.com/danielgatis/rembg)：Rembg is a tool to remove images background. 抠图
+11. [TransFG](https://github.com/TACJu/TransFG)：A Transformer Architecture for Fine-grained Recognition
+12. [bottleneck-transformer-pytorch](https://github.com/lucidrains/bottleneck-transformer-pytorch)：SotA visual recognition model with convolution + attention that outperforms EfficientNet and DeiT in terms of performance-computes trade-off, in Pytorch
+13. [deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)：deep learning for image processing including classification and object-detection etc.
+14. [DEKR](https://github.com/HRNet/DEKR)：This is an official implementation of our CVPR 2021 paper "Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression" (https://arxiv.org/abs/2104.02300)
+15. [mmpose](https://github.com/open-mmlab/mmpose)：OpenMMLab Pose Estimation Toolbox and Benchmark.
+16. [VNN](https://github.com/joyycom/VNN)：多种图片效果转换工具，高性能、轻量级神经网络部署框架。
+17. [chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite)：超轻量级中文ocr，支持竖排文字识别, 支持ncnn、mnn、tnn推理。
+18. [HyperLPR](https://github.com/szad670401/HyperLPR): 基于深度学习高性能中文车牌识别
+19. [fawkes](https://github.com/Shawn-Shan/fawkes): 识别合成图像
+20. [mae](https://github.com/facebookresearch/mae)： [Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377)
+21. [ConvNeXt](https://github.com/facebookresearch/ConvNeXt) ：[A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545). CVPR 2022.
+22. [ResNeSt](https://github.com/zhanghang1989/ResNeSt): significantly boosts the performance of downstream models such as Mask R-CNN, Cascade R-CNN and DeepLabV3.
+23. [Res2Net](https://github.com/Res2Net/Res2Net-PretrainedModels): Multi-scale Backbone Architecture
+24. [CSWin-Transformer](https://github.com/microsoft/CSWin-Transformer)：Vision Transformer Backbone with Cross-Shaped, CVPR 2022
+25. [deepface](https://github.com/serengil/deepface)：A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python
 
 
 
@@ -1545,18 +1562,18 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 
 1. [BentoML](https://github.com/bentoml/BentoML)：Model Serving Made Easy 
 
-1. [Turi Create simplifies the development of custom machine learning models](https://github.com/apple/turicreate)
+2. [Turi Create simplifies the development of custom machine learning models](https://github.com/apple/turicreate)
 
-2. [cortexlabs / cortex](https://github.com/cortexlabs/cortex)：模型部署 【相关项目：[cortex: A horizontally scalable, highly available, multi-tenant, long term Prometheus. ](https://github.com/cortexproject/cortex)】
+3. [cortexlabs / cortex](https://github.com/cortexlabs/cortex)：模型部署 【相关项目：[cortex: A horizontally scalable, highly available, multi-tenant, long term Prometheus. ](https://github.com/cortexproject/cortex)】
 
-3. [bert-classification-tf-serving](https://github.com/nghuyong/bert-classification-tf-serving)
+4. [bert-classification-tf-serving](https://github.com/nghuyong/bert-classification-tf-serving)
 
-4. [Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)：deploying deep learning-based models in production.
+5. [Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)：deploying deep learning-based models in production.
 
-5. [***ray](https://github.com/ray-project/ray)：A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library. [Serve Video](https://www.youtube.com/watch?v=rFZhwsSxZ_Q&list=PLYx7XA2nY5GejOB1lsvriFeMytD1-VS1B&index=7) [Documents](https://docs.ray.io/en/master/serve/#installation)<img src="pic/GitHub收集项目维护_pic/image-20200707121042390.png" alt="image-20200707121042390 " style="zoom:50%;" />
+6. [***ray](https://github.com/ray-project/ray)：A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library. [Serve Video](https://www.youtube.com/watch?v=rFZhwsSxZ_Q&list=PLYx7XA2nY5GejOB1lsvriFeMytD1-VS1B&index=7) [Documents](https://docs.ray.io/en/master/serve/#installation)<img src="pic/GitHub收集项目维护_pic/image-20200707121042390.png" alt="image-20200707121042390 " style="zoom:50%;" />
 
    <img src="pic/GitHub收集项目维护_pic/image-20200707122147905.png" alt="image-20200707122147905" style="zoom:67%;" /> process to process 跳过调度，增加性能
-   
+
 7. [fiber](https://github.com/uber/fiber)：Distributed Computing for AI Made Simple
 
 8. [model_deployment](https://github.com/balavenkatesh3322/model_deployment)：A collection of model deployment library and technique.
@@ -1600,6 +1617,18 @@ CLUE：Organization of Language Understanding Evaluation benchmark for Chinese
 27. [cog](https://github.com/replicate/cog)：Containers for machine learning
 
 28. [mercury](https://github.com/mljar/mercury): Build Web Apps in Jupyter Notebook with Python only
+
+#### 机器学习编译
+
+1. [d2l-tvm](https://github.com/d2l-ai/d2l-tvm)：Dive into Deep Learning Compiler
+
+
+
+#### CUDA
+
+1. [YOLO_TRT_SIM](https://github.com/cvdong/YOLO_TRT_SIM)：高效部署：YOLO X, V3, V4, V5, V6, V7, V8, EdgeYOLO TRT推理  ,前后处理均由CUDA核函数实现 CPP/CUDA
+
+
 
 #### 训练
 
