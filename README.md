@@ -278,6 +278,10 @@
 1. [learndb-py](https://github.com/spandanb/learndb-py)：Learn database internals by implementing it from scratch.
 2. [tinydb](https://github.com/msiemens/tinydb)：a lightweight document oriented database.
 3. [dataset](https://github.com/pudo/dataset)：Easy-to-use data handling for SQL data.
+4. [KeyDB](https://github.com/Snapchat/KeyDB)：A Multithreaded Fork of Redis
+5. [miniob](https://github.com/oceanbase/miniob)：MiniOB is a compact database that assists developers in understanding the fundamental workings of a database.
+6. [dragonfly](https://github.com/dragonflydb/dragonfly)：A modern replacement for Redis and Memcached
+7. 
 
 ##### 其他
 
@@ -344,13 +348,15 @@
 9. [vcpkg](https://github.com/microsoft/vcpkg)：微软开源的 C/C++ 包管理工具
 10. [libqalculate](https://github.com/Qalculate/libqalculate)：使用 C++ 编写的多功能计算器桌面应用、库和 CLI 程序
 11. [indicators](https://github.com/p-ranav/indicators)： C++ 编写的进度条库
-12. [Crow](https://github.com/CrowCpp/Crow)：A Fast and Easy to use microframework for the web.
+12. [Crow](https://github.com/CrowCpp/Crow)：A Fast and Easy to use microframework for the web.、
+13. [poco](https://github.com/pocoproject/poco)：cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems. (Websocket)
 
 #### Debug
 
 1. [rr](https://github.com/rr-debugger/rr): Record and Replay Debug Framework
 2. [backward-cpp](https://github.com/bombela/backward-cpp)：A beautiful stack trace pretty printer for C++. 优化编译器报错信息
 3. [Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail)：Sourcetrail - free and open-source interactive source explorer，代码结构可视化
+4. [rr](https://github.com/rr-debugger/rr)：Record and Replay Framework
 
 #### 日志
 
@@ -382,6 +388,9 @@
 11. [WebServer](https://github.com/linyacool/WebServer)：A C++ High Performance Web Server
 12. [WebServer](https://github.com/markparticle/WebServer)：Epoll与线程池实现多线程的Reactor Server
 13. [TKeed](https://github.com/linw7/TKeed)：High Performance HTTP WebServer
+14. [cpp-httplib](https://github.com/yhirose/cpp-httplib)：A C++ header-only HTTP/HTTPS server and client library
+15. [ananas](https://github.com/loveyacper/ananas)：A C++11 RPC framework based on future and protobuf, with utility: timer,ssl,future/promise,log,coroutine,etc
+16. [da4qi4](https://github.com/d2school/da4qi4)：
 
 ##### C 
 
@@ -402,6 +411,23 @@
 2. [media-server](https://github.com/ireader/media-server): RTSP/RTP/RTMP/FLV/HLS/MPEG-TS/MPEG-PS/MPEG-DASH/MP4/fMP4/MKV/WebM
 3. [ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit)：一个基于C++11的高性能运营级流媒体服务框架
 
+##### websocket
+
+1. [libwebsockets](https://github.com/warmcat/libwebsockets): canonical libwebsockets.org networking library
+2. [uWebSockets](https://github.com/uNetworking/uWebSockets): Simple, secure & standards compliant web server for the most demanding of applications
+3. [websocketpp](https://github.com/zaphoyd/websocketpp): C++ websocket client/server library
+
+##### Game Server Framework
+
+1. [atsf4g-co](https://github.com/atframework/atsf4g-co): service framework for game server
+2. [YTSvrLib](https://github.com/sherry0319/YTSvrLib)：一个简单但功能强大的跨平台(Win/Linux)游戏服务器框架
+3. [server](https://github.com/mangoszero/server)：game server
+4. [skynet](https://github.com/cloudwu/skynet)：A lightweight online game framework
+
+##### CGI
+
+1. **[fastcgi-async-or-coroutine](https://github.com/toniz/fastcgi-async-or-coroutine)**：mcgi is a asynchronous fastcgi using Muduo Network Library. cocgi is a coroutine fastcgi using Tencent Libco Library.
+
 
 
 #### 并发
@@ -411,6 +437,9 @@
 3. [libgo](https://github.com/yyzybb537/libgo)：Go-style concurrency in C++11
 4. [coost](https://github.com/idealvin/coost)：A tiny boost library in C++11.
 5. [libaco](https://github.com/hnes/libaco)：A blazing fast and lightweight C asymmetric coroutine library
+6. [quantum](https://github.com/bloomberg/quantum): Powerful multi-threaded coroutine dispatcher and parallel execution engine
+
+
 
 for basic learn: 
 
@@ -419,8 +448,21 @@ for basic learn:
 3. [workspace](https://github.com/CodingHanYa/workspace)：基于C++11的轻量级异步执行框架，支持：通用任务异步并发执行、优先级任务调度、自适应动态线程池、高效静态线程池、异常处理机制等。
 4. [handy](https://github.com/yedf2/handy): 简洁易用的C++11网络库 / 支持单机千万并发连接 / a simple C++11 network server framework
 5. [coroutine](https://github.com/cloudwu/coroutine): A asymmetric coroutine library for C.
+6. [TSF4G](https://github.com/xgugeng/TSF4G) ：服务器开发工具，[blog doc](https://www.jianshu.com/p/543480357755)
+7. [coroutine](https://github.com/luncliff/coroutine)：C++ 20 Coroutines in Action.
 
 
+
+#### QT
+
+1. [FileCentipede](https://github.com/filecxx/FileCentipede)：Cross-platform internet upload/download manager for HTTP(S), FTP(S), SSH, magnet-link, BitTorrent, m3u8, ed2k, and online videos.
+
+
+
+#### 量化
+
+1. [wondertrader](https://github.com/wondertrader/wondertrader)：量化研发交易一站式框架 ，[文档](https://dumengru.github.io/docs_wondertrader/wt/file02.html)
+1. 
 
 #### 编码
 
@@ -442,6 +484,11 @@ for basic learn:
 
 1. [rocksdb](https://github.com/facebook/rocksdb)：基于 levelDB 开发，使用 C++ 编写的高性能键值存储引擎
 1. [KeyDB](https://github.com/Snapchat/KeyDB)：A Multithreaded Fork of Redis
+1. [redis-plus-plus](https://github.com/sewenew/redis-plus-plus): Redis client written in C++
+1. [ormpp](https://github.com/qicosmos/ormpp): modern C++ ORM, C++17, support mysql, postgresql,sqlite
+1. [bustub](https://github.com/cmu-db/bustub): 数据库管理系统 ，[15445.courses.cs.cmu.edu/](https://15445.courses.cs.cmu.edu/)
+
+
 
 #### 小游戏
 
@@ -463,6 +510,7 @@ for basic learn:
 4. [flashlight](https://github.com/flashlight/flashlight): A C++ standalone library for machine learning
 5. [uthash](https://github.com/troydhanson/uthash)：C macros for hash tables and more
 6. [wwsearch](https://github.com/Tencent/wwsearch)：腾讯全文搜索引擎
+7. [KuiperInfer](https://github.com/zjhellofss/KuiperInfer)：一个高性能的深度学习推理库
 
 #### 语言
 
