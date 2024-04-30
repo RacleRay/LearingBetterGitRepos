@@ -390,7 +390,8 @@
 13. [TKeed](https://github.com/linw7/TKeed)：High Performance HTTP WebServer
 14. [cpp-httplib](https://github.com/yhirose/cpp-httplib)：A C++ header-only HTTP/HTTPS server and client library
 15. [ananas](https://github.com/loveyacper/ananas)：A C++11 RPC framework based on future and protobuf, with utility: timer,ssl,future/promise,log,coroutine,etc
-16. [da4qi4](https://github.com/d2school/da4qi4)：
+16. [da4qi4](https://github.com/d2school/da4qi4)：web server
+17. [tinyrpc](https://github.com/Gooddbird/tinyrpc): c++ async rpc framework. 14w+qps.
 
 ##### C 
 
@@ -555,11 +556,43 @@ for basic learn:
 
 ### RUST
 
-1. [bevy](https://github.com/bevyengine/bevy)：A refreshingly simple data-driven game engine built in Rust.
+[This Week in Rust (this-week-in-rust.org)](https://this-week-in-rust.org/)
+
+#### 操作系统
+
+1. [tock](https://github.com/tock/tock)：A secure embedded operating system for microcontrollers
 2. [blog_os](https://github.com/phil-opp/blog_os)：Writing an OS in Rust
-3. [mdBook](https://github.com/rust-lang/mdBook)：Create book from markdown files. 
-4. [rust-blog](https://github.com/pretzelhammer/rust-blog)：Educational blog posts for Rust beginners
-5. 
+
+#### 系统工具开发
+
+1. [ripgrep](https://github.com/BurntSushi/ripgrep)：recursively searches directories for a regex pattern while respecting your gitignore
+
+#### 异步编程
+
+1. [mio](https://github.com/tokio-rs/mio)：Metal I/O library for Rust.
+
+#### 数学计算
+
+1. [nalgebra](https://github.com/dimforge/nalgebra)：Linear algebra library for Rust.
+
+#### 应用
+
+1. [ncspot](https://github.com/hrkfdn/ncspot)：Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+2. [mdBook](https://github.com/rust-lang/mdBook)：Create book from markdown files. 
+3. [zino](https://github.com/zino-rs/zino)：Next-generation framework for composable applications in Rust.
+
+#### 游戏引擎
+
+1. [bevy](https://github.com/bevyengine/bevy)：A refreshingly simple data-driven game engine built in Rust.
+2. [hematite](https://github.com/PistonDevelopers/hematite)：A simple Minecraft written in Rust with the Piston game engine
+3. [Fyrox](https://github.com/FyroxEngine/Fyrox)：3D and 2D game engine written in Rust
+
+#### 书籍/博客
+
+1. [command-line-rust](https://github.com/kyclark/command-line-rust): A Project-Based Primer for Writing Rust CLIs
+2. [rust-blog](https://github.com/pretzelhammer/rust-blog)：Educational blog posts for Rust beginners
+
+
 
 ---
 
