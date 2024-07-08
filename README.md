@@ -558,6 +558,15 @@ for basic learn:
 
 [This Week in Rust (this-week-in-rust.org)](https://this-week-in-rust.org/)
 
+[awesome-rust](https://github.com/rust-unofficial/awesome-rust)
+
+#### 数据结构与算法
+
+1. [rpds](https://github.com/orium/rpds)：Rust persistent data structures
+2. [RustBook](https://github.com/QMHTMY/RustBook)：A book about Rust Data Structures and Algorithms.
+3. [rust-algorithms](https://github.com/EbTech/rust-algorithms)：Common data structures and algorithms in Rust
+4. 
+
 #### 操作系统
 
 1. [tock](https://github.com/tock/tock)：A secure embedded operating system for microcontrollers
@@ -586,6 +595,12 @@ for basic learn:
 1. [bevy](https://github.com/bevyengine/bevy)：A refreshingly simple data-driven game engine built in Rust.
 2. [hematite](https://github.com/PistonDevelopers/hematite)：A simple Minecraft written in Rust with the Piston game engine
 3. [Fyrox](https://github.com/FyroxEngine/Fyrox)：3D and 2D game engine written in Rust
+
+#### 网络
+
+1. [s2n-quic](https://github.com/aws/s2n-quic)：An implementation of the IETF QUIC protocol
+2. [hyper](https://github.com/hyperium/hyper)：An HTTP library for Rust
+3. [hyper-tls](https://github.com/hyperium/hyper-tls)
 
 #### 书籍/博客
 
