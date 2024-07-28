@@ -24,7 +24,12 @@
                 - [C++](#c)
                 - [C](#c)
                 - [media server](#media-server)
+                - [websocket](#websocket)
+                - [Game Server Framework](#game-server-framework)
+                - [CGI](#cgi)
             - [并发](#%E5%B9%B6%E5%8F%91)
+            - [QT](#qt)
+            - [量化](#%E9%87%8F%E5%8C%96)
             - [编码](#%E7%BC%96%E7%A0%81)
             - [测试](#%E6%B5%8B%E8%AF%95)
             - [数据库](#%E6%95%B0%E6%8D%AE%E5%BA%93)
@@ -38,6 +43,16 @@
         - [Java](#java)
         - [GO](#go)
         - [RUST](#rust)
+            - [数据结构与算法](#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
+            - [操作系统](#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
+            - [系统工具开发](#%E7%B3%BB%E7%BB%9F%E5%B7%A5%E5%85%B7%E5%BC%80%E5%8F%91)
+            - [异步编程](#%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B)
+            - [数学计算](#%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97)
+            - [应用](#%E5%BA%94%E7%94%A8)
+            - [Journal with clickhouse](#journal-with-clickhouse)
+            - [游戏引擎](#%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E)
+            - [网络](#%E7%BD%91%E7%BB%9C)
+            - [书籍/博客](#%E4%B9%A6%E7%B1%8D%E5%8D%9A%E5%AE%A2)
         - [数据结构与算法](#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95)
         - [计算机科学基础](#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E5%9F%BA%E7%A1%80)
             - [CSAPP](#csapp)
@@ -565,7 +580,6 @@ for basic learn:
 1. [rpds](https://github.com/orium/rpds)：Rust persistent data structures
 2. [RustBook](https://github.com/QMHTMY/RustBook)：A book about Rust Data Structures and Algorithms.
 3. [rust-algorithms](https://github.com/EbTech/rust-algorithms)：Common data structures and algorithms in Rust
-4. 
 
 #### 操作系统
 
@@ -589,6 +603,16 @@ for basic learn:
 1. [ncspot](https://github.com/hrkfdn/ncspot)：Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
 2. [mdBook](https://github.com/rust-lang/mdBook)：Create book from markdown files. 
 3. [zino](https://github.com/zino-rs/zino)：Next-generation framework for composable applications in Rust.
+
+#### Journal with clickhouse
+
+1. [logdna-agent-v2](https://github.com/logdna/logdna-agent-v2) [rs ks] 
+2. [chdb-io/chdb-rust](https://github.com/chdb-io/chdb-rust): Rust FFI example binding for chDB, an embedded 
+3. [clickhouse-rs](https://github.com/suharev7/clickhouse-rs): Asynchronous ClickHouse client library for Rust programming language
+4. [sql-studio](https://github.com/frectonz/sql-studio): SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, DuckDB, ClickHouse]
+5. [clickhouse_driver](https://github.com/ddulesov/clickhouse_driver): yandex Clickhouse native rust driver
+
+
 
 #### 游戏引擎
 
